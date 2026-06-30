@@ -9,6 +9,12 @@ Use the official Chinese course name:
 - `大学物理`
 - `面向对象程序设计Java`
 - `Web编程基础`
+- `数据库系统`
+- `计算机网络`
+- `计算机组成原理`
+- `软件工程`
+- `电工电子技术基础`
+- `移动开发`
 
 Add new courses only when the uploaded files clearly belong to that course. New course folders must also be added to `manifest.json`.
 

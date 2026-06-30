@@ -4,8 +4,128 @@
   "subjects": [
     {
       "name": "高等数学A（二）",
-      "note": "收录当前已整理的高数课程 PPT 课件。",
+      "note": "收录当前已整理的高数课程 PPT 课件和考前复习讲义。",
       "assets": [
+        {
+          "subject": "高等数学A（二）",
+          "role": "复习讲义",
+          "title": "高等数学A（二）_考前复习知识点讲义.pdf",
+          "publicPath": "高等数学A（二）/复习讲义/高等数学A（二）_考前复习知识点讲义.pdf",
+          "bytes": 237837,
+          "sha256": "8d78ba648b48cf8b36d306822a16f0bdbed08f74e3507bbaf65690f7a0eb93a6"
+        },
+        {
+          "subject": "高等数学A（二）",
+          "role": "课件PPT",
+          "title": "高等数学A（二）_课件_D10-1二重积分概念.ppt",
+          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D10-1二重积分概念.ppt",
+          "bytes": 2318336,
+          "sha256": "66aa36fe4983fefddbd31eb9eb48a1730467fdf7af054b74b6f950e9ff7631f2"
+        },
+        {
+          "subject": "高等数学A（二）",
+          "role": "课件PPT",
+          "title": "高等数学A（二）_课件_D10-2二重积分计算.ppt",
+          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D10-2二重积分计算.ppt",
+          "bytes": 3187712,
+          "sha256": "eca6e6a63959cc8e8e4433741568f6330058f76884bd25ccd2811ae0b561925e"
+        },
+        {
+          "subject": "高等数学A（二）",
+          "role": "课件PPT",
+          "title": "高等数学A（二）_课件_D10-3三重积分.ppt",
+          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D10-3三重积分.ppt",
+          "bytes": 2271232,
+          "sha256": "e3f82559203c82571d93826e7bcabc6a03562e824f3625255337791ba7a6dfb1"
+        },
+        {
+          "subject": "高等数学A（二）",
+          "role": "课件PPT",
+          "title": "高等数学A（二）_课件_D10-3三重积分_02.ppt",
+          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D10-3三重积分_02.ppt",
+          "bytes": 2136064,
+          "sha256": "71bdaaa6fd82e65277af6188bbabbfd905d3127f24a9c257dc1d300dca334ea1"
+        },
+        {
+          "subject": "高等数学A（二）",
+          "role": "课件PPT",
+          "title": "高等数学A（二）_课件_D10-4重积分的应用_删减版.ppt",
+          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D10-4重积分的应用_删减版.ppt",
+          "bytes": 1329152,
+          "sha256": "cd9288b259a0e5b682a697cd157b1398b35c22971a30eb4453ebefcd7b7e705e"
+        },
+        {
+          "subject": "高等数学A（二）",
+          "role": "课件PPT",
+          "title": "高等数学A（二）_课件_D11-1对弧长的曲线积分.ppt",
+          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D11-1对弧长的曲线积分.ppt",
+          "bytes": 2121216,
+          "sha256": "c74cef3a08d1648bff32edc192ec13c18387559db3ee2c0b53ed3a501896ce4e"
+        },
+        {
+          "subject": "高等数学A（二）",
+          "role": "课件PPT",
+          "title": "高等数学A（二）_课件_D11-2对坐标的曲线积分.ppt",
+          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D11-2对坐标的曲线积分.ppt",
+          "bytes": 2510848,
+          "sha256": "99ca26aa3dc454110520e4ac35abafd13fbdd18b6d5e3a7a9888f5119a32c26a"
+        },
+        {
+          "subject": "高等数学A（二）",
+          "role": "课件PPT",
+          "title": "高等数学A（二）_课件_D11-2对坐标的曲线积分_02.ppt",
+          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D11-2对坐标的曲线积分_02.ppt",
+          "bytes": 2513408,
+          "sha256": "eab805f1503c23580be52fdf2cd38a47ee5db18ed88373c1f15e7bba82e2174e"
+        },
+        {
+          "subject": "高等数学A（二）",
+          "role": "课件PPT",
+          "title": "高等数学A（二）_课件_D11-3格林公式.ppt",
+          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D11-3格林公式.ppt",
+          "bytes": 2017280,
+          "sha256": "7b9db4ea68b7b9d722cc5ea5f56bb665ef985fe93a05e6b4edc20b1718921f61"
+        },
+        {
+          "subject": "高等数学A（二）",
+          "role": "课件PPT",
+          "title": "高等数学A（二）_课件_D11-3格林公式_02_精简版.ppt",
+          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D11-3格林公式_02_精简版.ppt",
+          "bytes": 1049088,
+          "sha256": "6da720994c5819badfa7453349e11de8e8ba016c07a57301019e8556ab3b4391"
+        },
+        {
+          "subject": "高等数学A（二）",
+          "role": "课件PPT",
+          "title": "高等数学A（二）_课件_D11-4对面积曲面积分_精简版.ppt",
+          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D11-4对面积曲面积分_精简版.ppt",
+          "bytes": 1366528,
+          "sha256": "744503744a3b171d64eb65ecd0a5f0fd22b27a40a935118b85d7fd6a3fceeea5"
+        },
+        {
+          "subject": "高等数学A（二）",
+          "role": "课件PPT",
+          "title": "高等数学A（二）_课件_D11-5对坐标曲面积分_精简版.ppt",
+          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D11-5对坐标曲面积分_精简版.ppt",
+          "bytes": 2189824,
+          "sha256": "357ce96783d6e6a5287520e27dfec0aeb30292bc972ab2ae612bdf4589a1d17e"
+        },
+        {
+          "subject": "高等数学A（二）",
+          "role": "课件PPT",
+          "title": "高等数学A（二）_课件_D11-6高斯公式.ppt",
+          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D11-6高斯公式.ppt",
+          "bytes": 1417216,
+          "sha256": "f6e4741a1581d7328d0077ecc1628ea7b8434cf5aad73ae67acbc2ec1a096ecd"
+        },
+        {
+          "subject": "高等数学A（二）",
+          "role": "课件PPT",
+          "title": "高等数学A（二）_课件_D7-1、2、3、4基本概念、可分离、齐次、线性微分方程.ppt",
+          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D7-1、2、3、4基本概念、可分离、齐次、线性微分方程.ppt",
+          "bytes": 1310208,
+          "sha256": "941e3da0ea5ecc6ae175731e056c79ee2debf0d6cec2804508d4f0dbe430b6cb"
+        },
         {
           "subject": "高等数学A（二）",
           "role": "课件PPT",
@@ -13,6 +133,22 @@
           "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D7-5可降阶高阶方程.ppt",
           "bytes": 1807360,
           "sha256": "ea6279b2adeb7986f8c9212fc33614a293d4450357a870964588852b24bc52e2"
+        },
+        {
+          "subject": "高等数学A（二）",
+          "role": "课件PPT",
+          "title": "高等数学A（二）_课件_D7-6、7、8高阶线性、二阶线性常系数齐次.ppt",
+          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D7-6、7、8高阶线性、二阶线性常系数齐次.ppt",
+          "bytes": 1347072,
+          "sha256": "7412bb9a6d161aff1407d880655c23d5cd802a6c32e5e1ceece91001352a735b"
+        },
+        {
+          "subject": "高等数学A（二）",
+          "role": "课件PPT",
+          "title": "高等数学A（二）_课件_D7-8高阶线性、二阶线性常系数齐次.ppt",
+          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D7-8高阶线性、二阶线性常系数齐次.ppt",
+          "bytes": 2566144,
+          "sha256": "1cf62063dde17537e8a378ac3fdffd026804406d0c4530bd0f9e60a6c09eb9d4"
         },
         {
           "subject": "高等数学A（二）",
@@ -61,150 +197,6 @@
           "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D8-6空间曲线.ppt",
           "bytes": 1485312,
           "sha256": "cb9db4be9eaca7565b534ece1ce399970b2e1d892c2bfb8fd13b110fe78c83e2"
-        },
-        {
-          "subject": "高等数学A（二）",
-          "role": "课件PPT",
-          "title": "高等数学A（二）_课件_第十一章总结.ppt",
-          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_第十一章总结.ppt",
-          "bytes": 524288,
-          "sha256": "90b5d2eae77264242b7ec67008dfb04dba045494be7ab8af2b120d7bbee60f2c"
-        },
-        {
-          "subject": "高等数学A（二）",
-          "role": "课件PPT",
-          "title": "高等数学A（二）_课件_总复习第7、6章.ppt",
-          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_总复习第7、6章.ppt",
-          "bytes": 1405440,
-          "sha256": "a129464841c784ae458ad8f9c4beef37450fb5cafb673eb7eeb19de5276bf121"
-        },
-        {
-          "subject": "高等数学A（二）",
-          "role": "课件PPT",
-          "title": "高等数学A（二）_课件_D10-1二重积分概念.ppt",
-          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D10-1二重积分概念.ppt",
-          "bytes": 2318336,
-          "sha256": "66aa36fe4983fefddbd31eb9eb48a1730467fdf7af054b74b6f950e9ff7631f2"
-        },
-        {
-          "subject": "高等数学A（二）",
-          "role": "课件PPT",
-          "title": "高等数学A（二）_课件_D10-2二重积分计算.ppt",
-          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D10-2二重积分计算.ppt",
-          "bytes": 3187712,
-          "sha256": "eca6e6a63959cc8e8e4433741568f6330058f76884bd25ccd2811ae0b561925e"
-        },
-        {
-          "subject": "高等数学A（二）",
-          "role": "课件PPT",
-          "title": "高等数学A（二）_课件_D10-3三重积分_02.ppt",
-          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D10-3三重积分_02.ppt",
-          "bytes": 2136064,
-          "sha256": "71bdaaa6fd82e65277af6188bbabbfd905d3127f24a9c257dc1d300dca334ea1"
-        },
-        {
-          "subject": "高等数学A（二）",
-          "role": "课件PPT",
-          "title": "高等数学A（二）_课件_D10-3三重积分.ppt",
-          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D10-3三重积分.ppt",
-          "bytes": 2271232,
-          "sha256": "e3f82559203c82571d93826e7bcabc6a03562e824f3625255337791ba7a6dfb1"
-        },
-        {
-          "subject": "高等数学A（二）",
-          "role": "课件PPT",
-          "title": "高等数学A（二）_课件_D10-4重积分的应用_删减版.ppt",
-          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D10-4重积分的应用_删减版.ppt",
-          "bytes": 1329152,
-          "sha256": "cd9288b259a0e5b682a697cd157b1398b35c22971a30eb4453ebefcd7b7e705e"
-        },
-        {
-          "subject": "高等数学A（二）",
-          "role": "课件PPT",
-          "title": "高等数学A（二）_课件_D11-1对弧长的曲线积分.ppt",
-          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D11-1对弧长的曲线积分.ppt",
-          "bytes": 2121216,
-          "sha256": "c74cef3a08d1648bff32edc192ec13c18387559db3ee2c0b53ed3a501896ce4e"
-        },
-        {
-          "subject": "高等数学A（二）",
-          "role": "课件PPT",
-          "title": "高等数学A（二）_课件_D11-2对坐标的曲线积分_02.ppt",
-          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D11-2对坐标的曲线积分_02.ppt",
-          "bytes": 2513408,
-          "sha256": "eab805f1503c23580be52fdf2cd38a47ee5db18ed88373c1f15e7bba82e2174e"
-        },
-        {
-          "subject": "高等数学A（二）",
-          "role": "课件PPT",
-          "title": "高等数学A（二）_课件_D11-2对坐标的曲线积分.ppt",
-          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D11-2对坐标的曲线积分.ppt",
-          "bytes": 2510848,
-          "sha256": "99ca26aa3dc454110520e4ac35abafd13fbdd18b6d5e3a7a9888f5119a32c26a"
-        },
-        {
-          "subject": "高等数学A（二）",
-          "role": "课件PPT",
-          "title": "高等数学A（二）_课件_D11-3格林公式_02_精简版.ppt",
-          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D11-3格林公式_02_精简版.ppt",
-          "bytes": 1049088,
-          "sha256": "6da720994c5819badfa7453349e11de8e8ba016c07a57301019e8556ab3b4391"
-        },
-        {
-          "subject": "高等数学A（二）",
-          "role": "课件PPT",
-          "title": "高等数学A（二）_课件_D11-3格林公式.ppt",
-          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D11-3格林公式.ppt",
-          "bytes": 2017280,
-          "sha256": "7b9db4ea68b7b9d722cc5ea5f56bb665ef985fe93a05e6b4edc20b1718921f61"
-        },
-        {
-          "subject": "高等数学A（二）",
-          "role": "课件PPT",
-          "title": "高等数学A（二）_课件_D11-4对面积曲面积分_精简版.ppt",
-          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D11-4对面积曲面积分_精简版.ppt",
-          "bytes": 1366528,
-          "sha256": "744503744a3b171d64eb65ecd0a5f0fd22b27a40a935118b85d7fd6a3fceeea5"
-        },
-        {
-          "subject": "高等数学A（二）",
-          "role": "课件PPT",
-          "title": "高等数学A（二）_课件_D11-5对坐标曲面积分_精简版.ppt",
-          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D11-5对坐标曲面积分_精简版.ppt",
-          "bytes": 2189824,
-          "sha256": "357ce96783d6e6a5287520e27dfec0aeb30292bc972ab2ae612bdf4589a1d17e"
-        },
-        {
-          "subject": "高等数学A（二）",
-          "role": "课件PPT",
-          "title": "高等数学A（二）_课件_D11-6高斯公式.ppt",
-          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D11-6高斯公式.ppt",
-          "bytes": 1417216,
-          "sha256": "f6e4741a1581d7328d0077ecc1628ea7b8434cf5aad73ae67acbc2ec1a096ecd"
-        },
-        {
-          "subject": "高等数学A（二）",
-          "role": "课件PPT",
-          "title": "高等数学A（二）_课件_D7-1、2、3、4基本概念、可分离、齐次、线性微分方程.ppt",
-          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D7-1、2、3、4基本概念、可分离、齐次、线性微分方程.ppt",
-          "bytes": 1310208,
-          "sha256": "941e3da0ea5ecc6ae175731e056c79ee2debf0d6cec2804508d4f0dbe430b6cb"
-        },
-        {
-          "subject": "高等数学A（二）",
-          "role": "课件PPT",
-          "title": "高等数学A（二）_课件_D7-6、7、8高阶线性、二阶线性常系数齐次.ppt",
-          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D7-6、7、8高阶线性、二阶线性常系数齐次.ppt",
-          "bytes": 1347072,
-          "sha256": "7412bb9a6d161aff1407d880655c23d5cd802a6c32e5e1ceece91001352a735b"
-        },
-        {
-          "subject": "高等数学A（二）",
-          "role": "课件PPT",
-          "title": "高等数学A（二）_课件_D7-8高阶线性、二阶线性常系数齐次.ppt",
-          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D7-8高阶线性、二阶线性常系数齐次.ppt",
-          "bytes": 2566144,
-          "sha256": "1cf62063dde17537e8a378ac3fdffd026804406d0c4530bd0f9e60a6c09eb9d4"
         },
         {
           "subject": "高等数学A（二）",
@@ -277,6 +269,22 @@
           "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D9-8极值与最值.ppt",
           "bytes": 3423232,
           "sha256": "7ddbcecd78720019f04ad9bc796b8fcad102f5065bfd5c3dc69b89a0a018af76"
+        },
+        {
+          "subject": "高等数学A（二）",
+          "role": "课件PPT",
+          "title": "高等数学A（二）_课件_总复习第7、6章.ppt",
+          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_总复习第7、6章.ppt",
+          "bytes": 1405440,
+          "sha256": "a129464841c784ae458ad8f9c4beef37450fb5cafb673eb7eeb19de5276bf121"
+        },
+        {
+          "subject": "高等数学A（二）",
+          "role": "课件PPT",
+          "title": "高等数学A（二）_课件_第十一章总结.ppt",
+          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_第十一章总结.ppt",
+          "bytes": 524288,
+          "sha256": "90b5d2eae77264242b7ec67008dfb04dba045494be7ab8af2b120d7bbee60f2c"
         }
       ]
     },
@@ -304,7 +312,7 @@
     },
     {
       "name": "大学物理",
-      "note": "包含 23 真题、考前复习讲义和全部已整理 PDF 课件资料。",
+      "note": "包含 23 真题、24 练习、考前复习讲义和全部已整理 PDF 课件资料。",
       "assets": [
         {
           "subject": "大学物理",
@@ -317,26 +325,18 @@
         {
           "subject": "大学物理",
           "role": "往年真题",
-          "title": "大学物理-23真题.pdf",
-          "publicPath": "大学物理/往年真题/大学物理-23真题.pdf",
+          "title": "大学物理_真题_23真题.pdf",
+          "publicPath": "大学物理/往年真题/大学物理_真题_23真题.pdf",
           "bytes": 246884,
           "sha256": "52b13d11e6d1b7f8ab0c7977a9d0761244b95589320eb7eb7801eceecfa8e7dc"
         },
         {
           "subject": "大学物理",
           "role": "课件资料",
-          "title": "大学物理_课件_2023磁场对运动电荷的作用.pdf",
-          "publicPath": "大学物理/课件资料/大学物理_课件_2023磁场对运动电荷的作用.pdf",
-          "bytes": 4991583,
-          "sha256": "7b8fd5e0d3efa61426d064ee0172d8c61cc849be0bc4a7f76a21e61feb97c858"
-        },
-        {
-          "subject": "大学物理",
-          "role": "课件资料",
-          "title": "大学物理_课件_2023磁场中的磁介质.pdf",
-          "publicPath": "大学物理/课件资料/大学物理_课件_2023磁场中的磁介质.pdf",
-          "bytes": 2210460,
-          "sha256": "41defadc90391700f8f7e3294093fbd1c5b6476ff03fa1deb3fb65ff94c6ad18"
+          "title": "大学物理_课件_2023位移电流.pdf",
+          "publicPath": "大学物理/课件资料/大学物理_课件_2023位移电流.pdf",
+          "bytes": 1714492,
+          "sha256": "12c0a3b0c611b6cd7e61f2487ff0fc61b9e781c2bb4b50947f93785e75b2faa5"
         },
         {
           "subject": "大学物理",
@@ -357,6 +357,14 @@
         {
           "subject": "大学物理",
           "role": "课件资料",
+          "title": "大学物理_课件_2023大学物理恒定电流磁感应强度.pdf",
+          "publicPath": "大学物理/课件资料/大学物理_课件_2023大学物理恒定电流磁感应强度.pdf",
+          "bytes": 4390689,
+          "sha256": "26d940c1eda6b8f6625bb26018d73bc3c0f23f08728475f51b83723d8b9e655c"
+        },
+        {
+          "subject": "大学物理",
+          "role": "课件资料",
           "title": "大学物理_课件_2023大学物理毕奥萨伐尔定律.pdf",
           "publicPath": "大学物理/课件资料/大学物理_课件_2023大学物理毕奥萨伐尔定律.pdf",
           "bytes": 3034722,
@@ -365,10 +373,10 @@
         {
           "subject": "大学物理",
           "role": "课件资料",
-          "title": "大学物理_课件_2023大学物理磁场的高斯定理和安培环路定理.pdf",
-          "publicPath": "大学物理/课件资料/大学物理_课件_2023大学物理磁场的高斯定理和安培环路定理.pdf",
-          "bytes": 6300474,
-          "sha256": "6639dad493c57af5ca05bf55b35728c97227dd334cf83a70bb9f196ec9ce39b4"
+          "title": "大学物理_课件_2023大学物理电势.pdf",
+          "publicPath": "大学物理/课件资料/大学物理_课件_2023大学物理电势.pdf",
+          "bytes": 3095435,
+          "sha256": "c790a962cd1c1c6b75b5a07481f2dc7ce6c36ee6f6c1fb67b374d8911fca6388"
         },
         {
           "subject": "大学物理",
@@ -389,26 +397,10 @@
         {
           "subject": "大学物理",
           "role": "课件资料",
-          "title": "大学物理_课件_2023大学物理电势.pdf",
-          "publicPath": "大学物理/课件资料/大学物理_课件_2023大学物理电势.pdf",
-          "bytes": 3095435,
-          "sha256": "c790a962cd1c1c6b75b5a07481f2dc7ce6c36ee6f6c1fb67b374d8911fca6388"
-        },
-        {
-          "subject": "大学物理",
-          "role": "课件资料",
-          "title": "大学物理_课件_2023大学物理高斯定理.pdf",
-          "publicPath": "大学物理/课件资料/大学物理_课件_2023大学物理高斯定理.pdf",
-          "bytes": 4559841,
-          "sha256": "1ff953571157042ba7879440a6737d61293d28dc55c9d1c25828f193016fca96"
-        },
-        {
-          "subject": "大学物理",
-          "role": "课件资料",
-          "title": "大学物理_课件_2023大学物理恒定电流磁感应强度.pdf",
-          "publicPath": "大学物理/课件资料/大学物理_课件_2023大学物理恒定电流磁感应强度.pdf",
-          "bytes": 4390689,
-          "sha256": "26d940c1eda6b8f6625bb26018d73bc3c0f23f08728475f51b83723d8b9e655c"
+          "title": "大学物理_课件_2023大学物理磁场的高斯定理和安培环路定理.pdf",
+          "publicPath": "大学物理/课件资料/大学物理_课件_2023大学物理磁场的高斯定理和安培环路定理.pdf",
+          "bytes": 6300474,
+          "sha256": "6639dad493c57af5ca05bf55b35728c97227dd334cf83a70bb9f196ec9ce39b4"
         },
         {
           "subject": "大学物理",
@@ -417,6 +409,14 @@
           "publicPath": "大学物理/课件资料/大学物理_课件_2023大学物理绪论和7.1.pdf",
           "bytes": 5642579,
           "sha256": "c4bfef31fb55171ffa336a423e49d1cc785a80260d66bd0d518d2319ed6848d0"
+        },
+        {
+          "subject": "大学物理",
+          "role": "课件资料",
+          "title": "大学物理_课件_2023大学物理高斯定理.pdf",
+          "publicPath": "大学物理/课件资料/大学物理_课件_2023大学物理高斯定理.pdf",
+          "bytes": 4559841,
+          "sha256": "1ff953571157042ba7879440a6737d61293d28dc55c9d1c25828f193016fca96"
         },
         {
           "subject": "大学物理",
@@ -437,16 +437,32 @@
         {
           "subject": "大学物理",
           "role": "课件资料",
-          "title": "大学物理_课件_2023位移电流.pdf",
-          "publicPath": "大学物理/课件资料/大学物理_课件_2023位移电流.pdf",
-          "bytes": 1714492,
-          "sha256": "12c0a3b0c611b6cd7e61f2487ff0fc61b9e781c2bb4b50947f93785e75b2faa5"
+          "title": "大学物理_课件_2023磁场中的磁介质.pdf",
+          "publicPath": "大学物理/课件资料/大学物理_课件_2023磁场中的磁介质.pdf",
+          "bytes": 2210460,
+          "sha256": "41defadc90391700f8f7e3294093fbd1c5b6476ff03fa1deb3fb65ff94c6ad18"
+        },
+        {
+          "subject": "大学物理",
+          "role": "课件资料",
+          "title": "大学物理_课件_2023磁场对运动电荷的作用.pdf",
+          "publicPath": "大学物理/课件资料/大学物理_课件_2023磁场对运动电荷的作用.pdf",
+          "bytes": 4991583,
+          "sha256": "7b8fd5e0d3efa61426d064ee0172d8c61cc849be0bc4a7f76a21e61feb97c858"
+        },
+        {
+          "subject": "大学物理",
+          "role": "题库练习",
+          "title": "大学物理_题库练习_24练习.pdf",
+          "publicPath": "大学物理/题库练习/大学物理_题库练习_24练习.pdf",
+          "bytes": 794549,
+          "sha256": "45d887ed272f31e4454f4107ee3c1958b0109b8d0be3c236c06e75cc884cb006"
         }
       ]
     },
     {
       "name": "面向对象程序设计Java",
-      "note": "包含 2023-2024 真题、考前复习讲义和全部 Java 章节 PPT。",
+      "note": "包含 2023-2024、24 真题、考前复习讲义和全部 Java 章节 PPT。",
       "assets": [
         {
           "subject": "面向对象程序设计Java",
@@ -455,6 +471,14 @@
           "publicPath": "面向对象程序设计Java/复习讲义/面向对象程序设计Java_考前复习知识点讲义.pdf",
           "bytes": 316835,
           "sha256": "a42a421e50c31ac4b94728a5805404023e81e552c46fd015a4caa002425ba19c"
+        },
+        {
+          "subject": "面向对象程序设计Java",
+          "role": "往年真题",
+          "title": "面向对象程序设计Java_真题_Java-24真题.pdf",
+          "publicPath": "面向对象程序设计Java/往年真题/面向对象程序设计Java_真题_Java-24真题.pdf",
+          "bytes": 5598999,
+          "sha256": "ba851844a16f5a2635a0ccc21b4264647cdf502213390497df1b45beea5dc053"
         },
         {
           "subject": "面向对象程序设计Java",
@@ -507,6 +531,14 @@
         {
           "subject": "面向对象程序设计Java",
           "role": "课件PPT",
+          "title": "面向对象程序设计Java_课件_第5章集合.pptx",
+          "publicPath": "面向对象程序设计Java/课件PPT/面向对象程序设计Java_课件_第5章集合.pptx",
+          "bytes": 4770915,
+          "sha256": "3d23ba56566f4dde64111013f4acd07540d7a4ff4634914b655a39377cf06fc6"
+        },
+        {
+          "subject": "面向对象程序设计Java",
+          "role": "课件PPT",
           "title": "面向对象程序设计Java_课件_第6章异常处理机制.pptx",
           "publicPath": "面向对象程序设计Java/课件PPT/面向对象程序设计Java_课件_第6章异常处理机制.pptx",
           "bytes": 1348553,
@@ -535,14 +567,6 @@
           "publicPath": "面向对象程序设计Java/课件PPT/面向对象程序设计Java_课件_第9章JavaGUI编程.pptx",
           "bytes": 1806792,
           "sha256": "265939ecfc9b08add97a82c0cde0a49f0268fe1ceab72e47bb3ea8619d49d3f6"
-        },
-        {
-          "subject": "面向对象程序设计Java",
-          "role": "课件PPT",
-          "title": "面向对象程序设计Java_课件_第5章集合.pptx",
-          "publicPath": "面向对象程序设计Java/课件PPT/面向对象程序设计Java_课件_第5章集合.pptx",
-          "bytes": 4770915,
-          "sha256": "3d23ba56566f4dde64111013f4acd07540d7a4ff4634914b655a39377cf06fc6"
         }
       ]
     },
@@ -550,14 +574,6 @@
       "name": "Web编程基础",
       "note": "包含 22 真题、多份复习讲义和已拆分的 Web 课件资料。",
       "assets": [
-        {
-          "subject": "Web编程基础",
-          "role": "复习讲义",
-          "title": "Web编程基础_考前复习知识点讲义.pdf",
-          "publicPath": "Web编程基础/复习讲义/Web编程基础_考前复习知识点讲义.pdf",
-          "bytes": 261864,
-          "sha256": "68c0f3b6a4ac2470141fea7388ab9afec2d23dc4bfdfb0eb64934d506a25da9d"
-        },
         {
           "subject": "Web编程基础",
           "role": "复习讲义",
@@ -576,11 +592,27 @@
         },
         {
           "subject": "Web编程基础",
+          "role": "复习讲义",
+          "title": "Web编程基础_考前复习知识点讲义.pdf",
+          "publicPath": "Web编程基础/复习讲义/Web编程基础_考前复习知识点讲义.pdf",
+          "bytes": 261864,
+          "sha256": "68c0f3b6a4ac2470141fea7388ab9afec2d23dc4bfdfb0eb64934d506a25da9d"
+        },
+        {
+          "subject": "Web编程基础",
           "role": "往年真题",
           "title": "Web编程基础_真题_Web-22真题.pdf",
           "publicPath": "Web编程基础/往年真题/Web编程基础_真题_Web-22真题.pdf",
           "bytes": 267448,
           "sha256": "a49e18baa8a670be366fd67d881a83739a348bb33851864bf0dacb0f0506b45c"
+        },
+        {
+          "subject": "Web编程基础",
+          "role": "课件资料",
+          "title": "Web编程基础_课件_Javascript全解概述.docx",
+          "publicPath": "Web编程基础/课件资料/Web编程基础_课件_Javascript全解概述.docx",
+          "bytes": 828326,
+          "sha256": "863663617cf89f647fc24cb8a4ebe0ef75030f59fbf52fea3840a563c841d83e"
         },
         {
           "subject": "Web编程基础",
@@ -693,14 +725,522 @@
           "publicPath": "Web编程基础/课件资料/Web编程基础_课件_第9次JS-2.pdf",
           "bytes": 2367531,
           "sha256": "612fdd0312f381793169ef398ba9aee8e34775e52402b422fc16c0ddf493f6bf"
+        }
+      ]
+    },
+    {
+      "name": "数据库系统",
+      "note": "包含考前复习讲义和数据库系统课程 PPT 课件。",
+      "assets": [
+        {
+          "subject": "数据库系统",
+          "role": "复习讲义",
+          "title": "数据库系统_考前复习知识点讲义.pdf",
+          "publicPath": "数据库系统/复习讲义/数据库系统_考前复习知识点讲义.pdf",
+          "bytes": 258894,
+          "sha256": "e54a183aa5887cabc5120c4d647acd23c3f7d1e77e014cc74a05019291d013ce"
         },
         {
-          "subject": "Web编程基础",
+          "subject": "数据库系统",
+          "role": "课件PPT",
+          "title": "数据库系统_课件_00-课前的话.pptx",
+          "publicPath": "数据库系统/课件PPT/数据库系统_课件_00-课前的话.pptx",
+          "bytes": 353113,
+          "sha256": "ed22de933f650f2c933da5407cb3aee316924534c22e08ba69afcfff98b6b43e"
+        },
+        {
+          "subject": "数据库系统",
+          "role": "课件PPT",
+          "title": "数据库系统_课件_01-绪论.pptx",
+          "publicPath": "数据库系统/课件PPT/数据库系统_课件_01-绪论.pptx",
+          "bytes": 766478,
+          "sha256": "5c208e6cb4dcbf24f371c772e14a3865663283bd8c6973f0833165f8b52685fd"
+        },
+        {
+          "subject": "数据库系统",
+          "role": "课件PPT",
+          "title": "数据库系统_课件_02-关系数据库.pptx",
+          "publicPath": "数据库系统/课件PPT/数据库系统_课件_02-关系数据库.pptx",
+          "bytes": 780257,
+          "sha256": "a33f489038f50db68c128a287e027d9287a5478777fe3962f9320405277d80ee"
+        },
+        {
+          "subject": "数据库系统",
+          "role": "课件PPT",
+          "title": "数据库系统_课件_03-2数据查询1.pptx",
+          "publicPath": "数据库系统/课件PPT/数据库系统_课件_03-2数据查询1.pptx",
+          "bytes": 752628,
+          "sha256": "61b8cea7db45d6ae4fc50924b348a89fcb55301756d95fb9dca05d7c51410f63"
+        },
+        {
+          "subject": "数据库系统",
+          "role": "课件PPT",
+          "title": "数据库系统_课件_03-2数据查询2.pptx",
+          "publicPath": "数据库系统/课件PPT/数据库系统_课件_03-2数据查询2.pptx",
+          "bytes": 570905,
+          "sha256": "8f4c45f85946cd36809d73b1699feb96e531c13123b70fd14e807ec180082cf8"
+        },
+        {
+          "subject": "数据库系统",
+          "role": "课件PPT",
+          "title": "数据库系统_课件_03-3数据更新和视图.pptx",
+          "publicPath": "数据库系统/课件PPT/数据库系统_课件_03-3数据更新和视图.pptx",
+          "bytes": 679940,
+          "sha256": "73c62061f339f6148573f9471bfd2f524ca59bab1049e202ad8524472c440b15"
+        },
+        {
+          "subject": "数据库系统",
+          "role": "课件PPT",
+          "title": "数据库系统_课件_03-4复习案例.ppt",
+          "publicPath": "数据库系统/课件PPT/数据库系统_课件_03-4复习案例.ppt",
+          "bytes": 1700864,
+          "sha256": "6a184ce6ae60e02db48093ad8f03d27c590e54fde3f652b76a0d6b9d013e8dbb"
+        },
+        {
+          "subject": "数据库系统",
+          "role": "课件PPT",
+          "title": "数据库系统_课件_04-数据库安全性.pptx",
+          "publicPath": "数据库系统/课件PPT/数据库系统_课件_04-数据库安全性.pptx",
+          "bytes": 731677,
+          "sha256": "8427331a685e6454202ae8a8d25fbcb2589c4177a1c5b492193b2d9b1da0f96f"
+        },
+        {
+          "subject": "数据库系统",
+          "role": "课件PPT",
+          "title": "数据库系统_课件_06-关系数据理论.pptx",
+          "publicPath": "数据库系统/课件PPT/数据库系统_课件_06-关系数据理论.pptx",
+          "bytes": 830644,
+          "sha256": "bb1b0228dea95f00afb2310948bc0863bbb3430b53fe362f98b596d5319662c2"
+        },
+        {
+          "subject": "数据库系统",
+          "role": "课件PPT",
+          "title": "数据库系统_课件_07-1数据库设计.pptx",
+          "publicPath": "数据库系统/课件PPT/数据库系统_课件_07-1数据库设计.pptx",
+          "bytes": 2168465,
+          "sha256": "2966d11bd7ca14822fa2c859b30339dc72870e94ed6a79d3f0f43708e43ae1e4"
+        },
+        {
+          "subject": "数据库系统",
+          "role": "课件PPT",
+          "title": "数据库系统_课件_07-1数据库设计_最新版.pptx",
+          "publicPath": "数据库系统/课件PPT/数据库系统_课件_07-1数据库设计_最新版.pptx",
+          "bytes": 2149125,
+          "sha256": "3ccab5df7f3b516eebf41ee3543b0a1c5a2ea4850d6671014bd5f79fe1b42a90"
+        },
+        {
+          "subject": "数据库系统",
+          "role": "课件PPT",
+          "title": "数据库系统_课件_11-数据库恢复技术.pptx",
+          "publicPath": "数据库系统/课件PPT/数据库系统_课件_11-数据库恢复技术.pptx",
+          "bytes": 748417,
+          "sha256": "b2ebbf62645104b92af9610c5d7f54f4c4a5761d0a00408eb9911c1d97a8c286"
+        },
+        {
+          "subject": "数据库系统",
+          "role": "课件PPT",
+          "title": "数据库系统_课件_12-并发控制.pptx",
+          "publicPath": "数据库系统/课件PPT/数据库系统_课件_12-并发控制.pptx",
+          "bytes": 525666,
+          "sha256": "4b9b01cb9af5c4d436aabfc19fedb7fc0627f56064500311e2df4a2244bff865"
+        }
+      ]
+    },
+    {
+      "name": "计算机网络",
+      "note": "包含考前复习讲义和样卷资料。",
+      "assets": [
+        {
+          "subject": "计算机网络",
+          "role": "复习讲义",
+          "title": "计算机网络_考前复习知识点讲义.pdf",
+          "publicPath": "计算机网络/复习讲义/计算机网络_考前复习知识点讲义.pdf",
+          "bytes": 251755,
+          "sha256": "a820263d358c4cf443cd2c878accd367d6b0202b6b0e60d051c6b267211dde17"
+        },
+        {
+          "subject": "计算机网络",
+          "role": "往年真题",
+          "title": "计算机网络_样卷_sample.pdf",
+          "publicPath": "计算机网络/往年真题/计算机网络_样卷_sample.pdf",
+          "bytes": 1172451,
+          "sha256": "5e02d28871990d7ad05dba66c1c6ff0b71d47cd090771d4baab5b92f30362e91"
+        }
+      ]
+    },
+    {
+      "name": "计算机组成原理",
+      "note": "包含考前复习讲义和计算机组成原理课程 PDF 课件资料。",
+      "assets": [
+        {
+          "subject": "计算机组成原理",
+          "role": "复习讲义",
+          "title": "计算机组成原理_考前复习知识点讲义.pdf",
+          "publicPath": "计算机组成原理/复习讲义/计算机组成原理_考前复习知识点讲义.pdf",
+          "bytes": 280024,
+          "sha256": "2b1feabf2bf56683ad103fd13f8898b4b766ba64170909cabbc8f85c9fb31816"
+        },
+        {
+          "subject": "计算机组成原理",
           "role": "课件资料",
-          "title": "Web编程基础_课件_Javascript全解概述.docx",
-          "publicPath": "Web编程基础/课件资料/Web编程基础_课件_Javascript全解概述.docx",
-          "bytes": 828326,
-          "sha256": "863663617cf89f647fc24cb8a4ebe0ef75030f59fbf52fea3840a563c841d83e"
+          "title": "计算机组成原理_课件_Chapter1_发给学生.pdf",
+          "publicPath": "计算机组成原理/课件资料/计算机组成原理_课件_Chapter1_发给学生.pdf",
+          "bytes": 1517808,
+          "sha256": "ae40b9ae840b928f91a83bd1fc0df067cbce80f4eb35788147893acb0a32c64f"
+        },
+        {
+          "subject": "计算机组成原理",
+          "role": "课件资料",
+          "title": "计算机组成原理_课件_Chapter3_发给学生.pdf",
+          "publicPath": "计算机组成原理/课件资料/计算机组成原理_课件_Chapter3_发给学生.pdf",
+          "bytes": 1290255,
+          "sha256": "5a2d0f1bc8e27ce16deff0433b36772ea8450bfe363839b69c1f5894add459ee"
+        },
+        {
+          "subject": "计算机组成原理",
+          "role": "课件资料",
+          "title": "计算机组成原理_课件_Chapter4_P1_发给学生.pdf",
+          "publicPath": "计算机组成原理/课件资料/计算机组成原理_课件_Chapter4_P1_发给学生.pdf",
+          "bytes": 2122089,
+          "sha256": "31180808784bc627d47523146623c5643e4367de94a769532dcd262458921064"
+        },
+        {
+          "subject": "计算机组成原理",
+          "role": "课件资料",
+          "title": "计算机组成原理_课件_Chapter4_P2_发给学生.pdf",
+          "publicPath": "计算机组成原理/课件资料/计算机组成原理_课件_Chapter4_P2_发给学生.pdf",
+          "bytes": 1379542,
+          "sha256": "405bb362452937e35d7a516fe3ed4cfb70dae8a014328ea4d293dd12b5eddaa9"
+        },
+        {
+          "subject": "计算机组成原理",
+          "role": "课件资料",
+          "title": "计算机组成原理_课件_Chapter6_发给学生.pdf",
+          "publicPath": "计算机组成原理/课件资料/计算机组成原理_课件_Chapter6_发给学生.pdf",
+          "bytes": 1983297,
+          "sha256": "a5b43ed9c4cdd54ae0ed9d4198a5ddb47ddf37b83ea5feed77d492abd91f7969"
+        },
+        {
+          "subject": "计算机组成原理",
+          "role": "课件资料",
+          "title": "计算机组成原理_课件_Chapter7_发给学生.pdf",
+          "publicPath": "计算机组成原理/课件资料/计算机组成原理_课件_Chapter7_发给学生.pdf",
+          "bytes": 1397413,
+          "sha256": "4ac42b629cfba76090531274968fb617b937b59047d62838dfe9063ef02e7fd7"
+        }
+      ]
+    },
+    {
+      "name": "软件工程",
+      "note": "包含考前复习讲义和软件工程课程 PPT 课件。",
+      "assets": [
+        {
+          "subject": "软件工程",
+          "role": "复习讲义",
+          "title": "软件工程_考前复习知识点讲义.pdf",
+          "publicPath": "软件工程/复习讲义/软件工程_考前复习知识点讲义.pdf",
+          "bytes": 350200,
+          "sha256": "0df94fad55fb5a180a1550740b6102c9870afa6e3a67e6c322439ab8d7c08413"
+        },
+        {
+          "subject": "软件工程",
+          "role": "课件PPT",
+          "title": "软件工程_课件_SE-00课程介绍.pptx",
+          "publicPath": "软件工程/课件PPT/软件工程_课件_SE-00课程介绍.pptx",
+          "bytes": 4713830,
+          "sha256": "28df2b95e19b050142ad2efc8d2de8555fba70d61f2d5f52b1ddfcef5dbf6b26"
+        },
+        {
+          "subject": "软件工程",
+          "role": "课件PPT",
+          "title": "软件工程_课件_SE-01软件工程概述.pptx",
+          "publicPath": "软件工程/课件PPT/软件工程_课件_SE-01软件工程概述.pptx",
+          "bytes": 13098557,
+          "sha256": "8b041ea82411b7c12ce8c2a4870a44d1ff0efe946f5279d75428006bb0089247"
+        },
+        {
+          "subject": "软件工程",
+          "role": "课件PPT",
+          "title": "软件工程_课件_SE-02软件工程概述2.pptx",
+          "publicPath": "软件工程/课件PPT/软件工程_课件_SE-02软件工程概述2.pptx",
+          "bytes": 6646975,
+          "sha256": "7f6ee363794e64de4f980808d9e624174a04c4087075964eec95e2d8240ff966"
+        },
+        {
+          "subject": "软件工程",
+          "role": "课件PPT",
+          "title": "软件工程_课件_SE-03敏捷开发.pptx",
+          "publicPath": "软件工程/课件PPT/软件工程_课件_SE-03敏捷开发.pptx",
+          "bytes": 8382026,
+          "sha256": "73d0d8c66b4a240b9021e34a93a62cffadacc1795eecfaf2d4e5daf948bfd931"
+        },
+        {
+          "subject": "软件工程",
+          "role": "课件PPT",
+          "title": "软件工程_课件_SE-04团队管理与项目开发计划.pptx",
+          "publicPath": "软件工程/课件PPT/软件工程_课件_SE-04团队管理与项目开发计划.pptx",
+          "bytes": 15401229,
+          "sha256": "e7fd8154d0df599384006b797869bdd0b0c7d4416864c3bae69de7d713075fe8"
+        },
+        {
+          "subject": "软件工程",
+          "role": "课件PPT",
+          "title": "软件工程_课件_SE-05需求分析1.pptx",
+          "publicPath": "软件工程/课件PPT/软件工程_课件_SE-05需求分析1.pptx",
+          "bytes": 3438061,
+          "sha256": "17ab6c08a1b787ce0e2d33282762469753100d7e97a379772e8d27e48fe44228"
+        },
+        {
+          "subject": "软件工程",
+          "role": "课件PPT",
+          "title": "软件工程_课件_SE-06需求分析2.pptx",
+          "publicPath": "软件工程/课件PPT/软件工程_课件_SE-06需求分析2.pptx",
+          "bytes": 2468734,
+          "sha256": "c10709e45990c384abae1a3cd74cc2dc94196d5a2b52ebd40f642438491b28fc"
+        },
+        {
+          "subject": "软件工程",
+          "role": "课件PPT",
+          "title": "软件工程_课件_SE-07需求分析3.pptx",
+          "publicPath": "软件工程/课件PPT/软件工程_课件_SE-07需求分析3.pptx",
+          "bytes": 5890948,
+          "sha256": "983b267d86298ef6fc955ce3b22178cb68bfb0198beb78ab2556ecfaf3356644"
+        },
+        {
+          "subject": "软件工程",
+          "role": "课件PPT",
+          "title": "软件工程_课件_SE-08需求分析4.pptx",
+          "publicPath": "软件工程/课件PPT/软件工程_课件_SE-08需求分析4.pptx",
+          "bytes": 6090748,
+          "sha256": "1d8064850faf814ab0fc9d28ef0c2e85cefd8a0f666cc6d739a959e36f4ebe58"
+        },
+        {
+          "subject": "软件工程",
+          "role": "课件PPT",
+          "title": "软件工程_课件_SE-09软件设计1.pptx",
+          "publicPath": "软件工程/课件PPT/软件工程_课件_SE-09软件设计1.pptx",
+          "bytes": 14790726,
+          "sha256": "28cf63b96082e323ff2bcdef788812554d92cc16c575fa5d151b585011ab41cb"
+        },
+        {
+          "subject": "软件工程",
+          "role": "课件PPT",
+          "title": "软件工程_课件_SE-10软件设计2.pptx",
+          "publicPath": "软件工程/课件PPT/软件工程_课件_SE-10软件设计2.pptx",
+          "bytes": 4824934,
+          "sha256": "6481781b4a830289d3190f734a3f4c7c8aab9e1fe0ad28d677cfaa61a408a045"
+        },
+        {
+          "subject": "软件工程",
+          "role": "课件PPT",
+          "title": "软件工程_课件_SE-11详细设计与编码.pptx",
+          "publicPath": "软件工程/课件PPT/软件工程_课件_SE-11详细设计与编码.pptx",
+          "bytes": 3555333,
+          "sha256": "586c4b3b6b26f37eaa8c156d2532a5c8fbf66a97fb9540e90d15980b35e4717b"
+        },
+        {
+          "subject": "软件工程",
+          "role": "课件PPT",
+          "title": "软件工程_课件_SE-12软件测试.pptx",
+          "publicPath": "软件工程/课件PPT/软件工程_课件_SE-12软件测试.pptx",
+          "bytes": 12487095,
+          "sha256": "3813a0993c042f98210eba74401f721128c698543b394718ab55ed04a5407f37"
+        },
+        {
+          "subject": "软件工程",
+          "role": "课件PPT",
+          "title": "软件工程_课件_SE-13软件维护.pptx",
+          "publicPath": "软件工程/课件PPT/软件工程_课件_SE-13软件维护.pptx",
+          "bytes": 1268223,
+          "sha256": "ab1ae3dd943070b3ee57acae8cee5d674aeae9b79152a063cebbbc9b0728faf8"
+        }
+      ]
+    },
+    {
+      "name": "电工电子技术基础",
+      "note": "包含考前复习讲义和电工电子技术基础 PDF 课件资料。",
+      "assets": [
+        {
+          "subject": "电工电子技术基础",
+          "role": "复习讲义",
+          "title": "电工电子技术基础_考前复习知识点讲义.pdf",
+          "publicPath": "电工电子技术基础/复习讲义/电工电子技术基础_考前复习知识点讲义.pdf",
+          "bytes": 315822,
+          "sha256": "abadc3af437bc406ad57b513b7032affecd0845f302e789c54b753f7c31e5700"
+        },
+        {
+          "subject": "电工电子技术基础",
+          "role": "课件资料",
+          "title": "电工电子技术基础_课件_1-电路的基本定律与分析方法.pdf",
+          "publicPath": "电工电子技术基础/课件资料/电工电子技术基础_课件_1-电路的基本定律与分析方法.pdf",
+          "bytes": 20128200,
+          "sha256": "bfd403203fbd12e3a5ecebd47b14a5a9b9deb47f2da4c8ab2eb8168dab2fa1d6"
+        },
+        {
+          "subject": "电工电子技术基础",
+          "role": "课件资料",
+          "title": "电工电子技术基础_课件_10-触发器与时序逻辑电路.pdf",
+          "publicPath": "电工电子技术基础/课件资料/电工电子技术基础_课件_10-触发器与时序逻辑电路.pdf",
+          "bytes": 12505888,
+          "sha256": "9c0c765ac9dd1066f768623a745f9a8abf0fd5bc5558111363b1c815c08e9853"
+        },
+        {
+          "subject": "电工电子技术基础",
+          "role": "课件资料",
+          "title": "电工电子技术基础_课件_2-电路的暂态分析.pdf",
+          "publicPath": "电工电子技术基础/课件资料/电工电子技术基础_课件_2-电路的暂态分析.pdf",
+          "bytes": 7158192,
+          "sha256": "65341d744686fe49cf0454209e3f01cb26b55dbd74098aa27b30799a559836ca"
+        },
+        {
+          "subject": "电工电子技术基础",
+          "role": "课件资料",
+          "title": "电工电子技术基础_课件_3-交流电路.pdf",
+          "publicPath": "电工电子技术基础/课件资料/电工电子技术基础_课件_3-交流电路.pdf",
+          "bytes": 3062648,
+          "sha256": "0bb81d76d132001b1fac2912e1b33655498fa432300b0a15ea90798bd153442e"
+        },
+        {
+          "subject": "电工电子技术基础",
+          "role": "课件资料",
+          "title": "电工电子技术基础_课件_4-三相电路.pdf",
+          "publicPath": "电工电子技术基础/课件资料/电工电子技术基础_课件_4-三相电路.pdf",
+          "bytes": 3741878,
+          "sha256": "29cf0ff7b559e6effc298a231399f217775117eec7e866c2d697292c0b686978"
+        },
+        {
+          "subject": "电工电子技术基础",
+          "role": "课件资料",
+          "title": "电工电子技术基础_课件_5-常用半导体器件_3学时.pdf",
+          "publicPath": "电工电子技术基础/课件资料/电工电子技术基础_课件_5-常用半导体器件_3学时.pdf",
+          "bytes": 7335247,
+          "sha256": "a80c756bfac7a682fd296dd3a05f277cc2b6fd10a2c4b9968833dabfdb8820fb"
+        },
+        {
+          "subject": "电工电子技术基础",
+          "role": "课件资料",
+          "title": "电工电子技术基础_课件_6-基本放大电路_3学时.pdf",
+          "publicPath": "电工电子技术基础/课件资料/电工电子技术基础_课件_6-基本放大电路_3学时.pdf",
+          "bytes": 10425963,
+          "sha256": "204b0f30ba3ad8c70eb8ad208860a5e1e9996774ed648eb99bb6f0243329d3d4"
+        },
+        {
+          "subject": "电工电子技术基础",
+          "role": "课件资料",
+          "title": "电工电子技术基础_课件_7-集成运算放大器及应用.pdf",
+          "publicPath": "电工电子技术基础/课件资料/电工电子技术基础_课件_7-集成运算放大器及应用.pdf",
+          "bytes": 13332785,
+          "sha256": "4db442ec54124c66280c9569e00808bc9166789f20d0ee07ef87351fad56e2fc"
+        },
+        {
+          "subject": "电工电子技术基础",
+          "role": "课件资料",
+          "title": "电工电子技术基础_课件_9-门电路与组合逻辑电路.pdf",
+          "publicPath": "电工电子技术基础/课件资料/电工电子技术基础_课件_9-门电路与组合逻辑电路.pdf",
+          "bytes": 9005479,
+          "sha256": "2528df8d9ceb989a0efaf4deebe06b63bdde19ed32ecb0843a34240797be4bcb"
+        }
+      ]
+    },
+    {
+      "name": "移动开发",
+      "note": "包含考前复习讲义和移动开发/HarmonyOS 相关 PPT 课件。",
+      "assets": [
+        {
+          "subject": "移动开发",
+          "role": "复习讲义",
+          "title": "移动开发_考前复习知识点讲义.pdf",
+          "publicPath": "移动开发/复习讲义/移动开发_考前复习知识点讲义.pdf",
+          "bytes": 312356,
+          "sha256": "dac9bd41658c3736785a1ccfc5ffc5531de62de69fd1fd2adc8e00181603b7d5"
+        },
+        {
+          "subject": "移动开发",
+          "role": "课件PPT",
+          "title": "移动开发_课件_01初识HarmonyOS_正式.pptx",
+          "publicPath": "移动开发/课件PPT/移动开发_课件_01初识HarmonyOS_正式.pptx",
+          "bytes": 4009721,
+          "sha256": "343da25899c13325092f0774fcc5b7774620573227767006b71325d37a7682ae"
+        },
+        {
+          "subject": "移动开发",
+          "role": "课件PPT",
+          "title": "移动开发_课件_1移动应用开发技术概述.pptx",
+          "publicPath": "移动开发/课件PPT/移动开发_课件_1移动应用开发技术概述.pptx",
+          "bytes": 10258981,
+          "sha256": "640d0794cc5411fbef3abd5c9142b1a5c67f492d0f9284b24a83fd2be66bd463"
+        },
+        {
+          "subject": "移动开发",
+          "role": "课件PPT",
+          "title": "移动开发_课件_2_TS对象_02.pptx",
+          "publicPath": "移动开发/课件PPT/移动开发_课件_2_TS对象_02.pptx",
+          "bytes": 1857705,
+          "sha256": "bdc887a21f0259dbedc107285d85f7793d68e112b3f8342715c531926cc5d7ff"
+        },
+        {
+          "subject": "移动开发",
+          "role": "课件PPT",
+          "title": "移动开发_课件_2_TS语法_LG_01.pptx",
+          "publicPath": "移动开发/课件PPT/移动开发_课件_2_TS语法_LG_01.pptx",
+          "bytes": 1578407,
+          "sha256": "2331f95af0a1ff52942c53f28e925fea423bfbb806a1ab1551d3f9696033870f"
+        },
+        {
+          "subject": "移动开发",
+          "role": "课件PPT",
+          "title": "移动开发_课件_3_ArkUI_01.pptx",
+          "publicPath": "移动开发/课件PPT/移动开发_课件_3_ArkUI_01.pptx",
+          "bytes": 3196495,
+          "sha256": "b9629fd36da4d2ca1b07f3304da3be33704ff4a07d61ec31e1068279432af56a"
+        },
+        {
+          "subject": "移动开发",
+          "role": "课件PPT",
+          "title": "移动开发_课件_4常见布局.pptx",
+          "publicPath": "移动开发/课件PPT/移动开发_课件_4常见布局.pptx",
+          "bytes": 2187410,
+          "sha256": "269cc6c008a515d527db30006ffb514a5ed07e1164844cd9160db9d6e8447bf1"
+        },
+        {
+          "subject": "移动开发",
+          "role": "课件PPT",
+          "title": "移动开发_课件_5组件_jun.pptx",
+          "publicPath": "移动开发/课件PPT/移动开发_课件_5组件_jun.pptx",
+          "bytes": 4157902,
+          "sha256": "502b35e912e0d64ae1155e5ef2226b8ae215abafd2b972fa868a6ee88d673fee"
+        },
+        {
+          "subject": "移动开发",
+          "role": "课件PPT",
+          "title": "移动开发_课件_6特殊组件_jun.pptx",
+          "publicPath": "移动开发/课件PPT/移动开发_课件_6特殊组件_jun.pptx",
+          "bytes": 12084662,
+          "sha256": "0139b2ecb0e18160f6d098f3aec87f398a43d51838696229241fd63031ddd064"
+        },
+        {
+          "subject": "移动开发",
+          "role": "课件PPT",
+          "title": "移动开发_课件_特殊组件.pptx",
+          "publicPath": "移动开发/课件PPT/移动开发_课件_特殊组件.pptx",
+          "bytes": 7012455,
+          "sha256": "f84061fe2877c4afc115838be4bf4d909582568ddcd007d0764b95396749cde2"
+        },
+        {
+          "subject": "移动开发",
+          "role": "课件PPT",
+          "title": "移动开发_课件_第6章路由和组件导航.pptx",
+          "publicPath": "移动开发/课件PPT/移动开发_课件_第6章路由和组件导航.pptx",
+          "bytes": 2501108,
+          "sha256": "2ab4d3763a7e4c556c4063baa83c4861afbbaeb261fd98ae1c7bad512223ff93"
+        },
+        {
+          "subject": "移动开发",
+          "role": "课件PPT",
+          "title": "移动开发_课件_第8章动画和网络请求.pptx",
+          "publicPath": "移动开发/课件PPT/移动开发_课件_第8章动画和网络请求.pptx",
+          "bytes": 2844046,
+          "sha256": "97c0831cacd5b7b653caea7b133bd9fc4f9cf668669e5535b1eab2e498eec316"
         }
       ]
     }
