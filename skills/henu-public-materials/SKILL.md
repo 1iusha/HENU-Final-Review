@@ -23,6 +23,7 @@ Use this skill before adding, renaming, validating, or publishing files in the H
 - Public repository content may include true exams, public courseware, lecture notes, exercise banks, answer notes, and community-maintained review notes.
 - Do not publish paid final-review packages, membership bundles, private-source bundles, personal data, or credentials.
 - `课件PPT` is only for real `.ppt` or `.pptx` courseware. PDF courseware goes in `课件资料`. Courseware archives go in `课件资料包`.
+- When a courseware archive can be safely unpacked, prefer publishing the extracted files in `课件资料` or `课件PPT` instead of keeping only the ZIP.
 - If a file is confirmed wrong-course, move it to the correct course. Use `待复核...` only while the course is genuinely uncertain.
 - High math courseware section names use a `D` prefix, such as `D7-5`, `D8-1`, and `D10-3`.
 

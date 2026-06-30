@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-30T13:56:48.998Z",
+  "generatedAt": "2026-06-30T14:03:15.474Z",
   "subjects": [
     {
       "name": "高等数学A（二）",
@@ -548,7 +548,7 @@
     },
     {
       "name": "Web编程基础",
-      "note": "包含 22 真题、考前复习讲义和真实课件资料包。",
+      "note": "包含 22 真题、考前复习讲义和已拆分的 Web 课件资料。",
       "assets": [
         {
           "subject": "Web编程基础",
@@ -568,11 +568,123 @@
         },
         {
           "subject": "Web编程基础",
-          "role": "课件资料包",
-          "title": "Web编程基础_压缩包_Web课件.zip",
-          "publicPath": "Web编程基础/课件资料包/Web编程基础_压缩包_Web课件.zip",
-          "bytes": 26819088,
-          "sha256": "0fc1660114d2fec5504106bd87072f729c7ae7c842b6d9e1e12efdf5b7bb7306"
+          "role": "课件资料",
+          "title": "Web编程基础_课件_第10次JS-3.pdf",
+          "publicPath": "Web编程基础/课件资料/Web编程基础_课件_第10次JS-3.pdf",
+          "bytes": 2059852,
+          "sha256": "98f13502491ca3fc0d3b7acbc571c8cf4cd25781f662f4b3ef3b035b08b9a4ca"
+        },
+        {
+          "subject": "Web编程基础",
+          "role": "课件资料",
+          "title": "Web编程基础_课件_第11次JS-4.pdf",
+          "publicPath": "Web编程基础/课件资料/Web编程基础_课件_第11次JS-4.pdf",
+          "bytes": 2465261,
+          "sha256": "095514f015ebafeb81ca4cb1dccfbcbe4c42c231bc5da8437eec518856fab14d"
+        },
+        {
+          "subject": "Web编程基础",
+          "role": "课件资料",
+          "title": "Web编程基础_课件_第12次JS-5.pdf",
+          "publicPath": "Web编程基础/课件资料/Web编程基础_课件_第12次JS-5.pdf",
+          "bytes": 1160094,
+          "sha256": "63240231174a719ffe125872e725129eae8eed23d6c86b346554cee921cc8b3e"
+        },
+        {
+          "subject": "Web编程基础",
+          "role": "课件资料",
+          "title": "Web编程基础_课件_第13次JS-6.pdf",
+          "publicPath": "Web编程基础/课件资料/Web编程基础_课件_第13次JS-6.pdf",
+          "bytes": 1092070,
+          "sha256": "3745f8d63119fe83c877b54fc7d27f90c4b7b035dd302c244f562ada40b44b1c"
+        },
+        {
+          "subject": "Web编程基础",
+          "role": "课件资料",
+          "title": "Web编程基础_课件_第1次.pdf",
+          "publicPath": "Web编程基础/课件资料/Web编程基础_课件_第1次.pdf",
+          "bytes": 4617400,
+          "sha256": "d26ef916469123a1ed5de6ea6e7a1b1591d1f4a45c507139a81a673ab321628c"
+        },
+        {
+          "subject": "Web编程基础",
+          "role": "课件资料",
+          "title": "Web编程基础_课件_第2次.pdf",
+          "publicPath": "Web编程基础/课件资料/Web编程基础_课件_第2次.pdf",
+          "bytes": 2779297,
+          "sha256": "eea565f7730dc31cb6f01463215654f8fea86b8134a4507e69335a1c9d41bc64"
+        },
+        {
+          "subject": "Web编程基础",
+          "role": "课件资料",
+          "title": "Web编程基础_课件_第3次.pdf",
+          "publicPath": "Web编程基础/课件资料/Web编程基础_课件_第3次.pdf",
+          "bytes": 2596910,
+          "sha256": "5ba3f198acea0e832b508216e06ea02fb0dc5a6b3fa877ac778397622c63c0a7"
+        },
+        {
+          "subject": "Web编程基础",
+          "role": "课件资料",
+          "title": "Web编程基础_课件_第4次CSS-1.pdf",
+          "publicPath": "Web编程基础/课件资料/Web编程基础_课件_第4次CSS-1.pdf",
+          "bytes": 2262661,
+          "sha256": "68854cf38cc5cbfbf54f9f8c0a3c124437d628c5f10977b5f35219cc702cac61"
+        },
+        {
+          "subject": "Web编程基础",
+          "role": "课件资料",
+          "title": "Web编程基础_课件_第5次CSS-2.1.pdf",
+          "publicPath": "Web编程基础/课件资料/Web编程基础_课件_第5次CSS-2.1.pdf",
+          "bytes": 1155225,
+          "sha256": "8e58885f3f5033f9515bbab6fe44a95fc5ded762d379c67c11ddda05b142f5cd"
+        },
+        {
+          "subject": "Web编程基础",
+          "role": "课件资料",
+          "title": "Web编程基础_课件_第5次CSS-2.2.pdf",
+          "publicPath": "Web编程基础/课件资料/Web编程基础_课件_第5次CSS-2.2.pdf",
+          "bytes": 2161411,
+          "sha256": "4db51438f37a60189d8dbbe887e5bdbe82400127b6c5ef5681ad5feca93f3549"
+        },
+        {
+          "subject": "Web编程基础",
+          "role": "课件资料",
+          "title": "Web编程基础_课件_第6次CSS-3.1.pdf",
+          "publicPath": "Web编程基础/课件资料/Web编程基础_课件_第6次CSS-3.1.pdf",
+          "bytes": 1706920,
+          "sha256": "c1b9bc06cf157f9ee2f88af019573da9f952003876a13cbd38ae008f9051ec91"
+        },
+        {
+          "subject": "Web编程基础",
+          "role": "课件资料",
+          "title": "Web编程基础_课件_第7次CSS-4.pdf",
+          "publicPath": "Web编程基础/课件资料/Web编程基础_课件_第7次CSS-4.pdf",
+          "bytes": 2820865,
+          "sha256": "ae08de8724d9bd01a4f0b48f74efb6a6fed278bd3d87feefcb63e59eb31b05a0"
+        },
+        {
+          "subject": "Web编程基础",
+          "role": "课件资料",
+          "title": "Web编程基础_课件_第8次JS-1.pdf",
+          "publicPath": "Web编程基础/课件资料/Web编程基础_课件_第8次JS-1.pdf",
+          "bytes": 1867431,
+          "sha256": "589627f02371b07415ebd193a83d3a6e2027887fcbfc90ab107b1d817f80bd6d"
+        },
+        {
+          "subject": "Web编程基础",
+          "role": "课件资料",
+          "title": "Web编程基础_课件_第9次JS-2.pdf",
+          "publicPath": "Web编程基础/课件资料/Web编程基础_课件_第9次JS-2.pdf",
+          "bytes": 2367531,
+          "sha256": "612fdd0312f381793169ef398ba9aee8e34775e52402b422fc16c0ddf493f6bf"
+        },
+        {
+          "subject": "Web编程基础",
+          "role": "课件资料",
+          "title": "Web编程基础_课件_Javascript全解概述.docx",
+          "publicPath": "Web编程基础/课件资料/Web编程基础_课件_Javascript全解概述.docx",
+          "bytes": 828326,
+          "sha256": "863663617cf89f647fc24cb8a4ebe0ef75030f59fbf52fea3840a563c841d83e"
         }
       ]
     }

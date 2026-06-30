@@ -44,7 +44,7 @@ Examples:
 离散数学_真题_软件学院23级.pdf
 大学物理_课件_2023大学物理高斯定理.pdf
 面向对象程序设计Java_课件_第1章Java概述.pptx
-Web编程基础_压缩包_Web课件.zip
+Web编程基础_课件_第1次.pdf
 ```
 
 ## Character Rules
@@ -61,6 +61,7 @@ Allowed:
 
 - True exams and recall exams.
 - Public courseware and lecture notes.
+- Extracted courseware files from a clear-source archive when filenames can be normalized.
 - Course exercise banks and answer notes.
 - Community-maintained review notes.
 

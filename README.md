@@ -19,7 +19,7 @@
 
 - [Henu-Kaguya/Henu-Kaguya](https://github.com/Henu-Kaguya/Henu-Kaguya)：计算机学院资料。
 
-最后更新：2026-06-30T13:56:48.998Z
+最后更新：2026-06-30T14:03:15.474Z
 
 ## 科目目录
 
@@ -54,8 +54,8 @@
 
 ### Web编程基础
 
-包含 22 真题、考前复习讲义和真实课件资料包。
+包含 22 真题、考前复习讲义和已拆分的 Web 课件资料。
 
 - 复习讲义: [Web编程基础_考前复习知识点讲义.pdf](Web%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/%E5%A4%8D%E4%B9%A0%E8%AE%B2%E4%B9%89/Web%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80_%E8%80%83%E5%89%8D%E5%A4%8D%E4%B9%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E8%AE%B2%E4%B9%89.pdf)
 - 往年真题: [Web编程基础_真题_Web-22真题.pdf](Web%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/%E5%BE%80%E5%B9%B4%E7%9C%9F%E9%A2%98/Web%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80_%E7%9C%9F%E9%A2%98_Web-22%E7%9C%9F%E9%A2%98.pdf)
-- 课件资料包: [Web编程基础_压缩包_Web课件.zip](Web%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/%E8%AF%BE%E4%BB%B6%E8%B5%84%E6%96%99%E5%8C%85/Web%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80_%E5%8E%8B%E7%BC%A9%E5%8C%85_Web%E8%AF%BE%E4%BB%B6.zip)
+- 课件资料: 15 个文件，见 [课件资料/](Web%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/%E8%AF%BE%E4%BB%B6%E8%B5%84%E6%96%99/)。
