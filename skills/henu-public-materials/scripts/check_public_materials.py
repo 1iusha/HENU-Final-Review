@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import json
+import re
 import sys
 import zipfile
 from pathlib import Path
@@ -32,6 +33,9 @@ MAINTENANCE_DIRS = {
     "skills",
 }
 
+HIGH_MATH_COURSE = "高等数学A（二）"
+HIGH_MATH_BARE_SECTION = re.compile(r"^高等数学A（二）_课件_[0-9]+-[0-9]")
+
 
 def add_issue(issues, level, path, message):
     issues.append({"level": level, "path": str(path), "message": message})
@@ -60,6 +64,21 @@ def check_repo(root):
             continue
         if path.is_dir() and len(rel.parts) == 2 and rel.parts[1] not in ALLOWED_TYPE_DIRS:
             add_issue(issues, "ERROR", rel, "unknown material type directory")
+        if (
+            path.is_file()
+            and len(rel.parts) >= 3
+            and rel.parts[0] == HIGH_MATH_COURSE
+            and rel.parts[1] == "课件PPT"
+            and HIGH_MATH_BARE_SECTION.match(path.name)
+        ):
+            add_issue(issues, "ERROR", rel, "high math section filenames must use D prefix")
+        if (
+            path.is_file()
+            and rel.parts
+            and rel.parts[0] == "离散数学"
+            and "第5章集合" in path.name
+        ):
+            add_issue(issues, "ERROR", rel, "confirmed Java courseware must not remain under 离散数学")
         for part in rel.parts:
             if part in ILLEGAL_NAME_PARTS or any(token in part for token in ILLEGAL_NAME_PARTS):
                 add_issue(issues, "ERROR", rel, f"disallowed public material name token: {part}")

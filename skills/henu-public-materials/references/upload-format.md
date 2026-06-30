@@ -40,6 +40,7 @@ Use:
 Examples:
 
 ```text
+高等数学A（二）_课件_D8-1向量及其线性运算.ppt
 离散数学_真题_软件学院23级.pdf
 大学物理_课件_2023大学物理高斯定理.pdf
 面向对象程序设计Java_课件_第1章Java概述.pptx
@@ -50,6 +51,7 @@ Web编程基础_压缩包_Web课件.zip
 
 - Use the Chinese course name; do not use pinyin abbreviations.
 - Use `、` for multiple section numbers, such as `D7-1、2、3`.
+- High math section filenames use a `D` prefix, such as `D7-5`, `D8-1`, and `D10-3`; do not mix in bare `7-5` or `8-1` names.
 - Use suffixes for versions, such as `_02`, `_精简版`, `_删减版`.
 - Avoid ASCII commas, slashes, colons, question marks, asterisks, and temporary words like `副本`, `未命名`, `final_final`.
 
@@ -67,6 +69,7 @@ Not allowed:
 - Paid final-review packages or membership bundles.
 - AI-generated PPTs presented as real courseware.
 - Personal data, account information, scores, names lists, credentials.
+- Confirmed wrong-course files left in the wrong course. Move them to the real course instead.
 - Unclear-source files unless placed under a `待复核...` folder with a note.
 
 ## Repository Docs
@@ -76,3 +79,4 @@ When changing public contents:
 - Update `README.md` course listings.
 - Update `manifest.json` with `subject`, `role`, `title`, `publicPath`, `bytes`, and `sha256`.
 - Keep `docs/naming.md` and `docs/commit-format.md` consistent with this format.
+- After organizing materials, open a pull request and describe course, year, source, and any review notes.

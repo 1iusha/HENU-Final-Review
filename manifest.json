@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-30T13:29:41.641Z",
+  "generatedAt": "2026-06-30T13:47:44.727Z",
   "subjects": [
     {
       "name": "高等数学A（二）",
@@ -9,56 +9,56 @@
         {
           "subject": "高等数学A（二）",
           "role": "课件PPT",
-          "title": "高等数学A（二）_课件_7-5可降阶高阶方程.ppt",
-          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_7-5可降阶高阶方程.ppt",
+          "title": "高等数学A（二）_课件_D7-5可降阶高阶方程.ppt",
+          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D7-5可降阶高阶方程.ppt",
           "bytes": 1807360,
           "sha256": "ea6279b2adeb7986f8c9212fc33614a293d4450357a870964588852b24bc52e2"
         },
         {
           "subject": "高等数学A（二）",
           "role": "课件PPT",
-          "title": "高等数学A（二）_课件_8-1向量及其线性运算.ppt",
-          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_8-1向量及其线性运算.ppt",
+          "title": "高等数学A（二）_课件_D8-1向量及其线性运算.ppt",
+          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D8-1向量及其线性运算.ppt",
           "bytes": 2837504,
           "sha256": "d2367227a311b8ad3ddff2579851ef71eba2394a169d98bf0996089a071fe51e"
         },
         {
           "subject": "高等数学A（二）",
           "role": "课件PPT",
-          "title": "高等数学A（二）_课件_8-2点积叉积.ppt",
-          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_8-2点积叉积.ppt",
+          "title": "高等数学A（二）_课件_D8-2点积叉积.ppt",
+          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D8-2点积叉积.ppt",
           "bytes": 2629632,
           "sha256": "ebe8ae883790eefe3cc37c8298d5a8216a590dff5d9308fcb4380d6806c1319e"
         },
         {
           "subject": "高等数学A（二）",
           "role": "课件PPT",
-          "title": "高等数学A（二）_课件_8-3平面方程.ppt",
-          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_8-3平面方程.ppt",
+          "title": "高等数学A（二）_课件_D8-3平面方程.ppt",
+          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D8-3平面方程.ppt",
           "bytes": 2123776,
           "sha256": "9cbf3af8214d79f51b4bfbfbc47b988fa0a0f529c8eba6d0a17dcf57d1d5b824"
         },
         {
           "subject": "高等数学A（二）",
           "role": "课件PPT",
-          "title": "高等数学A（二）_课件_8-4空间直线.ppt",
-          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_8-4空间直线.ppt",
+          "title": "高等数学A（二）_课件_D8-4空间直线.ppt",
+          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D8-4空间直线.ppt",
           "bytes": 2616320,
           "sha256": "8492c6842517b5c5a4a8d8c09e592faad4551fa85db3073acc063686abf59e9a"
         },
         {
           "subject": "高等数学A（二）",
           "role": "课件PPT",
-          "title": "高等数学A（二）_课件_8-5曲面及其方程.ppt",
-          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_8-5曲面及其方程.ppt",
+          "title": "高等数学A（二）_课件_D8-5曲面及其方程.ppt",
+          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D8-5曲面及其方程.ppt",
           "bytes": 3222528,
           "sha256": "74cf90853047afb44a04bd156468deeb779e337bb523e4d0f7eb271479bd9750"
         },
         {
           "subject": "高等数学A（二）",
           "role": "课件PPT",
-          "title": "高等数学A（二）_课件_8-6空间曲线.ppt",
-          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_8-6空间曲线.ppt",
+          "title": "高等数学A（二）_课件_D8-6空间曲线.ppt",
+          "publicPath": "高等数学A（二）/课件PPT/高等数学A（二）_课件_D8-6空间曲线.ppt",
           "bytes": 1485312,
           "sha256": "cb9db4be9eaca7565b534ece1ce399970b2e1d892c2bfb8fd13b110fe78c83e2"
         },
@@ -282,7 +282,7 @@
     },
     {
       "name": "离散数学",
-      "note": "包含软件学院 23 级真题和考前复习讲义；现有 PPTX 内容疑似错科，放入待复核目录。",
+      "note": "包含软件学院 23 级真题和考前复习讲义。",
       "assets": [
         {
           "subject": "离散数学",
@@ -299,14 +299,6 @@
           "publicPath": "离散数学/往年真题/离散数学_真题_软件学院23级离散数学.pdf",
           "bytes": 240532,
           "sha256": "20122cc28de5c25d5df70f6b37b8e73db87748acc34bd6bfbc1ed6958a72b40a"
-        },
-        {
-          "subject": "离散数学",
-          "role": "待复核课件PPT",
-          "title": "离散数学_课件_第5章集合.pptx",
-          "publicPath": "离散数学/待复核课件PPT/离散数学_课件_第5章集合.pptx",
-          "bytes": 4770915,
-          "sha256": "3d23ba56566f4dde64111013f4acd07540d7a4ff4634914b655a39377cf06fc6"
         }
       ]
     },
@@ -543,6 +535,14 @@
           "publicPath": "面向对象程序设计Java/课件PPT/面向对象程序设计Java_课件_第9章JavaGUI编程.pptx",
           "bytes": 1806792,
           "sha256": "265939ecfc9b08add97a82c0cde0a49f0268fe1ceab72e47bb3ea8619d49d3f6"
+        },
+        {
+          "subject": "面向对象程序设计Java",
+          "role": "课件PPT",
+          "title": "面向对象程序设计Java_课件_第5章集合.pptx",
+          "publicPath": "面向对象程序设计Java/课件PPT/面向对象程序设计Java_课件_第5章集合.pptx",
+          "bytes": 4770915,
+          "sha256": "3d23ba56566f4dde64111013f4acd07540d7a4ff4634914b655a39377cf06fc6"
         }
       ]
     },
@@ -561,8 +561,8 @@
         {
           "subject": "Web编程基础",
           "role": "往年真题",
-          "title": "Web编程基础_真题_Web-24真题.pdf",
-          "publicPath": "Web编程基础/往年真题/Web编程基础_真题_Web-24真题.pdf",
+          "title": "Web编程基础_真题_Web-22真题.pdf",
+          "publicPath": "Web编程基础/往年真题/Web编程基础_真题_Web-22真题.pdf",
           "bytes": 267448,
           "sha256": "a49e18baa8a670be366fd67d881a83739a348bb33851864bf0dacb0f0506b45c"
         },
