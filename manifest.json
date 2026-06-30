@@ -1,0 +1,175 @@
+{
+  "version": 1,
+  "generatedAt": "2026-06-30T13:01:23.392Z",
+  "sourceRepo": "校园平台",
+  "subjects": [
+    {
+      "name": "离散数学",
+      "note": "包含软件学院 23 级真题、考前复习讲义和根据真题/题库整理的串讲 PPT。",
+      "assets": [
+        {
+          "subject": "离散数学",
+          "role": "复习讲义",
+          "title": "离散数学_考前复习知识点讲义.pdf",
+          "sourcePath": "资料库/02_学校库/01_河南大学/01_软件学院/01_大一/02_下学期/02_离散数学/01_发布区/01_成品复习包/离散数学_考前复习知识点讲义.pdf",
+          "publicPath": "离散数学/复习讲义/离散数学_考前复习知识点讲义.pdf",
+          "bytes": 375085,
+          "sha256": "e22a786537ce5b886d2be7c81861292a83c78a9d3771be2b8d799c8b79419401"
+        },
+        {
+          "subject": "离散数学",
+          "role": "往年真题",
+          "title": "离散数学_真题_软件学院23级离散数学.pdf",
+          "sourcePath": "资料库/02_学校库/01_河南大学/01_软件学院/01_大一/02_下学期/02_离散数学/04_原始资料/01_真题样卷/离散数学_真题_软件学院23级离散数学.pdf",
+          "publicPath": "离散数学/往年真题/离散数学_真题_软件学院23级离散数学.pdf",
+          "bytes": 240532,
+          "sha256": "20122cc28de5c25d5df70f6b37b8e73db87748acc34bd6bfbc1ed6958a72b40a"
+        },
+        {
+          "subject": "离散数学",
+          "role": "课件PPT",
+          "title": "离散数学_课件_考前重点串讲.pptx",
+          "sourcePath": "generated from reviewed course materials",
+          "publicPath": "离散数学/课件PPT/离散数学_课件_考前重点串讲.pptx",
+          "bytes": 76304,
+          "sha256": "72b0e80809fe2cd4f67c3a3a94e19bbabbdf17ac3aa7c44b248d41e77a4bbc42"
+        },
+        {
+          "subject": "离散数学",
+          "role": "完整复习包",
+          "title": "离散数学_期末复习包.zip",
+          "sourcePath": "资料库/02_学校库/01_河南大学/01_软件学院/01_大一/02_下学期/02_离散数学/01_发布区/01_成品复习包/离散数学_期末复习包.zip",
+          "publicPath": "离散数学/完整复习包/离散数学_期末复习包.zip",
+          "bytes": 385787,
+          "sha256": "7fff36a54f9a2b2252d475f91f63656494e660bad30eaa57e36c96a05c59c534"
+        }
+      ]
+    },
+    {
+      "name": "大学物理",
+      "note": "包含 23 真题、考前复习讲义和根据 23 真题/24 练习整理的串讲 PPT。",
+      "assets": [
+        {
+          "subject": "大学物理",
+          "role": "复习讲义",
+          "title": "大学物理_考前复习知识点讲义.pdf",
+          "sourcePath": "资料库/02_学校库/01_河南大学/01_软件学院/01_大一/02_下学期/05_大学物理/01_发布区/01_成品复习包/大学物理_考前复习知识点讲义.pdf",
+          "publicPath": "大学物理/复习讲义/大学物理_考前复习知识点讲义.pdf",
+          "bytes": 373958,
+          "sha256": "9121b3eb005392b2f5c36f8e4d3d7393a9616f3f5ce6d7e66c6114e4e0f9e7b6"
+        },
+        {
+          "subject": "大学物理",
+          "role": "往年真题",
+          "title": "大学物理-23真题.pdf",
+          "sourcePath": "资料库/02_学校库/01_河南大学/01_软件学院/01_大一/02_下学期/05_大学物理/04_原始资料/01_真题样卷/大学物理-23真题.pdf",
+          "publicPath": "大学物理/往年真题/大学物理-23真题.pdf",
+          "bytes": 246884,
+          "sha256": "52b13d11e6d1b7f8ab0c7977a9d0761244b95589320eb7eb7801eceecfa8e7dc"
+        },
+        {
+          "subject": "大学物理",
+          "role": "课件PPT",
+          "title": "大学物理_课件_电磁学考前重点串讲.pptx",
+          "sourcePath": "generated from reviewed course materials",
+          "publicPath": "大学物理/课件PPT/大学物理_课件_电磁学考前重点串讲.pptx",
+          "bytes": 74679,
+          "sha256": "9cc5c052abf4f1e201263cc711bda324d89044f1a59d5eac5bd72a9073756f82"
+        },
+        {
+          "subject": "大学物理",
+          "role": "完整复习包",
+          "title": "大学物理_期末复习包.zip",
+          "sourcePath": "资料库/02_学校库/01_河南大学/01_软件学院/01_大一/02_下学期/05_大学物理/01_发布区/01_成品复习包/大学物理_期末复习包.zip",
+          "publicPath": "大学物理/完整复习包/大学物理_期末复习包.zip",
+          "bytes": 630006,
+          "sha256": "a6ce6c0c62e1a05be481b7dbc6d599a4a1815291222dac2361cedda6199792e9"
+        }
+      ]
+    },
+    {
+      "name": "面向对象程序设计Java",
+      "note": "包含 2023-2024 真题、Java 章节 PPT 和考前复习讲义。",
+      "assets": [
+        {
+          "subject": "面向对象程序设计Java",
+          "role": "复习讲义",
+          "title": "面向对象程序设计Java_考前复习知识点讲义.pdf",
+          "sourcePath": "资料库/02_学校库/01_河南大学/01_软件学院/01_大一/02_下学期/03_面向对象程序设计Java/01_发布区/01_成品复习包/面向对象程序设计Java_考前复习知识点讲义.pdf",
+          "publicPath": "面向对象程序设计Java/复习讲义/面向对象程序设计Java_考前复习知识点讲义.pdf",
+          "bytes": 316835,
+          "sha256": "a42a421e50c31ac4b94728a5805404023e81e552c46fd015a4caa002425ba19c"
+        },
+        {
+          "subject": "面向对象程序设计Java",
+          "role": "往年真题",
+          "title": "面向对象程序设计Java_真题_Java程序设计2023-2024.pdf",
+          "sourcePath": "资料库/02_学校库/01_河南大学/01_软件学院/01_大一/02_下学期/03_面向对象程序设计Java/04_原始资料/01_真题样卷/面向对象程序设计Java_真题_Java程序设计2023-2024.pdf",
+          "publicPath": "面向对象程序设计Java/往年真题/面向对象程序设计Java_真题_Java程序设计2023-2024.pdf",
+          "bytes": 226887,
+          "sha256": "4ce81c943b3cc1bbda6e153780ea4fd595e7e268208058b9bb77b92bc0cdfb99"
+        },
+        {
+          "subject": "面向对象程序设计Java",
+          "role": "课件PPT",
+          "title": "面向对象程序设计Java_课件_第1章Java概述.pptx",
+          "sourcePath": "资料库/02_学校库/01_河南大学/01_软件学院/01_大一/02_下学期/03_面向对象程序设计Java/04_原始资料/02_课件讲义/面向对象程序设计Java_课件_第1章Java概述.pptx",
+          "publicPath": "面向对象程序设计Java/课件PPT/面向对象程序设计Java_课件_第1章Java概述.pptx",
+          "bytes": 2536209,
+          "sha256": "38d06ded69303d4b19e0d205bdce752ce744e4d11e9592d460ee1ef0e10664d6"
+        },
+        {
+          "subject": "面向对象程序设计Java",
+          "role": "完整复习包",
+          "title": "面向对象程序设计Java_期末复习包.zip",
+          "sourcePath": "资料库/02_学校库/01_河南大学/01_软件学院/01_大一/02_下学期/03_面向对象程序设计Java/01_发布区/01_成品复习包/面向对象程序设计Java_期末复习包.zip",
+          "publicPath": "面向对象程序设计Java/完整复习包/面向对象程序设计Java_期末复习包.zip",
+          "bytes": 667227,
+          "sha256": "852a03a293a6571f2526eccea0db2c9e5b11727aae9372c87cd2a737e1325ed6"
+        }
+      ]
+    },
+    {
+      "name": "Web编程基础",
+      "note": "包含 24 真题、考前复习讲义和根据 V3/真题整理的串讲 PPT。",
+      "assets": [
+        {
+          "subject": "Web编程基础",
+          "role": "复习讲义",
+          "title": "Web编程基础_考前复习知识点讲义.pdf",
+          "sourcePath": "资料库/02_学校库/01_河南大学/01_软件学院/01_大一/02_下学期/04_Web编程基础/01_发布区/01_成品复习包/Web编程基础_考前复习知识点讲义.pdf",
+          "publicPath": "Web编程基础/复习讲义/Web编程基础_考前复习知识点讲义.pdf",
+          "bytes": 261864,
+          "sha256": "68c0f3b6a4ac2470141fea7388ab9afec2d23dc4bfdfb0eb64934d506a25da9d"
+        },
+        {
+          "subject": "Web编程基础",
+          "role": "往年真题",
+          "title": "Web编程基础_真题_Web-24真题.pdf",
+          "sourcePath": "资料库/02_学校库/01_河南大学/01_软件学院/01_大一/02_下学期/04_Web编程基础/04_原始资料/01_真题样卷/Web编程基础_真题_Web-24真题.pdf",
+          "publicPath": "Web编程基础/往年真题/Web编程基础_真题_Web-24真题.pdf",
+          "bytes": 267448,
+          "sha256": "a49e18baa8a670be366fd67d881a83739a348bb33851864bf0dacb0f0506b45c"
+        },
+        {
+          "subject": "Web编程基础",
+          "role": "课件PPT",
+          "title": "Web编程基础_课件_考前重点串讲.pptx",
+          "sourcePath": "generated from reviewed course materials",
+          "publicPath": "Web编程基础/课件PPT/Web编程基础_课件_考前重点串讲.pptx",
+          "bytes": 74674,
+          "sha256": "9915bd008930447c86affba59cef4c67c1ca4090c94ad7cfdee51b771d558463"
+        },
+        {
+          "subject": "Web编程基础",
+          "role": "完整复习包",
+          "title": "Web编程基础_期末复习包.zip",
+          "sourcePath": "资料库/02_学校库/01_河南大学/01_软件学院/01_大一/02_下学期/04_Web编程基础/01_发布区/01_成品复习包/Web编程基础_期末复习包.zip",
+          "publicPath": "Web编程基础/完整复习包/Web编程基础_期末复习包.zip",
+          "bytes": 553092,
+          "sha256": "63142bc9db08283ee85035d8fe9ec7b6205b3dfcecfa7e72ad186042607ec4d3"
+        }
+      ]
+    }
+  ]
+}
