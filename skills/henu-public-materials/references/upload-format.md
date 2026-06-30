@@ -79,4 +79,5 @@ When changing public contents:
 - Update `README.md` course listings.
 - Update `manifest.json` with `subject`, `role`, `title`, `publicPath`, `bytes`, and `sha256`.
 - Keep `docs/naming.md` and `docs/commit-format.md` consistent with this format.
+- Mark material organization and PR templates as coming from [jry21223/final-review-template-kit](https://github.com/jry21223/final-review-template-kit).
 - After organizing materials, open a pull request and describe course, year, source, and any review notes.

@@ -12,13 +12,14 @@
 - 提交信息和 PR 要求见 [docs/commit-format.md](docs/commit-format.md)。
 - 贡献流程见 [CONTRIBUTING.md](CONTRIBUTING.md)。
 - 本地整理和上传校验可使用 [skills/henu-public-materials](skills/henu-public-materials/)。
+- 资料整理和 PR 描述模板来自 [jry21223/final-review-template-kit](https://github.com/jry21223/final-review-template-kit)。
 - 想参与贡献可以先 fork 仓库，按规范整理资料后提交 PR；PR 描述里写清课程、年份、来源和是否需要复核。
 
 ## 友情链接
 
 - [Henu-Kaguya/Henu-Kaguya](https://github.com/Henu-Kaguya/Henu-Kaguya)：计算机学院资料。
 
-最后更新：2026-06-30T13:51:19.218Z
+最后更新：2026-06-30T13:56:48.998Z
 
 ## 科目目录
 

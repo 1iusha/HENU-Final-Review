@@ -44,7 +44,7 @@ PR 描述至少包含：
 - 来源说明：例如老师公开课件、同学回忆版、课程群资料、个人整理。
 - 是否需要复核：例如 OCR 不清晰、答案待校对、年份不确定。
 
-可使用模板：
+可使用模板，模板来源：[jry21223/final-review-template-kit](https://github.com/jry21223/final-review-template-kit)：
 
 ```md
 ## 资料说明
