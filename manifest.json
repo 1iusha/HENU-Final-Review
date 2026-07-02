@@ -290,7 +290,7 @@
     },
     {
       "name": "离散数学",
-      "note": "包含软件学院 23 级真题和考前复习讲义。",
+      "note": "包含 23 级真题、考前复习讲义和期末复习自总结。",
       "assets": [
         {
           "subject": "离散数学",
@@ -307,6 +307,21 @@
           "publicPath": "离散数学/往年真题/离散数学_真题_软件学院23级离散数学.pdf",
           "bytes": 240532,
           "sha256": "20122cc28de5c25d5df70f6b37b8e73db87748acc34bd6bfbc1ed6958a72b40a"
+        },
+        {
+          "subject": "离散数学",
+          "role": "笔记总结",
+          "title": "离散数学_笔记_期末复习自总结_V4.pdf",
+          "publicPath": "离散数学/笔记总结/离散数学_笔记_期末复习自总结_V4.pdf",
+          "bytes": 3262731,
+          "sha256": "1e22176c8a0b8b55ec28d582a0f998856696fbc1328cb95bc6f80059f5eb0a15",
+          "year": "2026",
+          "college": "河南大学",
+          "sourceType": "community-note",
+          "sourceNote": "用户提供的离散数学期末复习自总结 V4.0，内容包含课堂重点、课件、真题精选和题库总结。",
+          "reviewStatus": "basic-reviewed",
+          "containsPersonalInfo": false,
+          "licenseStatus": "learning-reference"
         }
       ]
     },
