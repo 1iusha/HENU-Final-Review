@@ -76,6 +76,7 @@ PR 和 `main` 分支 push 会通过 GitHub Actions 自动检查资料结构与 R
 
 - 复习讲义: [高等数学A（二）_考前复习知识点讲义.pdf](%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6A%EF%BC%88%E4%BA%8C%EF%BC%89/%E5%A4%8D%E4%B9%A0%E8%AE%B2%E4%B9%89/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6A%EF%BC%88%E4%BA%8C%EF%BC%89_%E8%80%83%E5%89%8D%E5%A4%8D%E4%B9%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E8%AE%B2%E4%B9%89.pdf)
 - 课件PPT: 34 个文件，见 [课件PPT/](%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6A%EF%BC%88%E4%BA%8C%EF%BC%89/%E8%AF%BE%E4%BB%B6PPT/)。
+- 待复核资料: 6 个文件，见 [待复核资料/](%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6A%EF%BC%88%E4%BA%8C%EF%BC%89/%E5%BE%85%E5%A4%8D%E6%A0%B8%E8%B5%84%E6%96%99/)。
 
 ### 离散数学
 
@@ -84,6 +85,7 @@ PR 和 `main` 分支 push 会通过 GitHub Actions 自动检查资料结构与 R
 - 复习讲义: [离散数学_考前复习知识点讲义.pdf](%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/%E5%A4%8D%E4%B9%A0%E8%AE%B2%E4%B9%89/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6_%E8%80%83%E5%89%8D%E5%A4%8D%E4%B9%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E8%AE%B2%E4%B9%89.pdf)
 - 往年真题: [离散数学_真题_软件学院23级离散数学.pdf](%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/%E5%BE%80%E5%B9%B4%E7%9C%9F%E9%A2%98/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6_%E7%9C%9F%E9%A2%98_%E8%BD%AF%E4%BB%B6%E5%AD%A6%E9%99%A223%E7%BA%A7%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6.pdf)
 - 笔记总结: [离散数学_笔记_期末复习自总结_V4.pdf](%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/%E7%AC%94%E8%AE%B0%E6%80%BB%E7%BB%93/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6_%E7%AC%94%E8%AE%B0_%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0%E8%87%AA%E6%80%BB%E7%BB%93_V4.pdf)
+- 待复核资料: 21 个文件，见 [待复核资料/](%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/%E5%BE%85%E5%A4%8D%E6%A0%B8%E8%B5%84%E6%96%99/)。
 
 ### 大学物理
 
@@ -94,24 +96,28 @@ PR 和 `main` 分支 push 会通过 GitHub Actions 自动检查资料结构与 R
 - 课件资料: 15 个文件，见 [课件资料/](%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86/%E8%AF%BE%E4%BB%B6%E8%B5%84%E6%96%99/)。
 - 题库练习: [大学物理_题库练习_24练习.pdf](%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86/%E9%A2%98%E5%BA%93%E7%BB%83%E4%B9%A0/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86_%E9%A2%98%E5%BA%93%E7%BB%83%E4%B9%A0_24%E7%BB%83%E4%B9%A0.pdf)
 - 笔记总结: [大学物理_笔记_期末复习总结_V3.pdf](%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86/%E7%AC%94%E8%AE%B0%E6%80%BB%E7%BB%93/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86_%E7%AC%94%E8%AE%B0_%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0%E6%80%BB%E7%BB%93_V3.pdf)
+- 待复核课件PPT: 22 个文件，见 [待复核课件PPT/](%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86/%E5%BE%85%E5%A4%8D%E6%A0%B8%E8%AF%BE%E4%BB%B6PPT/)。
+- 待复核资料: 9 个文件，见 [待复核资料/](%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86/%E5%BE%85%E5%A4%8D%E6%A0%B8%E8%B5%84%E6%96%99/)。
 
 ### 面向对象程序设计Java
 
 包含 2023-2024、24 真题、考前复习讲义、Java 章节 PPT 和公开学习笔记。
 
 - 复习讲义: [面向对象程序设计Java_考前复习知识点讲义.pdf](%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1Java/%E5%A4%8D%E4%B9%A0%E8%AE%B2%E4%B9%89/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1Java_%E8%80%83%E5%89%8D%E5%A4%8D%E4%B9%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E8%AE%B2%E4%B9%89.pdf)
-- 往年真题: 2 个文件，见 [往年真题/](%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1Java/%E5%BE%80%E5%B9%B4%E7%9C%9F%E9%A2%98/)。
+- 往年真题: 4 个文件，见 [往年真题/](%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1Java/%E5%BE%80%E5%B9%B4%E7%9C%9F%E9%A2%98/)。
 - 课件PPT: 10 个文件，见 [课件PPT/](%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1Java/%E8%AF%BE%E4%BB%B6PPT/)。
 - 笔记总结: 11 个文件，见 [笔记总结/](%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1Java/%E7%AC%94%E8%AE%B0%E6%80%BB%E7%BB%93/)。
+- 待复核资料: 5 个文件，见 [待复核资料/](%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1Java/%E5%BE%85%E5%A4%8D%E6%A0%B8%E8%B5%84%E6%96%99/)。
 
 ### Web编程基础
 
 包含 22 真题、多份复习讲义和已拆分的 Web 课件资料。
 
 - 复习讲义: 3 个文件，见 [复习讲义/](Web%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/%E5%A4%8D%E4%B9%A0%E8%AE%B2%E4%B9%89/)。
-- 往年真题: [Web编程基础_真题_Web-22真题.pdf](Web%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/%E5%BE%80%E5%B9%B4%E7%9C%9F%E9%A2%98/Web%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80_%E7%9C%9F%E9%A2%98_Web-22%E7%9C%9F%E9%A2%98.pdf)
+- 往年真题: 2 个文件，见 [往年真题/](Web%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/%E5%BE%80%E5%B9%B4%E7%9C%9F%E9%A2%98/)。
 - 课件资料: 15 个文件，见 [课件资料/](Web%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/%E8%AF%BE%E4%BB%B6%E8%B5%84%E6%96%99/)。
 - 笔记总结: 4 个文件，见 [笔记总结/](Web%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/%E7%AC%94%E8%AE%B0%E6%80%BB%E7%BB%93/)。
+- 待复核资料: 3 个文件，见 [待复核资料/](Web%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/%E5%BE%85%E5%A4%8D%E6%A0%B8%E8%B5%84%E6%96%99/)。
 
 ### 数据库系统
 
