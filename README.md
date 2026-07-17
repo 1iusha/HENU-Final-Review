@@ -27,17 +27,6 @@
 - [docs/naming.md](docs/naming.md)
 - [PUBLICATION_POLICY.md](PUBLICATION_POLICY.md)
 
-推荐工作流：
-
-1. 将待整理资料放入临时目录，或在 Issue / PR 中说明来源。
-2. 让 Agent 逐个判断课程、资料类型、年份、来源和是否需要复核。
-3. 拒绝或移除付费复习包、会员资料包、个人隐私、账号凭据、成绩名单、来源明显不清的资料。
-4. 将可公开资料移动到正确的 `课程名/资料类型/` 目录。
-5. 按 `课程名_资料类型_关键信息[_年份或版本].扩展名` 重命名文件。
-6. 更新 `manifest.json`，至少写入 `subject`、`role`、`title`、`publicPath`、`bytes`、`sha256`。
-7. 运行 `node scripts/update-readme.mjs` 重新生成 README 科目目录。
-8. 运行 `node scripts/validate-materials.mjs` 和 `node scripts/update-readme.mjs --check`。
-9. 新建分支并提交 PR，PR 描述必须写清课程、年份、来源、整理动作和待复核问题。
 
 可以直接给 Agent 使用类似提示词：
 
