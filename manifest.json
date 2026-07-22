@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-12T15:47:55.910Z",
+  "generatedAt": "2026-07-22T00:00:00.000Z",
   "subjects": [
     {
       "name": "高等数学A（二）",
@@ -2471,6 +2471,102 @@
           "publicPath": "移动开发/课件PPT/移动开发_课件_第8章动画和网络请求.pptx",
           "bytes": 2844046,
           "sha256": "97c0831cacd5b7b653caea7b133bd9fc4f9cf668669e5535b1eab2e498eec316"
+        }
+      ]
+    },
+    {
+      "name": "思想道德与法治",
+      "note": "收录教师分享的思修课程重点与习题资料；原文件来源标注为河南大学考试墙&河南大学小过儿。",
+      "assets": [
+        {
+          "subject": "思想道德与法治",
+          "role": "复习讲义",
+          "title": "思想道德与法治_复习讲义_2025年冬最新考试重点.pdf",
+          "publicPath": "思想道德与法治/复习讲义/思想道德与法治_复习讲义_2025年冬最新考试重点.pdf",
+          "year": "2025-2026学年第一学期",
+          "sourceType": "teacher_shared_material",
+          "sourceNote": "按用户说明，资料由河南大学教师分享；原文件页面标注“河南大学考试墙&河南大学小过儿原创出品”。本批政治资料保留原始 PDF 内容及来源联系方式，作为老师公开分享资料的特例。",
+          "reviewStatus": "community_review",
+          "containsPersonalInfo": false,
+          "licenseStatus": "teacher_shared_exception",
+          "bytes": 2259297,
+          "sha256": "bfda62a15cfefb53c1413a244a4ff9f95e11a9fc959032f4ebff83adc1b8530c"
+        },
+        {
+          "subject": "思想道德与法治",
+          "role": "复习讲义",
+          "title": "思想道德与法治_复习讲义_2026年夏最新考试重点.pdf",
+          "publicPath": "思想道德与法治/复习讲义/思想道德与法治_复习讲义_2026年夏最新考试重点.pdf",
+          "year": "2025-2026学年第二学期",
+          "sourceType": "teacher_shared_material",
+          "sourceNote": "按用户说明，资料由河南大学教师分享；原文件页面标注“河南大学考试墙&河南大学小过儿原创出品”。本批政治资料保留原始 PDF 内容及来源联系方式，作为老师公开分享资料的特例。",
+          "reviewStatus": "community_review",
+          "containsPersonalInfo": false,
+          "licenseStatus": "teacher_shared_exception",
+          "bytes": 806845,
+          "sha256": "62605c70458a8da91a90e38f88fb9a628ba4283233262e3554b9085ab0acee73"
+        },
+        {
+          "subject": "思想道德与法治",
+          "role": "题库练习",
+          "title": "思想道德与法治_题库练习_2025年冬最新考试习题库.pdf",
+          "publicPath": "思想道德与法治/题库练习/思想道德与法治_题库练习_2025年冬最新考试习题库.pdf",
+          "year": "2025-2026学年第一学期",
+          "sourceType": "teacher_shared_material",
+          "sourceNote": "按用户说明，资料由河南大学教师分享；原文件页面标注“河南大学考试墙&河南大学小过儿原创出品”。本批政治资料保留原始 PDF 内容及来源联系方式，作为老师公开分享资料的特例。",
+          "reviewStatus": "community_review",
+          "containsPersonalInfo": false,
+          "licenseStatus": "teacher_shared_exception",
+          "bytes": 1586719,
+          "sha256": "863593807fb03560c9fd351faa33176fbe38e5063897d1efe0d2df657bb65aeb"
+        },
+        {
+          "subject": "思想道德与法治",
+          "role": "题库练习",
+          "title": "思想道德与法治_题库练习_2026年夏最新考试习题库.pdf",
+          "publicPath": "思想道德与法治/题库练习/思想道德与法治_题库练习_2026年夏最新考试习题库.pdf",
+          "year": "2025-2026学年第二学期",
+          "sourceType": "teacher_shared_material",
+          "sourceNote": "按用户说明，资料由河南大学教师分享；原文件页面标注“河南大学考试墙&河南大学小过儿原创出品”。本批政治资料保留原始 PDF 内容及来源联系方式，作为老师公开分享资料的特例。",
+          "reviewStatus": "community_review",
+          "containsPersonalInfo": false,
+          "licenseStatus": "teacher_shared_exception",
+          "bytes": 802552,
+          "sha256": "2202c6481c4e20484d2dee269d40203b3ce297903d81ccfa3b9e30d17ad1df2c"
+        }
+      ]
+    },
+    {
+      "name": "习近平新时代中国特色社会主义思想概论",
+      "note": "收录教师分享的习概课程教材重点与习题资料；原文件来源标注为河南大学考试墙&河南大学小过儿。",
+      "assets": [
+        {
+          "subject": "习近平新时代中国特色社会主义思想概论",
+          "role": "复习讲义",
+          "title": "习近平新时代中国特色社会主义思想概论_复习讲义_2025年冬最新教材重点.pdf",
+          "publicPath": "习近平新时代中国特色社会主义思想概论/复习讲义/习近平新时代中国特色社会主义思想概论_复习讲义_2025年冬最新教材重点.pdf",
+          "year": "2025-2026学年第一学期",
+          "sourceType": "teacher_shared_material",
+          "sourceNote": "按用户说明，资料由河南大学教师分享；原文件页面标注“河南大学考试墙&河南大学小过儿原创出品”。本批政治资料保留原始 PDF 内容及来源联系方式，作为老师公开分享资料的特例。",
+          "reviewStatus": "community_review",
+          "containsPersonalInfo": false,
+          "licenseStatus": "teacher_shared_exception",
+          "bytes": 1719067,
+          "sha256": "9a9b0b52a35fbee614b33e0fb231ef5df982e9cb460d7ece0d09faaf4c266bd7"
+        },
+        {
+          "subject": "习近平新时代中国特色社会主义思想概论",
+          "role": "题库练习",
+          "title": "习近平新时代中国特色社会主义思想概论_题库练习_2025年冬最新教材习题库.pdf",
+          "publicPath": "习近平新时代中国特色社会主义思想概论/题库练习/习近平新时代中国特色社会主义思想概论_题库练习_2025年冬最新教材习题库.pdf",
+          "year": "2025-2026学年第一学期",
+          "sourceType": "teacher_shared_material",
+          "sourceNote": "按用户说明，资料由河南大学教师分享；原文件页面标注“河南大学考试墙&河南大学小过儿原创出品”。本批政治资料保留原始 PDF 内容及来源联系方式，作为老师公开分享资料的特例。",
+          "reviewStatus": "community_review",
+          "containsPersonalInfo": false,
+          "licenseStatus": "teacher_shared_exception",
+          "bytes": 1915378,
+          "sha256": "b53770144dc0db848f00036d593689ef12339002cc1ab24df856213fe03944ca"
         }
       ]
     }
