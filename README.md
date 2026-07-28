@@ -63,11 +63,12 @@ PR 和 `main` 分支 push 会通过 GitHub Actions 自动检查资料结构与 R
 
 ### 高等数学A（二）
 
-收录当前已整理的高数课程 PPT 课件和考前复习讲义。
+收录当前已整理的高数课程 PPT 课件、考前复习讲义和2021-2025年高数A/B卷真题。
 
 - 复习讲义: [高等数学A（二）_考前复习知识点讲义.pdf](%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6A%EF%BC%88%E4%BA%8C%EF%BC%89/%E5%A4%8D%E4%B9%A0%E8%AE%B2%E4%B9%89/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6A%EF%BC%88%E4%BA%8C%EF%BC%89_%E8%80%83%E5%89%8D%E5%A4%8D%E4%B9%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E8%AE%B2%E4%B9%89.pdf)
 - 课件PPT: 34 个文件，见 [课件PPT/](%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6A%EF%BC%88%E4%BA%8C%EF%BC%89/%E8%AF%BE%E4%BB%B6PPT/)。
 - 待复核资料: 6 个文件，见 [待复核资料/](%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6A%EF%BC%88%E4%BA%8C%EF%BC%89/%E5%BE%85%E5%A4%8D%E6%A0%B8%E8%B5%84%E6%96%99/)。
+- 往年真题: 9 个文件，见 [往年真题/](%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6A%EF%BC%88%E4%BA%8C%EF%BC%89/%E5%BE%80%E5%B9%B4%E7%9C%9F%E9%A2%98/)。
 
 ### 离散数学
 
