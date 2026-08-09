@@ -13,6 +13,7 @@ const SYSTEM_DIRS = new Set([
   'docs',
   'scripts',
   'skills',
+  'tests',
   '.public-materials-export'
 ]);
 
@@ -60,6 +61,29 @@ const OPTIONAL_METADATA_FIELDS = [
   'licenseStatus'
 ];
 
+const REVIEW_ONLY_UNCERTAINTIES = new Set([
+  'source_uncertain',
+  'year_uncertain',
+  'course_uncertain',
+  'public_boundary_uncertain'
+]);
+
+const CONTACT_DETAIL_PATTERNS = [
+  /[A-Z0-9._%+-]+\s*@\s*[A-Z0-9.-]+\.[A-Z]{2,}/i,
+  /(?<!\d)1[3-9]\d{9}(?!\d)/,
+  /QQ\s*[:：]?\s*[1-9]\d{4,11}/i,
+  /联系方式|联系邮箱|联系电话|手机号|二维码/
+];
+
+const APPROVED_CONTACT_EXCEPTIONS = new Map([
+  ['思想道德与法治/复习讲义/思想道德与法治_复习讲义_2025年冬最新考试重点.pdf', 'bfda62a15cfefb53c1413a244a4ff9f95e11a9fc959032f4ebff83adc1b8530c'],
+  ['思想道德与法治/复习讲义/思想道德与法治_复习讲义_2026年夏最新考试重点.pdf', '62605c70458a8da91a90e38f88fb9a628ba4283233262e3554b9085ab0acee73'],
+  ['思想道德与法治/题库练习/思想道德与法治_题库练习_2025年冬最新考试习题库.pdf', '863593807fb03560c9fd351faa33176fbe38e5063897d1efe0d2df657bb65aeb'],
+  ['思想道德与法治/题库练习/思想道德与法治_题库练习_2026年夏最新考试习题库.pdf', '2202c6481c4e20484d2dee269d40203b3ce297903d81ccfa3b9e30d17ad1df2c'],
+  ['习近平新时代中国特色社会主义思想概论/复习讲义/习近平新时代中国特色社会主义思想概论_复习讲义_2025年冬最新教材重点.pdf', '9a9b0b52a35fbee614b33e0fb231ef5df982e9cb460d7ece0d09faaf4c266bd7'],
+  ['习近平新时代中国特色社会主义思想概论/题库练习/习近平新时代中国特色社会主义思想概论_题库练习_2025年冬最新教材习题库.pdf', 'b53770144dc0db848f00036d593689ef12339002cc1ab24df856213fe03944ca']
+]);
+
 const errors = [];
 const warnings = [];
 const metadataGaps = new Map();
@@ -85,6 +109,52 @@ function isSafeRelativePath(value) {
   if (value.startsWith('/') || value.startsWith('\\')) return false;
   const normalized = path.posix.normalize(value);
   return normalized === value && !normalized.startsWith('../') && normalized !== '..';
+}
+
+function containsContactDetails(value) {
+  return typeof value === 'string' && CONTACT_DETAIL_PATTERNS.some((pattern) => pattern.test(value));
+}
+
+function validateAttribution(asset, label) {
+  if (!('attribution' in asset)) return;
+
+  const attribution = asset.attribution;
+  if (!attribution || typeof attribution !== 'object' || Array.isArray(attribution)) {
+    fail(`${label}: attribution must be an object.`);
+    return;
+  }
+
+  const supportedFields = new Set(['authors', 'collectors']);
+  for (const field of Object.keys(attribution)) {
+    if (!supportedFields.has(field)) {
+      fail(`${label}: unsupported attribution field '${field}'.`);
+    }
+  }
+
+  const presentFields = [...supportedFields].filter((field) => field in attribution);
+  if (presentFields.length === 0) {
+    fail(`${label}: attribution must include authors or collectors.`);
+    return;
+  }
+
+  for (const field of presentFields) {
+    const values = attribution[field];
+    const validList = Array.isArray(values)
+      && values.length > 0
+      && values.every((value) => typeof value === 'string' && value.trim() === value && value.length > 0);
+    if (!validList) {
+      fail(`${label}: attribution.${field} must be a non-empty array of non-empty strings.`);
+      continue;
+    }
+
+    if (new Set(values).size !== values.length) {
+      fail(`${label}: attribution.${field} must not contain duplicates.`);
+    }
+
+    if (values.some(containsContactDetails)) {
+      fail(`${label}: attribution must use a public display name or handle, not contact details.`);
+    }
+  }
 }
 
 function readManifest() {
@@ -215,6 +285,21 @@ function validateAsset(subject, asset, seenPaths) {
     if (missingMetadata.length > 0) {
       fail(`${label}: missing provenance metadata: ${missingMetadata.join(', ')}.`);
     }
+  }
+
+  validateAttribution(asset, label);
+
+  const hasApprovedContactException = asset.licenseStatus === 'teacher_shared_exception'
+    && APPROVED_CONTACT_EXCEPTIONS.get(asset.publicPath) === asset.sha256;
+  if (asset.licenseStatus === 'teacher_shared_exception' && !hasApprovedContactException) {
+    fail(`${label}: teacher_shared_exception is restricted to the approved historical files.`);
+  }
+  if (containsContactDetails(asset.sourceNote) && !hasApprovedContactException) {
+    fail(`${label}: sourceNote indicates personal or contact information; remove or redact the file before publishing.`);
+  }
+
+  if (REVIEW_ONLY_UNCERTAINTIES.has(asset.uncertainty) && !asset.role.startsWith('待复核')) {
+    fail(`${label}: uncertainty '${asset.uncertainty}' requires a review role.`);
   }
 
   if (asset.containsPersonalInfo === true) {

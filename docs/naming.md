@@ -101,6 +101,7 @@ Web编程基础_考前复习知识点讲义.pdf
 - `reviewStatus`
 - `containsPersonalInfo`
 - `licenseStatus`
+- `attribution`（可选；区分 `authors` 与 `collectors`，不得填写联系方式）
 
 提交前运行：
 

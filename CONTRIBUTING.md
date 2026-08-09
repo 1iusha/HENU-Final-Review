@@ -26,6 +26,7 @@
 1. Fork 仓库或在新分支工作。
 2. 按 [docs/naming.md](docs/naming.md) 放置和命名资料。
 3. 更新 `manifest.json`，确保新增文件有 `publicPath`、`bytes` 和 `sha256`。
+   如有经确认的公开署名，可填写 `attribution.authors`（资料作者）或 `attribution.collectors`（资料收集者）；不要把上传者自动当作作者，也不要填写联系方式。
 4. 在所有资料文件最终写入后，刷新 manifest 里的文件元数据：
 
 ```bash
@@ -52,6 +53,7 @@ node scripts/update-readme.mjs --check
 - Commit message 符合 [docs/commit-format.md](docs/commit-format.md)。
 - PR 描述写清楚资料来源、课程、年份和是否需要人工复核。
 - `manifest.json` 与实际文件一致。
+- 作者或收集者署名已经本人确认，且角色没有混淆；未知时保持省略。
 - 不手写或猜测 `bytes` / `sha256`；使用 `node scripts/refresh-manifest-metadata.mjs --write` 生成。
 - `README.md` 的科目目录已由 `node scripts/update-readme.mjs` 重新生成。
 - `node scripts/validate-materials.mjs` 可以通过。

@@ -24,6 +24,9 @@ jobs:
         with:
           node-version: '22'
 
+      - name: Test material validation rules
+        run: node --test tests/*.test.mjs
+
       - name: Check manifest file metadata freshness
         run: node scripts/refresh-manifest-metadata.mjs --check
 

@@ -32,6 +32,8 @@
 
 `manifest.json` 目前强制保留文件路径、大小和 hash；后续可以逐步补充 `year`、`college`、`sourceType`、`sourceNote`、`reviewStatus`、`containsPersonalInfo`、`licenseStatus` 等来源字段。
 
+可选署名使用 `attribution.authors` 和 `attribution.collectors`：作者是资料正文的创作者，收集者是发现、汇集并提供既有资料的人。只有来源明确或本人确认时才填写；不得从 Git 提交者自动推断，也不得把邮箱、电话、QQ、二维码等联系方式作为署名。
+
 ## 待复核资料
 
 来源不完全明确但可能有价值的资料，不要直接放入正式目录。应放入：
@@ -51,6 +53,8 @@
 - 未经处理的作业批改记录或考试成绩截图。
 
 如果发现已经公开，应立即提交下架请求或直接发起移除 PR。
+
+历史上已有 6 份教师公开分享材料，经资料提供者明确要求保留页面中的公开来源标记，并在 manifest 中登记为 `teacher_shared_exception`。该特例由校验器按现有 `publicPath` 与 SHA256 白名单锁定，只用于保持既有决定；新资料不得新增或复用该状态，仍须移除或遮盖联系方式后再公开。
 
 ## 下架流程
 
