@@ -5199,9 +5199,9 @@
       "assets": [
         {
           "subject": "计算机操作系统",
-          "role": "往年真题",
-          "title": "计算机操作系统_真题_真题卷子.docx",
-          "publicPath": "计算机操作系统/往年真题/计算机操作系统_真题_真题卷子.docx",
+          "role": "待复核资料",
+          "title": "计算机操作系统_待复核_真题卷子.docx",
+          "publicPath": "计算机操作系统/待复核资料/计算机操作系统_待复核_真题卷子.docx",
           "bytes": 730170,
           "sha256": "d1b89e694a45331b16901d460902143cfcb028340fda4ce76f1c8bed651dc997",
           "sourceType": "student-recall",
