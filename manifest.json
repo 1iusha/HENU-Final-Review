@@ -5629,9 +5629,9 @@
         },
         {
           "subject": "软件质量测试",
-          "role": "往年真题",
-          "title": "软件质量测试_真题_选择题回忆版.docx",
-          "publicPath": "软件质量测试/往年真题/软件质量测试_真题_选择题回忆版.docx",
+          "role": "待复核资料",
+          "title": "软件质量测试_待复核_选择题回忆版.docx",
+          "publicPath": "软件质量测试/待复核资料/软件质量测试_待复核_选择题回忆版.docx",
           "bytes": 92599,
           "sha256": "4ad111305d155dd828116c6465059361ce3271eb3ea33136e034984b0abd84f5",
           "sourceType": "student-recall",
