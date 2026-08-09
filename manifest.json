@@ -3687,9 +3687,9 @@
       "assets": [
         {
           "subject": "大数据",
-          "role": "往年真题",
-          "title": "大数据_真题_选择题回忆版.docx",
-          "publicPath": "大数据/往年真题/大数据_真题_选择题回忆版.docx",
+          "role": "待复核资料",
+          "title": "大数据_待复核_选择题回忆版.docx",
+          "publicPath": "大数据/待复核资料/大数据_待复核_选择题回忆版.docx",
           "bytes": 31682,
           "sha256": "c14ea50e098fde5579adf9926008b54f70b33f742ac0f7a840b79bc7cd940be6",
           "sourceType": "student-recall",
@@ -3698,25 +3698,6 @@
           "uncertainty": "year_uncertain",
           "containsPersonalInfo": false,
           "licenseStatus": "public-review-only",
-          "attribution": {
-            "collectors": [
-              "李浩宇"
-            ]
-          }
-        },
-        {
-          "subject": "大数据",
-          "role": "待复核资料",
-          "title": "大数据_待复核_期末复习一本通.pdf",
-          "publicPath": "大数据/待复核资料/大数据_待复核_期末复习一本通.pdf",
-          "bytes": 31316935,
-          "sha256": "92a29a993be3a66411089d4f27775d4ecfe1d476d4a74b67655d06333daaac82",
-          "sourceType": "unknown_reviewing",
-          "sourceNote": "民间整理的复习一本通，含作者水印与联系方式，公开边界待复核。",
-          "reviewStatus": "needs_review",
-          "uncertainty": "source_uncertain",
-          "containsPersonalInfo": false,
-          "licenseStatus": "public_review_only",
           "attribution": {
             "collectors": [
               "李浩宇"
