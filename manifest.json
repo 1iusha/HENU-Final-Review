@@ -2534,25 +2534,6 @@
               "李浩宇"
             ]
           }
-        },
-        {
-          "subject": "计算机组成原理",
-          "role": "题库练习",
-          "title": "计算机组成原理_题库练习_复习题_老师提供.pdf",
-          "publicPath": "计算机组成原理/题库练习/计算机组成原理_题库练习_复习题_老师提供.pdf",
-          "bytes": 664463,
-          "sha256": "ec8f164e3b378fe1e96f830590029f8a44a3b7a41dc260379d7f813dd0a5c8f6",
-          "sourceType": "community-note",
-          "sourceNote": "同学整理的复习资料。",
-          "college": "河南大学",
-          "reviewStatus": "basic-reviewed",
-          "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference",
-          "attribution": {
-            "collectors": [
-              "李浩宇"
-            ]
-          }
         }
       ]
     },
