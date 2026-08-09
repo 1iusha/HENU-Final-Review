@@ -3377,9 +3377,9 @@
         },
         {
           "subject": "专业英语",
-          "role": "往年真题",
-          "title": "专业英语_真题_选择题回忆版.docx",
-          "publicPath": "专业英语/往年真题/专业英语_真题_选择题回忆版.docx",
+          "role": "待复核资料",
+          "title": "专业英语_待复核_选择题回忆版.docx",
+          "publicPath": "专业英语/待复核资料/专业英语_待复核_选择题回忆版.docx",
           "bytes": 26975,
           "sha256": "72fdadcb546b79a0437c0874382d63dce56febb403772be93d61d86ad5b9b27a",
           "sourceType": "student-recall",
