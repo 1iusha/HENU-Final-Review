@@ -5529,25 +5529,6 @@
         {
           "subject": "软件体系结构",
           "role": "待复核资料",
-          "title": "软件体系结构_待复核_期末复习一本通加密.pdf",
-          "publicPath": "软件体系结构/待复核资料/软件体系结构_待复核_期末复习一本通加密.pdf",
-          "bytes": 17611617,
-          "sha256": "8ce3ddeb3bf81004dd0a836da16032f6451681aacafce8427f4cd2dc37224c10",
-          "sourceType": "unknown_reviewing",
-          "sourceNote": "民间整理的复习一本通，含作者水印与联系方式，公开边界待复核。",
-          "reviewStatus": "needs_review",
-          "uncertainty": "source_uncertain",
-          "containsPersonalInfo": false,
-          "licenseStatus": "public_review_only",
-          "attribution": {
-            "collectors": [
-              "李浩宇"
-            ]
-          }
-        },
-        {
-          "subject": "软件体系结构",
-          "role": "待复核资料",
           "title": "软件体系结构_待复核_考试1.pdf",
           "publicPath": "软件体系结构/待复核资料/软件体系结构_待复核_考试1.pdf",
           "bytes": 849329,
