@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-08T00:00:00.000Z",
+  "generatedAt": "2026-08-09T11:56:24.726Z",
   "subjects": [
     {
       "name": "高等数学A（二）",
@@ -378,7 +378,12 @@
           "title": "高等数学A（二）_真题_2021-2022高数A（二）A卷.pdf",
           "publicPath": "高等数学A（二）/往年真题/高等数学A（二）_真题_2021-2022高数A（二）A卷.pdf",
           "bytes": 141755,
-          "sha256": "3a9e2a76e7fdbfef99a85fa4552a6e3326f6ffe2ff7c803824ae1dd47eaec614"
+          "sha256": "3a9e2a76e7fdbfef99a85fa4552a6e3326f6ffe2ff7c803824ae1dd47eaec614",
+          "attribution": {
+            "collectors": [
+              "陈梓俊（Coder-Taylor）"
+            ]
+          }
         },
         {
           "subject": "高等数学A（二）",
@@ -386,7 +391,12 @@
           "title": "高等数学A（二）_真题_2021-2022高数A（二）A卷_人工智能.pdf",
           "publicPath": "高等数学A（二）/往年真题/高等数学A（二）_真题_2021-2022高数A（二）A卷_人工智能.pdf",
           "bytes": 238647,
-          "sha256": "67eacaade06f53906e6b53148de6a4aba90030bfcf0f75592717b513503fc123"
+          "sha256": "67eacaade06f53906e6b53148de6a4aba90030bfcf0f75592717b513503fc123",
+          "attribution": {
+            "collectors": [
+              "陈梓俊（Coder-Taylor）"
+            ]
+          }
         },
         {
           "subject": "高等数学A（二）",
@@ -394,7 +404,12 @@
           "title": "高等数学A（二）_真题_2021-2022高数B（二）A卷.pdf",
           "publicPath": "高等数学A（二）/往年真题/高等数学A（二）_真题_2021-2022高数B（二）A卷.pdf",
           "bytes": 149240,
-          "sha256": "d7151f6d9a998937eb1a14ff66cf9074b647884dbfebb0caac326e123c605e87"
+          "sha256": "d7151f6d9a998937eb1a14ff66cf9074b647884dbfebb0caac326e123c605e87",
+          "attribution": {
+            "collectors": [
+              "陈梓俊（Coder-Taylor）"
+            ]
+          }
         },
         {
           "subject": "高等数学A（二）",
@@ -402,7 +417,12 @@
           "title": "高等数学A（二）_真题_2022-2023高数A（二）A卷.pdf",
           "publicPath": "高等数学A（二）/往年真题/高等数学A（二）_真题_2022-2023高数A（二）A卷.pdf",
           "bytes": 328408,
-          "sha256": "a2cf536d39d511989e468fb18ec57b74b35689817708b1b02451aa93046c4d56"
+          "sha256": "a2cf536d39d511989e468fb18ec57b74b35689817708b1b02451aa93046c4d56",
+          "attribution": {
+            "collectors": [
+              "陈梓俊（Coder-Taylor）"
+            ]
+          }
         },
         {
           "subject": "高等数学A（二）",
@@ -410,7 +430,12 @@
           "title": "高等数学A（二）_真题_2022-2023高数B（二）A卷.pdf",
           "publicPath": "高等数学A（二）/往年真题/高等数学A（二）_真题_2022-2023高数B（二）A卷.pdf",
           "bytes": 338103,
-          "sha256": "befdb023af5027705d6955b9fad4b4b358839611d29dcbcf87dc37114a46e989"
+          "sha256": "befdb023af5027705d6955b9fad4b4b358839611d29dcbcf87dc37114a46e989",
+          "attribution": {
+            "collectors": [
+              "陈梓俊（Coder-Taylor）"
+            ]
+          }
         },
         {
           "subject": "高等数学A（二）",
@@ -418,7 +443,12 @@
           "title": "高等数学A（二）_真题_2023-2024高数A（二）A卷.pdf",
           "publicPath": "高等数学A（二）/往年真题/高等数学A（二）_真题_2023-2024高数A（二）A卷.pdf",
           "bytes": 207208,
-          "sha256": "0dda7d2208e9382e316bd753d1e3d0c0664b94157e7d873c200816c07d0ccd4c"
+          "sha256": "0dda7d2208e9382e316bd753d1e3d0c0664b94157e7d873c200816c07d0ccd4c",
+          "attribution": {
+            "collectors": [
+              "陈梓俊（Coder-Taylor）"
+            ]
+          }
         },
         {
           "subject": "高等数学A（二）",
@@ -426,7 +456,12 @@
           "title": "高等数学A（二）_真题_2023-2024高数B（二）A卷.pdf",
           "publicPath": "高等数学A（二）/往年真题/高等数学A（二）_真题_2023-2024高数B（二）A卷.pdf",
           "bytes": 367470,
-          "sha256": "3ab83bb5f507e7374ba955e155868ea84a0f2fe4026ba3a572b6663636776f99"
+          "sha256": "3ab83bb5f507e7374ba955e155868ea84a0f2fe4026ba3a572b6663636776f99",
+          "attribution": {
+            "collectors": [
+              "陈梓俊（Coder-Taylor）"
+            ]
+          }
         },
         {
           "subject": "高等数学A（二）",
@@ -434,7 +469,12 @@
           "title": "高等数学A（二）_真题_2024-2025高数A（二）A卷.pdf",
           "publicPath": "高等数学A（二）/往年真题/高等数学A（二）_真题_2024-2025高数A（二）A卷.pdf",
           "bytes": 293216,
-          "sha256": "1204d6839401131783dacc52bee2651cfb57d741e050c5b37b70ff00d1f3191b"
+          "sha256": "1204d6839401131783dacc52bee2651cfb57d741e050c5b37b70ff00d1f3191b",
+          "attribution": {
+            "collectors": [
+              "陈梓俊（Coder-Taylor）"
+            ]
+          }
         },
         {
           "subject": "高等数学A（二）",
@@ -442,7 +482,12 @@
           "title": "高等数学A（二）_真题_2024-2025高数B（二）A卷.pdf",
           "publicPath": "高等数学A（二）/往年真题/高等数学A（二）_真题_2024-2025高数B（二）A卷.pdf",
           "bytes": 353306,
-          "sha256": "4e5cd20054b6d9b95c267c17afe61adca838eb6323bb8aed79608aa1ba1321ab"
+          "sha256": "4e5cd20054b6d9b95c267c17afe61adca838eb6323bb8aed79608aa1ba1321ab",
+          "attribution": {
+            "collectors": [
+              "陈梓俊（Coder-Taylor）"
+            ]
+          }
         }
       ]
     },
@@ -1500,7 +1545,12 @@
           "reviewStatus": "待维护者复核",
           "containsPersonalInfo": false,
           "licenseStatus": "贡献者自有学习笔记，提交后可按仓库公开资料协议共享。",
-          "college": "待维护者复核"
+          "college": "待维护者复核",
+          "attribution": {
+            "authors": [
+              "郭麟阁（Floatend）"
+            ]
+          }
         },
         {
           "subject": "面向对象程序设计Java",
@@ -1515,7 +1565,12 @@
           "reviewStatus": "待维护者复核",
           "containsPersonalInfo": false,
           "licenseStatus": "贡献者自有学习笔记，提交后可按仓库公开资料协议共享。",
-          "college": "待维护者复核"
+          "college": "待维护者复核",
+          "attribution": {
+            "authors": [
+              "郭麟阁（Floatend）"
+            ]
+          }
         },
         {
           "subject": "面向对象程序设计Java",
@@ -1530,7 +1585,12 @@
           "reviewStatus": "待维护者复核",
           "containsPersonalInfo": false,
           "licenseStatus": "贡献者自有学习笔记，提交后可按仓库公开资料协议共享。",
-          "college": "待维护者复核"
+          "college": "待维护者复核",
+          "attribution": {
+            "authors": [
+              "郭麟阁（Floatend）"
+            ]
+          }
         },
         {
           "subject": "面向对象程序设计Java",
@@ -1545,7 +1605,12 @@
           "reviewStatus": "待维护者复核",
           "containsPersonalInfo": false,
           "licenseStatus": "贡献者自有学习笔记，提交后可按仓库公开资料协议共享。",
-          "college": "待维护者复核"
+          "college": "待维护者复核",
+          "attribution": {
+            "authors": [
+              "郭麟阁（Floatend）"
+            ]
+          }
         },
         {
           "subject": "面向对象程序设计Java",
@@ -1560,7 +1625,12 @@
           "reviewStatus": "待维护者复核",
           "containsPersonalInfo": false,
           "licenseStatus": "贡献者自有学习笔记，提交后可按仓库公开资料协议共享。",
-          "college": "待维护者复核"
+          "college": "待维护者复核",
+          "attribution": {
+            "authors": [
+              "郭麟阁（Floatend）"
+            ]
+          }
         },
         {
           "subject": "面向对象程序设计Java",
@@ -1575,7 +1645,12 @@
           "reviewStatus": "待维护者复核",
           "containsPersonalInfo": false,
           "licenseStatus": "贡献者自有学习笔记，提交后可按仓库公开资料协议共享。",
-          "college": "待维护者复核"
+          "college": "待维护者复核",
+          "attribution": {
+            "authors": [
+              "郭麟阁（Floatend）"
+            ]
+          }
         },
         {
           "subject": "面向对象程序设计Java",
@@ -1590,7 +1665,12 @@
           "reviewStatus": "待维护者复核",
           "containsPersonalInfo": false,
           "licenseStatus": "贡献者自有学习笔记，提交后可按仓库公开资料协议共享。",
-          "college": "待维护者复核"
+          "college": "待维护者复核",
+          "attribution": {
+            "authors": [
+              "郭麟阁（Floatend）"
+            ]
+          }
         },
         {
           "subject": "面向对象程序设计Java",
@@ -1605,7 +1685,12 @@
           "reviewStatus": "待维护者复核",
           "containsPersonalInfo": false,
           "licenseStatus": "贡献者自有学习笔记，提交后可按仓库公开资料协议共享。",
-          "college": "待维护者复核"
+          "college": "待维护者复核",
+          "attribution": {
+            "authors": [
+              "郭麟阁（Floatend）"
+            ]
+          }
         },
         {
           "subject": "面向对象程序设计Java",
@@ -1620,7 +1705,12 @@
           "reviewStatus": "待维护者复核",
           "containsPersonalInfo": false,
           "licenseStatus": "贡献者自有学习笔记，提交后可按仓库公开资料协议共享。",
-          "college": "待维护者复核"
+          "college": "待维护者复核",
+          "attribution": {
+            "authors": [
+              "郭麟阁（Floatend）"
+            ]
+          }
         },
         {
           "subject": "面向对象程序设计Java",
@@ -1635,7 +1725,12 @@
           "reviewStatus": "待维护者复核",
           "containsPersonalInfo": false,
           "licenseStatus": "贡献者自有学习笔记，提交后可按仓库公开资料协议共享。",
-          "college": "待维护者复核"
+          "college": "待维护者复核",
+          "attribution": {
+            "authors": [
+              "郭麟阁（Floatend）"
+            ]
+          }
         },
         {
           "subject": "面向对象程序设计Java",
@@ -1924,7 +2019,12 @@
           "reviewStatus": "待维护者复核",
           "containsPersonalInfo": false,
           "licenseStatus": "贡献者自有学习笔记，提交后可按仓库公开资料协议共享。",
-          "college": "待维护者复核"
+          "college": "待维护者复核",
+          "attribution": {
+            "authors": [
+              "郭麟阁（Floatend）"
+            ]
+          }
         },
         {
           "subject": "Web编程基础",
@@ -1939,7 +2039,12 @@
           "reviewStatus": "待维护者复核",
           "containsPersonalInfo": false,
           "licenseStatus": "贡献者自有学习笔记，提交后可按仓库公开资料协议共享。",
-          "college": "待维护者复核"
+          "college": "待维护者复核",
+          "attribution": {
+            "authors": [
+              "郭麟阁（Floatend）"
+            ]
+          }
         },
         {
           "subject": "Web编程基础",
@@ -1954,7 +2059,12 @@
           "reviewStatus": "待维护者复核",
           "containsPersonalInfo": false,
           "licenseStatus": "贡献者自有学习笔记，提交后可按仓库公开资料协议共享。",
-          "college": "待维护者复核"
+          "college": "待维护者复核",
+          "attribution": {
+            "authors": [
+              "郭麟阁（Floatend）"
+            ]
+          }
         },
         {
           "subject": "Web编程基础",
@@ -1969,7 +2079,12 @@
           "reviewStatus": "待维护者复核",
           "containsPersonalInfo": false,
           "licenseStatus": "贡献者自有学习笔记，提交后可按仓库公开资料协议共享。",
-          "college": "待维护者复核"
+          "college": "待维护者复核",
+          "attribution": {
+            "authors": [
+              "郭麟阁（Floatend）"
+            ]
+          }
         },
         {
           "subject": "Web编程基础",
@@ -2158,7 +2273,12 @@
           "reviewStatus": "needs_review",
           "uncertainty": "format_lossy",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "数据库系统",
@@ -2172,7 +2292,12 @@
           "reviewStatus": "needs_review",
           "uncertainty": "format_lossy",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "数据库系统",
@@ -2186,7 +2311,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "数据库系统",
@@ -2200,7 +2330,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "数据库系统",
@@ -2214,7 +2349,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "数据库系统",
@@ -2228,7 +2368,12 @@
           "reviewStatus": "needs_review",
           "uncertainty": "format_lossy",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "数据库系统",
@@ -2242,7 +2387,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "数据库系统",
@@ -2256,7 +2406,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         }
       ]
     },
@@ -2354,7 +2509,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "计算机组成原理",
@@ -2368,21 +2528,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
-        },
-        {
-          "subject": "计算机组成原理",
-          "role": "题库练习",
-          "title": "计算机组成原理_题库练习_复习题_老师提供.pdf",
-          "publicPath": "计算机组成原理/题库练习/计算机组成原理_题库练习_复习题_老师提供.pdf",
-          "bytes": 664463,
-          "sha256": "ec8f164e3b378fe1e96f830590029f8a44a3b7a41dc260379d7f813dd0a5c8f6",
-          "sourceType": "community-note",
-          "sourceNote": "同学整理的复习资料。",
-          "college": "河南大学",
-          "reviewStatus": "basic-reviewed",
-          "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         }
       ]
     },
@@ -2522,7 +2673,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件工程",
@@ -2536,7 +2692,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件工程",
@@ -2550,7 +2711,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件工程",
@@ -2564,7 +2730,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件工程",
@@ -2578,7 +2749,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件工程",
@@ -2592,7 +2768,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件工程",
@@ -2606,7 +2787,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件工程",
@@ -2620,7 +2806,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件工程",
@@ -2634,7 +2825,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件工程",
@@ -2648,7 +2844,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件工程",
@@ -2662,7 +2863,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件工程",
@@ -2676,13 +2882,18 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件工程",
-          "role": "往年真题",
-          "title": "软件工程_真题_试卷.docx",
-          "publicPath": "软件工程/往年真题/软件工程_真题_试卷.docx",
+          "role": "待复核资料",
+          "title": "软件工程_待复核_试卷.docx",
+          "publicPath": "软件工程/待复核资料/软件工程_待复核_试卷.docx",
           "bytes": 753513,
           "sha256": "5965cbae57aca71c151f2a7a03c2adb41e67d47233cfe6391501e1c7f941edb8",
           "sourceType": "student-recall",
@@ -2690,13 +2901,18 @@
           "reviewStatus": "needs_review",
           "uncertainty": "year_uncertain",
           "containsPersonalInfo": false,
-          "licenseStatus": "public-review-only"
+          "licenseStatus": "public-review-only",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件工程",
-          "role": "往年真题",
-          "title": "软件工程_真题_试卷整理.docx",
-          "publicPath": "软件工程/往年真题/软件工程_真题_试卷整理.docx",
+          "role": "待复核资料",
+          "title": "软件工程_待复核_试卷整理.docx",
+          "publicPath": "软件工程/待复核资料/软件工程_待复核_试卷整理.docx",
           "bytes": 22304,
           "sha256": "c3eb61ff5d8bbcbea430dad04318f64d7fd99870aed61acb494666d07995cf30",
           "sourceType": "student-recall",
@@ -2704,7 +2920,12 @@
           "reviewStatus": "needs_review",
           "uncertainty": "year_uncertain",
           "containsPersonalInfo": false,
-          "licenseStatus": "public-review-only"
+          "licenseStatus": "public-review-only",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件工程",
@@ -2718,7 +2939,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件工程",
@@ -2732,7 +2958,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         }
       ]
     },
@@ -3036,7 +3267,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "Python程序设计",
@@ -3050,7 +3286,12 @@
           "reviewStatus": "needs_review",
           "uncertainty": "source_uncertain",
           "containsPersonalInfo": false,
-          "licenseStatus": "public_review_only"
+          "licenseStatus": "public_review_only",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "Python程序设计",
@@ -3064,7 +3305,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "Python程序设计",
@@ -3078,7 +3324,12 @@
           "reviewStatus": "needs_review",
           "uncertainty": "format_lossy",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         }
       ]
     },
@@ -3098,13 +3349,18 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "专业英语",
-          "role": "往年真题",
-          "title": "专业英语_真题_选择题回忆版.docx",
-          "publicPath": "专业英语/往年真题/专业英语_真题_选择题回忆版.docx",
+          "role": "待复核资料",
+          "title": "专业英语_待复核_选择题回忆版.docx",
+          "publicPath": "专业英语/待复核资料/专业英语_待复核_选择题回忆版.docx",
           "bytes": 26975,
           "sha256": "72fdadcb546b79a0437c0874382d63dce56febb403772be93d61d86ad5b9b27a",
           "sourceType": "student-recall",
@@ -3112,7 +3368,12 @@
           "reviewStatus": "needs_review",
           "uncertainty": "year_uncertain",
           "containsPersonalInfo": false,
-          "licenseStatus": "public-review-only"
+          "licenseStatus": "public-review-only",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "专业英语",
@@ -3126,7 +3387,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "专业英语",
@@ -3140,7 +3406,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "专业英语",
@@ -3154,7 +3425,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "专业英语",
@@ -3168,7 +3444,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "专业英语",
@@ -3182,7 +3463,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "专业英语",
@@ -3196,7 +3482,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "专业英语",
@@ -3210,7 +3501,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "专业英语",
@@ -3224,7 +3520,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "专业英语",
@@ -3238,7 +3539,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "专业英语",
@@ -3252,7 +3558,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "专业英语",
@@ -3266,7 +3577,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "专业英语",
@@ -3280,7 +3596,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "专业英语",
@@ -3294,7 +3615,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "专业英语",
@@ -3308,7 +3634,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "专业英语",
@@ -3322,7 +3653,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         }
       ]
     },
@@ -3332,9 +3668,9 @@
       "assets": [
         {
           "subject": "大数据",
-          "role": "往年真题",
-          "title": "大数据_真题_选择题回忆版.docx",
-          "publicPath": "大数据/往年真题/大数据_真题_选择题回忆版.docx",
+          "role": "待复核资料",
+          "title": "大数据_待复核_选择题回忆版.docx",
+          "publicPath": "大数据/待复核资料/大数据_待复核_选择题回忆版.docx",
           "bytes": 31682,
           "sha256": "c14ea50e098fde5579adf9926008b54f70b33f742ac0f7a840b79bc7cd940be6",
           "sourceType": "student-recall",
@@ -3342,21 +3678,12 @@
           "reviewStatus": "needs_review",
           "uncertainty": "year_uncertain",
           "containsPersonalInfo": false,
-          "licenseStatus": "public-review-only"
-        },
-        {
-          "subject": "大数据",
-          "role": "待复核资料",
-          "title": "大数据_待复核_期末复习一本通.pdf",
-          "publicPath": "大数据/待复核资料/大数据_待复核_期末复习一本通.pdf",
-          "bytes": 31316935,
-          "sha256": "92a29a993be3a66411089d4f27775d4ecfe1d476d4a74b67655d06333daaac82",
-          "sourceType": "unknown_reviewing",
-          "sourceNote": "民间整理的复习一本通，含作者水印与联系方式，公开边界待复核。",
-          "reviewStatus": "needs_review",
-          "uncertainty": "source_uncertain",
-          "containsPersonalInfo": false,
-          "licenseStatus": "public_review_only"
+          "licenseStatus": "public-review-only",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "大数据",
@@ -3370,7 +3697,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "大数据",
@@ -3384,7 +3716,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "大数据",
@@ -3398,7 +3735,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "大数据",
@@ -3412,7 +3754,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "大数据",
@@ -3426,7 +3773,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "大数据",
@@ -3440,7 +3792,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "大数据",
@@ -3454,7 +3811,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "大数据",
@@ -3468,7 +3830,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         }
       ]
     },
@@ -3488,7 +3855,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "工程经济学",
@@ -3502,7 +3874,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "工程经济学",
@@ -3516,13 +3893,18 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "工程经济学",
-          "role": "往年真题",
-          "title": "工程经济学_真题_期末考试试卷附标准答案.docx",
-          "publicPath": "工程经济学/往年真题/工程经济学_真题_期末考试试卷附标准答案.docx",
+          "role": "待复核资料",
+          "title": "工程经济学_待复核_期末考试试卷附标准答案.docx",
+          "publicPath": "工程经济学/待复核资料/工程经济学_待复核_期末考试试卷附标准答案.docx",
           "bytes": 122536,
           "sha256": "8a1a540b0e384c45311023ce07ac5294aa87e170f0da39e03cb9497bd5684a32",
           "sourceType": "student-recall",
@@ -3530,13 +3912,18 @@
           "reviewStatus": "needs_review",
           "uncertainty": "year_uncertain",
           "containsPersonalInfo": false,
-          "licenseStatus": "public-review-only"
+          "licenseStatus": "public-review-only",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "工程经济学",
-          "role": "往年真题",
-          "title": "工程经济学_真题_期末考试试题.pdf",
-          "publicPath": "工程经济学/往年真题/工程经济学_真题_期末考试试题.pdf",
+          "role": "待复核资料",
+          "title": "工程经济学_待复核_期末考试试题.pdf",
+          "publicPath": "工程经济学/待复核资料/工程经济学_待复核_期末考试试题.pdf",
           "bytes": 126949,
           "sha256": "90e112b0cf07ab66b4ee72a427d661922cee9215a82b3299fdbb241022c9d2ef",
           "sourceType": "student-recall",
@@ -3544,7 +3931,12 @@
           "reviewStatus": "needs_review",
           "uncertainty": "year_uncertain",
           "containsPersonalInfo": false,
-          "licenseStatus": "public-review-only"
+          "licenseStatus": "public-review-only",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "工程经济学",
@@ -3558,21 +3950,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
-        },
-        {
-          "subject": "工程经济学",
-          "role": "课件PPT",
-          "title": "工程经济学_课件_1绪论.pptx",
-          "publicPath": "工程经济学/课件PPT/工程经济学_课件_1绪论.pptx",
-          "bytes": 5683486,
-          "sha256": "0657614ccbdd03ae346b478140aaf83bd56569b0c036aea2e2570e3eb925c96a",
-          "sourceType": "teacher-courseware",
-          "sourceNote": "同学提供的课程公开课件。",
-          "college": "河南大学",
-          "reviewStatus": "basic-reviewed",
-          "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "工程经济学",
@@ -3586,7 +3969,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "工程经济学",
@@ -3600,7 +3988,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "工程经济学",
@@ -3614,7 +4007,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "工程经济学",
@@ -3628,7 +4026,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "工程经济学",
@@ -3642,7 +4045,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "工程经济学",
@@ -3656,7 +4064,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "工程经济学",
@@ -3670,7 +4083,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "工程经济学",
@@ -3684,7 +4102,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         }
       ]
     },
@@ -3704,13 +4127,18 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "机器学习",
-          "role": "往年真题",
-          "title": "机器学习_真题_2023-2024学年第二学期A卷.docx",
-          "publicPath": "机器学习/往年真题/机器学习_真题_2023-2024学年第二学期A卷.docx",
+          "role": "待复核资料",
+          "title": "机器学习_待复核_2023-2024学年第二学期A卷.docx",
+          "publicPath": "机器学习/待复核资料/机器学习_待复核_2023-2024学年第二学期A卷.docx",
           "bytes": 24710,
           "sha256": "1b3085a808fe964d35a1ca9db6fa176a45f3c20abfd39df850621e994bc98f84",
           "sourceType": "student-recall",
@@ -3718,13 +4146,18 @@
           "reviewStatus": "needs_review",
           "uncertainty": "year_uncertain",
           "containsPersonalInfo": false,
-          "licenseStatus": "public-review-only"
+          "licenseStatus": "public-review-only",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "机器学习",
-          "role": "往年真题",
-          "title": "机器学习_真题_2024卷子实拍.docx",
-          "publicPath": "机器学习/往年真题/机器学习_真题_2024卷子实拍.docx",
+          "role": "待复核资料",
+          "title": "机器学习_待复核_2024卷子实拍.docx",
+          "publicPath": "机器学习/待复核资料/机器学习_待复核_2024卷子实拍.docx",
           "bytes": 8623959,
           "sha256": "e5a86dbbb4e140e80f48a717bc048c640e619c005ba7f3c2e5f8d36c7774990c",
           "sourceType": "student-recall",
@@ -3732,13 +4165,18 @@
           "reviewStatus": "needs_review",
           "uncertainty": "year_uncertain",
           "containsPersonalInfo": false,
-          "licenseStatus": "public-review-only"
+          "licenseStatus": "public-review-only",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "机器学习",
-          "role": "往年真题",
-          "title": "机器学习_真题_选择题回忆版.docx",
-          "publicPath": "机器学习/往年真题/机器学习_真题_选择题回忆版.docx",
+          "role": "待复核资料",
+          "title": "机器学习_待复核_选择题回忆版.docx",
+          "publicPath": "机器学习/待复核资料/机器学习_待复核_选择题回忆版.docx",
           "bytes": 341356,
           "sha256": "decee818438992bd05666017e010043293d7102bdf38f0114efb364490910ce3",
           "sourceType": "student-recall",
@@ -3746,7 +4184,12 @@
           "reviewStatus": "needs_review",
           "uncertainty": "year_uncertain",
           "containsPersonalInfo": false,
-          "licenseStatus": "public-review-only"
+          "licenseStatus": "public-review-only",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "机器学习",
@@ -3760,7 +4203,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "机器学习",
@@ -3774,7 +4222,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "机器学习",
@@ -3788,7 +4241,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "机器学习",
@@ -3802,7 +4260,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "机器学习",
@@ -3816,7 +4279,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "机器学习",
@@ -3830,7 +4298,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "机器学习",
@@ -3844,7 +4317,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "机器学习",
@@ -3858,7 +4336,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "机器学习",
@@ -3872,7 +4355,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "机器学习",
@@ -3886,7 +4374,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "机器学习",
@@ -3900,7 +4393,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "机器学习",
@@ -3914,7 +4412,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "机器学习",
@@ -3928,7 +4431,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "机器学习",
@@ -3942,7 +4450,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "机器学习",
@@ -3956,7 +4469,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "机器学习",
@@ -3970,7 +4488,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "机器学习",
@@ -3984,7 +4507,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "机器学习",
@@ -3998,7 +4526,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "机器学习",
@@ -4012,7 +4545,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         }
       ]
     },
@@ -4032,7 +4570,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "算法",
@@ -4046,7 +4589,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "算法",
@@ -4060,7 +4608,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "算法",
@@ -4074,7 +4627,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "算法",
@@ -4088,7 +4646,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "算法",
@@ -4102,7 +4665,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "算法",
@@ -4116,7 +4684,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "算法",
@@ -4130,7 +4703,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "算法",
@@ -4144,7 +4722,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "算法",
@@ -4158,7 +4741,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "算法",
@@ -4172,7 +4760,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "算法",
@@ -4186,7 +4779,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "算法",
@@ -4200,7 +4798,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "算法",
@@ -4214,7 +4817,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "算法",
@@ -4228,7 +4836,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "算法",
@@ -4242,7 +4855,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "算法",
@@ -4256,7 +4874,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "算法",
@@ -4270,7 +4893,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "算法",
@@ -4284,7 +4912,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "算法",
@@ -4298,7 +4931,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "算法",
@@ -4312,7 +4950,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         }
       ]
     },
@@ -4332,13 +4975,18 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "编译原理",
-          "role": "往年真题",
-          "title": "编译原理_真题_惠普测试151与惠普开发151试卷A.docx",
-          "publicPath": "编译原理/往年真题/编译原理_真题_惠普测试151与惠普开发151试卷A.docx",
+          "role": "待复核资料",
+          "title": "编译原理_待复核_惠普测试151与惠普开发151试卷A.docx",
+          "publicPath": "编译原理/待复核资料/编译原理_待复核_惠普测试151与惠普开发151试卷A.docx",
           "bytes": 35594,
           "sha256": "d381c64aa661b834b28c2efb3aee40110d76d3a6741668a52bd4e1be0b46f3aa",
           "sourceType": "student-recall",
@@ -4346,7 +4994,12 @@
           "reviewStatus": "needs_review",
           "uncertainty": "year_uncertain",
           "containsPersonalInfo": false,
-          "licenseStatus": "public-review-only"
+          "licenseStatus": "public-review-only",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "编译原理",
@@ -4360,7 +5013,12 @@
           "reviewStatus": "needs_review",
           "uncertainty": "format_lossy",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "编译原理",
@@ -4374,7 +5032,12 @@
           "reviewStatus": "needs_review",
           "uncertainty": "format_lossy",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "编译原理",
@@ -4388,7 +5051,12 @@
           "reviewStatus": "needs_review",
           "uncertainty": "format_lossy",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "编译原理",
@@ -4402,13 +5070,18 @@
           "reviewStatus": "needs_review",
           "uncertainty": "format_lossy",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "编译原理",
-          "role": "答案解析",
-          "title": "编译原理_答案解析_计算161-2试卷A.docx",
-          "publicPath": "编译原理/答案解析/编译原理_答案解析_计算161-2试卷A.docx",
+          "role": "待复核资料",
+          "title": "编译原理_待复核_计算161-2试卷A答案解析.docx",
+          "publicPath": "编译原理/待复核资料/编译原理_待复核_计算161-2试卷A答案解析.docx",
           "bytes": 1327584,
           "sha256": "2fb674b2f0640eeb397415ca13374e287d8734929bf1a0f183d7b51ffa20729a",
           "sourceType": "student-recall",
@@ -4416,13 +5089,18 @@
           "reviewStatus": "needs_review",
           "uncertainty": "year_uncertain",
           "containsPersonalInfo": false,
-          "licenseStatus": "public-review-only"
+          "licenseStatus": "public-review-only",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "编译原理",
-          "role": "答案解析",
-          "title": "编译原理_答案解析_计算161-2试卷B.docx",
-          "publicPath": "编译原理/答案解析/编译原理_答案解析_计算161-2试卷B.docx",
+          "role": "待复核资料",
+          "title": "编译原理_待复核_计算161-2试卷B答案解析.docx",
+          "publicPath": "编译原理/待复核资料/编译原理_待复核_计算161-2试卷B答案解析.docx",
           "bytes": 2136458,
           "sha256": "45f6740825617e0f5190afba83bbd942fc0bab383f77376cb2eac488b2b80655",
           "sourceType": "student-recall",
@@ -4430,7 +5108,12 @@
           "reviewStatus": "needs_review",
           "uncertainty": "year_uncertain",
           "containsPersonalInfo": false,
-          "licenseStatus": "public-review-only"
+          "licenseStatus": "public-review-only",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "编译原理",
@@ -4444,7 +5127,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "编译原理",
@@ -4458,7 +5146,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "编译原理",
@@ -4472,7 +5165,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         }
       ]
     },
@@ -4482,9 +5180,9 @@
       "assets": [
         {
           "subject": "计算机操作系统",
-          "role": "往年真题",
-          "title": "计算机操作系统_真题_真题卷子.docx",
-          "publicPath": "计算机操作系统/往年真题/计算机操作系统_真题_真题卷子.docx",
+          "role": "待复核资料",
+          "title": "计算机操作系统_待复核_真题卷子.docx",
+          "publicPath": "计算机操作系统/待复核资料/计算机操作系统_待复核_真题卷子.docx",
           "bytes": 730170,
           "sha256": "d1b89e694a45331b16901d460902143cfcb028340fda4ce76f1c8bed651dc997",
           "sourceType": "student-recall",
@@ -4492,7 +5190,12 @@
           "reviewStatus": "needs_review",
           "uncertainty": "year_uncertain",
           "containsPersonalInfo": false,
-          "licenseStatus": "public-review-only"
+          "licenseStatus": "public-review-only",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "计算机操作系统",
@@ -4506,7 +5209,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "计算机操作系统",
@@ -4520,7 +5228,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "计算机操作系统",
@@ -4534,7 +5247,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "计算机操作系统",
@@ -4548,7 +5266,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "计算机操作系统",
@@ -4562,7 +5285,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "计算机操作系统",
@@ -4576,7 +5304,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "计算机操作系统",
@@ -4590,7 +5323,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "计算机操作系统",
@@ -4604,7 +5342,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "计算机操作系统",
@@ -4618,7 +5361,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "计算机操作系统",
@@ -4632,7 +5380,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "计算机操作系统",
@@ -4646,7 +5399,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "计算机操作系统",
@@ -4660,7 +5418,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "计算机操作系统",
@@ -4674,7 +5437,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "计算机操作系统",
@@ -4688,7 +5456,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "计算机操作系统",
@@ -4702,7 +5475,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         }
       ]
     },
@@ -4722,7 +5500,12 @@
           "reviewStatus": "needs_review",
           "uncertainty": "format_lossy",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件体系结构",
@@ -4736,21 +5519,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
-        },
-        {
-          "subject": "软件体系结构",
-          "role": "待复核资料",
-          "title": "软件体系结构_待复核_期末复习一本通加密.pdf",
-          "publicPath": "软件体系结构/待复核资料/软件体系结构_待复核_期末复习一本通加密.pdf",
-          "bytes": 17611617,
-          "sha256": "8ce3ddeb3bf81004dd0a836da16032f6451681aacafce8427f4cd2dc37224c10",
-          "sourceType": "unknown_reviewing",
-          "sourceNote": "民间整理的复习一本通，含作者水印与联系方式，公开边界待复核。",
-          "reviewStatus": "needs_review",
-          "uncertainty": "source_uncertain",
-          "containsPersonalInfo": false,
-          "licenseStatus": "public_review_only"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件体系结构",
@@ -4764,7 +5538,12 @@
           "reviewStatus": "needs_review",
           "uncertainty": "source_uncertain",
           "containsPersonalInfo": false,
-          "licenseStatus": "public_review_only"
+          "licenseStatus": "public_review_only",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件体系结构",
@@ -4778,7 +5557,12 @@
           "reviewStatus": "needs_review",
           "uncertainty": "source_uncertain",
           "containsPersonalInfo": false,
-          "licenseStatus": "public_review_only"
+          "licenseStatus": "public_review_only",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件体系结构",
@@ -4792,7 +5576,12 @@
           "reviewStatus": "needs_review",
           "uncertainty": "format_lossy",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件体系结构",
@@ -4806,7 +5595,12 @@
           "reviewStatus": "needs_review",
           "uncertainty": "format_lossy",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         }
       ]
     },
@@ -4826,13 +5620,18 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件质量测试",
-          "role": "往年真题",
-          "title": "软件质量测试_真题_选择题回忆版.docx",
-          "publicPath": "软件质量测试/往年真题/软件质量测试_真题_选择题回忆版.docx",
+          "role": "待复核资料",
+          "title": "软件质量测试_待复核_选择题回忆版.docx",
+          "publicPath": "软件质量测试/待复核资料/软件质量测试_待复核_选择题回忆版.docx",
           "bytes": 92599,
           "sha256": "4ad111305d155dd828116c6465059361ce3271eb3ea33136e034984b0abd84f5",
           "sourceType": "student-recall",
@@ -4840,7 +5639,12 @@
           "reviewStatus": "needs_review",
           "uncertainty": "year_uncertain",
           "containsPersonalInfo": false,
-          "licenseStatus": "public-review-only"
+          "licenseStatus": "public-review-only",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件质量测试",
@@ -4854,7 +5658,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件质量测试",
@@ -4868,7 +5677,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件质量测试",
@@ -4882,7 +5696,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件质量测试",
@@ -4896,7 +5715,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件质量测试",
@@ -4910,7 +5734,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件质量测试",
@@ -4924,7 +5753,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件质量测试",
@@ -4938,7 +5772,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件质量测试",
@@ -4952,7 +5791,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件质量测试",
@@ -4966,7 +5810,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件质量测试",
@@ -4980,7 +5829,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件质量测试",
@@ -4994,7 +5848,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件质量测试",
@@ -5008,7 +5867,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件质量测试",
@@ -5022,7 +5886,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件质量测试",
@@ -5036,7 +5905,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件质量测试",
@@ -5050,7 +5924,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件质量测试",
@@ -5064,7 +5943,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件质量测试",
@@ -5078,7 +5962,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件质量测试",
@@ -5092,7 +5981,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件质量测试",
@@ -5106,7 +6000,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件质量测试",
@@ -5120,7 +6019,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件质量测试",
@@ -5134,7 +6038,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件质量测试",
@@ -5148,7 +6057,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件质量测试",
@@ -5162,7 +6076,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件质量测试",
@@ -5176,7 +6095,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件质量测试",
@@ -5190,7 +6114,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件质量测试",
@@ -5204,7 +6133,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件质量测试",
@@ -5218,7 +6152,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件质量测试",
@@ -5232,7 +6171,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件质量测试",
@@ -5246,7 +6190,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         }
       ]
     },
@@ -5266,7 +6215,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件项目管理",
@@ -5280,13 +6234,18 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件项目管理",
-          "role": "往年真题",
-          "title": "软件项目管理_真题_选择题回忆版.docx",
-          "publicPath": "软件项目管理/往年真题/软件项目管理_真题_选择题回忆版.docx",
+          "role": "待复核资料",
+          "title": "软件项目管理_待复核_选择题回忆版.docx",
+          "publicPath": "软件项目管理/待复核资料/软件项目管理_待复核_选择题回忆版.docx",
           "bytes": 43834,
           "sha256": "4eb3b0fc93dea9d49fc96d63739b5593a20d962363857881de1e40153ec17d56",
           "sourceType": "student-recall",
@@ -5294,7 +6253,12 @@
           "reviewStatus": "needs_review",
           "uncertainty": "year_uncertain",
           "containsPersonalInfo": false,
-          "licenseStatus": "public-review-only"
+          "licenseStatus": "public-review-only",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件项目管理",
@@ -5308,7 +6272,12 @@
           "reviewStatus": "needs_review",
           "uncertainty": "source_uncertain",
           "containsPersonalInfo": false,
-          "licenseStatus": "public_review_only"
+          "licenseStatus": "public_review_only",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件项目管理",
@@ -5322,7 +6291,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件项目管理",
@@ -5336,7 +6310,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件项目管理",
@@ -5350,7 +6329,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         },
         {
           "subject": "软件项目管理",
@@ -5364,7 +6348,12 @@
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference"
+          "licenseStatus": "learning-reference",
+          "attribution": {
+            "collectors": [
+              "李浩宇"
+            ]
+          }
         }
       ]
     }

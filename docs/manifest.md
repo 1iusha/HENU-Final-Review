@@ -45,6 +45,25 @@
 | `reviewStatus` | `verified` | 复核状态。 |
 | `containsPersonalInfo` | `false` | 是否含个人信息；公开仓库必须为 `false` 或省略。 |
 | `licenseStatus` | `public_review_only` | 公开边界或授权状态说明。 |
+| `attribution` | 见下文 | 可选署名；区分资料作者与资料收集者。 |
+
+`teacher_shared_exception` 仅用于仓库中已经按 `publicPath` 与 SHA256 白名单锁定的 6 份历史教师公开分享材料，不是可供新资料选择的通用值。
+
+## attribution 署名
+
+`attribution` 是可选对象，可包含：
+
+- `authors`：资料正文的原始作者，仅在来源明确或本人确认时填写。
+- `collectors`：发现、汇集并向仓库提供既有资料的人。
+
+两个字段均为非空字符串数组，至少填写一个。使用经本人确认的公开姓名或账号，不写邮箱、手机号、QQ、二维码等联系方式，也不要把 Git 提交者自动当作作者。
+
+```json
+"attribution": {
+  "authors": ["张同学（公开账号）"],
+  "collectors": ["李同学"]
+}
+```
 
 ## sourceType 建议取值
 
@@ -80,6 +99,9 @@
   "reviewStatus": "needs_review",
   "containsPersonalInfo": false,
   "licenseStatus": "public_review_only",
+  "attribution": {
+    "collectors": ["资料收集者"]
+  },
   "bytes": 240532,
   "sha256": "20122cc28de5c25d5df70f6b37b8e73db87748acc34bd6bfbc1ed6958a72b40a"
 }
