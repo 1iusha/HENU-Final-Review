@@ -3921,9 +3921,9 @@
         },
         {
           "subject": "工程经济学",
-          "role": "往年真题",
-          "title": "工程经济学_真题_期末考试试卷附标准答案.docx",
-          "publicPath": "工程经济学/往年真题/工程经济学_真题_期末考试试卷附标准答案.docx",
+          "role": "待复核资料",
+          "title": "工程经济学_待复核_期末考试试卷附标准答案.docx",
+          "publicPath": "工程经济学/待复核资料/工程经济学_待复核_期末考试试卷附标准答案.docx",
           "bytes": 122536,
           "sha256": "8a1a540b0e384c45311023ce07ac5294aa87e170f0da39e03cb9497bd5684a32",
           "sourceType": "student-recall",
@@ -3940,9 +3940,9 @@
         },
         {
           "subject": "工程经济学",
-          "role": "往年真题",
-          "title": "工程经济学_真题_期末考试试题.pdf",
-          "publicPath": "工程经济学/往年真题/工程经济学_真题_期末考试试题.pdf",
+          "role": "待复核资料",
+          "title": "工程经济学_待复核_期末考试试题.pdf",
+          "publicPath": "工程经济学/待复核资料/工程经济学_待复核_期末考试试题.pdf",
           "bytes": 126949,
           "sha256": "90e112b0cf07ab66b4ee72a427d661922cee9215a82b3299fdbb241022c9d2ef",
           "sourceType": "student-recall",
@@ -3966,25 +3966,6 @@
           "sha256": "067b12980a4389bc6e99c95d1cc553899f1b69744cf433cc438624c800dcb19a",
           "sourceType": "community-note",
           "sourceNote": "同学整理的复习资料。",
-          "college": "河南大学",
-          "reviewStatus": "basic-reviewed",
-          "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference",
-          "attribution": {
-            "collectors": [
-              "李浩宇"
-            ]
-          }
-        },
-        {
-          "subject": "工程经济学",
-          "role": "课件PPT",
-          "title": "工程经济学_课件_1绪论.pptx",
-          "publicPath": "工程经济学/课件PPT/工程经济学_课件_1绪论.pptx",
-          "bytes": 5683486,
-          "sha256": "0657614ccbdd03ae346b478140aaf83bd56569b0c036aea2e2570e3eb925c96a",
-          "sourceType": "teacher-courseware",
-          "sourceNote": "同学提供的课程公开课件。",
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
