@@ -104,7 +104,7 @@ PR 和 `main` 分支 push 会通过 GitHub Actions 自动检查资料结构与 R
 - 复习讲义: 3 个文件，见 [复习讲义/](Web%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/%E5%A4%8D%E4%B9%A0%E8%AE%B2%E4%B9%89/)。
 - 往年真题: 2 个文件，见 [往年真题/](Web%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/%E5%BE%80%E5%B9%B4%E7%9C%9F%E9%A2%98/)。
 - 课件资料: 15 个文件，见 [课件资料/](Web%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/%E8%AF%BE%E4%BB%B6%E8%B5%84%E6%96%99/)。
-- 笔记总结: 4 个文件，见 [笔记总结/](Web%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/%E7%AC%94%E8%AE%B0%E6%80%BB%E7%BB%93/)。
+- 笔记总结: [Web编程基础_笔记_前端学习.md](Web%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/%E7%AC%94%E8%AE%B0%E6%80%BB%E7%BB%93/Web%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80_%E7%AC%94%E8%AE%B0_%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0.md)
 - 待复核资料: 3 个文件，见 [待复核资料/](Web%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/%E5%BE%85%E5%A4%8D%E6%A0%B8%E8%B5%84%E6%96%99/)。
 
 ### 数据库系统
@@ -270,6 +270,12 @@ PR 和 `main` 分支 push 会通过 GitHub Actions 自动检查资料结构与 R
 - 笔记总结: [软件项目管理_笔记_简要笔记.pdf](%E8%BD%AF%E4%BB%B6%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/%E7%AC%94%E8%AE%B0%E6%80%BB%E7%BB%93/%E8%BD%AF%E4%BB%B6%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86_%E7%AC%94%E8%AE%B0_%E7%AE%80%E8%A6%81%E7%AC%94%E8%AE%B0.pdf)
 - 答案解析: [软件项目管理_答案解析_习题参考答案.pdf](%E8%BD%AF%E4%BB%B6%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/%E7%AD%94%E6%A1%88%E8%A7%A3%E6%9E%90/%E8%BD%AF%E4%BB%B6%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86_%E7%AD%94%E6%A1%88%E8%A7%A3%E6%9E%90_%E4%B9%A0%E9%A2%98%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88.pdf)
 - 题库练习: 2 个文件，见 [题库练习/](%E8%BD%AF%E4%BB%B6%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/%E9%A2%98%E5%BA%93%E7%BB%83%E4%B9%A0/)。
+
+### Spring与后端
+
+Spring 框架与后端开发学习笔记（AOP、JWT、SpringBoot）。
+
+- 笔记总结: 3 个文件，见 [笔记总结/](Spring%E4%B8%8E%E5%90%8E%E7%AB%AF/%E7%AC%94%E8%AE%B0%E6%80%BB%E7%BB%93/)。
 <!-- MATERIALS:END -->
 
 ## 友情链接
