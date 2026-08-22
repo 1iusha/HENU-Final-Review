@@ -22,23 +22,33 @@ jobs:
       - name: Apply high-confidence material cleanup
         shell: bash
         run: |
-          # 1) Correct the MapReduce exercise filename.
-          git mv '大数据/题库练习/大数据_题库练习_mpre课后题.md' '大数据/题库练习/大数据_题库练习_MapReduce课后题.md'
+          if [ ! -e '大数据/题库练习/大数据_题库练习_mpre课后题.md' ] && [ ! -e '数据库系统/课件/数据库系统_课件_07-1数据库设计_最新版.pptx' ]; then
+            echo 'Known cleanup already applied.'
+            exit 0
+          fi
 
-          # 2) Database 07-1 has two 99.8%-similar PPTX decks. Keep the explicitly latest deck under the canonical filename.
-          git rm '数据库系统/课件/数据库系统_课件_07-1数据库设计.pptx'
-          git mv '数据库系统/课件/数据库系统_课件_07-1数据库设计_最新版.pptx' '数据库系统/课件/数据库系统_课件_07-1数据库设计.pptx'
+          if [ -e '大数据/题库练习/大数据_题库练习_mpre课后题.md' ]; then
+            git mv '大数据/题库练习/大数据_题库练习_mpre课后题.md' '大数据/题库练习/大数据_题库练习_MapReduce课后题.md'
+          fi
+
+          if [ -e '数据库系统/课件/数据库系统_课件_07-1数据库设计_最新版.pptx' ]; then
+            git rm '数据库系统/课件/数据库系统_课件_07-1数据库设计.pptx'
+            git mv '数据库系统/课件/数据库系统_课件_07-1数据库设计_最新版.pptx' '数据库系统/课件/数据库系统_课件_07-1数据库设计.pptx'
+          fi
 
           node <<'NODE'
           const fs = require('fs');
           const manifest = JSON.parse(fs.readFileSync('manifest.json', 'utf8'));
+          let changed = false;
 
           const bigData = manifest.subjects.find((item) => item.name === '大数据');
           if (!bigData) throw new Error('大数据 subject not found');
           const mapReduce = bigData.assets.find((item) => item.publicPath === '大数据/题库练习/大数据_题库练习_mpre课后题.md');
-          if (!mapReduce) throw new Error('MapReduce asset not found');
-          mapReduce.title = '大数据_题库练习_MapReduce课后题.md';
-          mapReduce.publicPath = '大数据/题库练习/大数据_题库练习_MapReduce课后题.md';
+          if (mapReduce) {
+            mapReduce.title = '大数据_题库练习_MapReduce课后题.md';
+            mapReduce.publicPath = '大数据/题库练习/大数据_题库练习_MapReduce课后题.md';
+            changed = true;
+          }
 
           const database = manifest.subjects.find((item) => item.name === '数据库系统');
           if (!database) throw new Error('数据库系统 subject not found');
@@ -46,15 +56,18 @@ jobs:
           const latestPath = '数据库系统/课件/数据库系统_课件_07-1数据库设计_最新版.pptx';
           const oldIndex = database.assets.findIndex((item) => item.publicPath === oldPath);
           const latestIndex = database.assets.findIndex((item) => item.publicPath === latestPath);
-          if (oldIndex < 0 || latestIndex < 0) throw new Error('database 07-1 duplicate pair not found');
+          if (latestIndex >= 0) {
+            const latest = database.assets[latestIndex];
+            latest.title = '数据库系统_课件_07-1数据库设计.pptx';
+            latest.publicPath = oldPath;
+            database.assets = database.assets.filter((_, index) => index !== oldIndex);
+            changed = true;
+          }
 
-          const latest = database.assets[latestIndex];
-          latest.title = '数据库系统_课件_07-1数据库设计.pptx';
-          latest.publicPath = oldPath;
-          database.assets = database.assets.filter((_, index) => index !== oldIndex);
-
-          manifest.generatedAt = new Date().toISOString();
-          fs.writeFileSync('manifest.json', JSON.stringify(manifest, null, 2) + '\n');
+          if (changed) {
+            manifest.generatedAt = new Date().toISOString();
+            fs.writeFileSync('manifest.json', JSON.stringify(manifest, null, 2) + '\n');
+          }
           NODE
 
           node scripts/update-readme.mjs
@@ -63,11 +76,15 @@ jobs:
       - run: python3 skills/henu-public-materials/scripts/check_public_materials.py .
       - run: python3 scripts/audit-material-duplicates.py .
       - run: node scripts/update-readme.mjs --check
-      - name: Commit and push
+      - name: Commit and push if changed
         shell: bash
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add -A
+          if git diff --cached --quiet; then
+            echo 'No cleanup changes to commit.'
+            exit 0
+          fi
           git commit -m 'fix(materials): clean duplicate and malformed names'
           git push origin HEAD:chore/migrate-material-types
