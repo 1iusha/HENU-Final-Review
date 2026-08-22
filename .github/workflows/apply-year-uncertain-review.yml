@@ -1,0 +1,159 @@
+name: Apply year-uncertain review
+
+on:
+  push:
+    branches:
+      - chore/review-year-uncertain
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chore/review-year-uncertain
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Reclassify verified year-uncertain materials
+        shell: bash
+        run: |
+          mkdir -p '工程经济学/往年真题' '机器学习/往年真题' '编译原理/往年真题' '编译原理/答案解析'
+
+          move_if_present() {
+            local src="$1"
+            local dst="$2"
+            if [ -e "$src" ]; then
+              git mv "$src" "$dst"
+            fi
+          }
+
+          move_if_present \
+            '工程经济学/待复核资料/工程经济学_待复核_期末考试试卷附标准答案.docx' \
+            '工程经济学/往年真题/工程经济学_真题_2020-2021学年第1学期A卷_含标准答案.docx'
+
+          move_if_present \
+            '机器学习/待复核资料/机器学习_待复核_2023-2024学年第二学期A卷.docx' \
+            '机器学习/往年真题/机器学习_真题_2023-2024学年第二学期A卷_文字整理版.docx'
+
+          move_if_present \
+            '机器学习/待复核资料/机器学习_待复核_2024卷子实拍.docx' \
+            '机器学习/往年真题/机器学习_真题_2023-2024学年第二学期A卷_原卷实拍.docx'
+
+          move_if_present \
+            '编译原理/待复核资料/编译原理_待复核_惠普测试151与惠普开发151试卷A.docx' \
+            '编译原理/往年真题/编译原理_真题_2017-2018学年第1学期A卷_惠普测试151与惠普开发151.docx'
+
+          move_if_present \
+            '编译原理/待复核资料/编译原理_待复核_计算161-2试卷A答案解析.docx' \
+            '编译原理/答案解析/编译原理_答案解析_2018-2019学年第2学期A卷_计算161-2.docx'
+
+          move_if_present \
+            '编译原理/待复核资料/编译原理_待复核_计算161-2试卷B答案解析.docx' \
+            '编译原理/答案解析/编译原理_答案解析_2018-2019学年第2学期B卷_计算161-2.docx'
+
+          node <<'NODE'
+          const fs = require('fs');
+          const manifest = JSON.parse(fs.readFileSync('manifest.json', 'utf8'));
+
+          const changes = new Map([
+            ['工程经济学/待复核资料/工程经济学_待复核_期末考试试卷附标准答案.docx', {
+              role: '往年真题',
+              title: '工程经济学_真题_2020-2021学年第1学期A卷_含标准答案.docx',
+              publicPath: '工程经济学/往年真题/工程经济学_真题_2020-2021学年第1学期A卷_含标准答案.docx',
+              year: '2020-2021',
+              reviewStatus: 'verified',
+              sourceNote: '同学提供的期末试卷；卷面明确为河南大学 2020-2021 学年第1学期《工程经济学》A卷，并附标准答案。'
+            }],
+            ['机器学习/待复核资料/机器学习_待复核_2023-2024学年第二学期A卷.docx', {
+              role: '往年真题',
+              title: '机器学习_真题_2023-2024学年第二学期A卷_文字整理版.docx',
+              publicPath: '机器学习/往年真题/机器学习_真题_2023-2024学年第二学期A卷_文字整理版.docx',
+              year: '2023-2024',
+              college: '软件学院',
+              reviewStatus: 'verified',
+              sourceNote: '文件正文明确为河南大学软件学院 2023-2024 学年第二学期期末考试《机器学习与智能数据处理》A卷；当前文件为文字整理版。'
+            }],
+            ['机器学习/待复核资料/机器学习_待复核_2024卷子实拍.docx', {
+              role: '往年真题',
+              title: '机器学习_真题_2023-2024学年第二学期A卷_原卷实拍.docx',
+              publicPath: '机器学习/往年真题/机器学习_真题_2023-2024学年第二学期A卷_原卷实拍.docx',
+              year: '2023-2024',
+              college: '软件学院',
+              reviewStatus: 'verified',
+              sourceNote: '内嵌原卷照片明确显示河南大学软件学院 2023-2024 学年第二学期期末考试《机器学习与智能数据处理》A卷。'
+            }],
+            ['编译原理/待复核资料/编译原理_待复核_惠普测试151与惠普开发151试卷A.docx', {
+              role: '往年真题',
+              title: '编译原理_真题_2017-2018学年第1学期A卷_惠普测试151与惠普开发151.docx',
+              publicPath: '编译原理/往年真题/编译原理_真题_2017-2018学年第1学期A卷_惠普测试151与惠普开发151.docx',
+              year: '2017-2018',
+              college: '信息科学技术学院',
+              reviewStatus: 'verified',
+              sourceNote: '卷面明确标注 17/18 学年第1学期《编译原理》A卷，适用惠普测试151、惠普开发151。'
+            }],
+            ['编译原理/待复核资料/编译原理_待复核_计算161-2试卷A答案解析.docx', {
+              role: '答案解析',
+              title: '编译原理_答案解析_2018-2019学年第2学期A卷_计算161-2.docx',
+              publicPath: '编译原理/答案解析/编译原理_答案解析_2018-2019学年第2学期A卷_计算161-2.docx',
+              year: '2018-2019',
+              college: '信息科学技术学院',
+              reviewStatus: 'verified',
+              sourceNote: '卷面明确标注 18/19 学年第2学期《编译原理》A卷试题标准答案，适用计算161-2。'
+            }],
+            ['编译原理/待复核资料/编译原理_待复核_计算161-2试卷B答案解析.docx', {
+              role: '答案解析',
+              title: '编译原理_答案解析_2018-2019学年第2学期B卷_计算161-2.docx',
+              publicPath: '编译原理/答案解析/编译原理_答案解析_2018-2019学年第2学期B卷_计算161-2.docx',
+              year: '2018-2019',
+              college: '信息科学技术学院',
+              reviewStatus: 'verified',
+              sourceNote: '卷面明确标注 18/19 学年第2学期《编译原理》B卷试题标准答案，适用计算161-2。'
+            }]
+          ]);
+
+          let changed = 0;
+          for (const subject of manifest.subjects || []) {
+            for (const asset of subject.assets || []) {
+              const update = changes.get(asset.publicPath);
+              if (!update) continue;
+              Object.assign(asset, update);
+              delete asset.uncertainty;
+              changed += 1;
+            }
+          }
+
+          // Idempotent second run: entries have already moved, so old paths no longer exist.
+          if (changed > 0) {
+            manifest.generatedAt = new Date().toISOString();
+            fs.writeFileSync('manifest.json', JSON.stringify(manifest, null, 2) + '\n');
+          }
+          console.log(`Updated ${changed} manifest entr${changed === 1 ? 'y' : 'ies'}.`);
+          NODE
+
+          node scripts/update-readme.mjs
+      - name: Verify repository
+        shell: bash
+        run: |
+          node --test tests/*.test.mjs
+          node scripts/refresh-manifest-metadata.mjs --check
+          node scripts/validate-materials.mjs
+          python3 skills/henu-public-materials/scripts/check_public_materials.py .
+          python3 scripts/audit-review-backlog.py . | head -n 40
+          node scripts/update-readme.mjs --check
+      - name: Commit verified changes
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          if git diff --cached --quiet; then
+            echo 'No review changes to commit.'
+            exit 0
+          fi
+          git commit -m 'fix(materials): resolve verified year-uncertain entries'
+          git push origin HEAD:chore/review-year-uncertain
