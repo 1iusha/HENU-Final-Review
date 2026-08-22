@@ -16,10 +16,10 @@ jobs:
         with:
           ref: chore/migrate-material-types
           fetch-depth: 0
-      - name: Run deep audit
+      - name: Run targeted duplicate audit
         shell: bash
         run: |
-          python3 skills/henu-public-materials/scripts/check_public_materials.py . --deep > docs/material-audit-temp.txt 2>&1 || true
+          python3 scripts/audit-material-duplicates.py . > docs/material-audit-temp.txt 2>&1
           cat docs/material-audit-temp.txt
       - name: Commit temporary report
         shell: bash
