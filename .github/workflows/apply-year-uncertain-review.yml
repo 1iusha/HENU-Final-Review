@@ -117,7 +117,8 @@ jobs:
           node scripts/refresh-manifest-metadata.mjs --check
           node scripts/validate-materials.mjs
           python3 skills/henu-public-materials/scripts/check_public_materials.py .
-          python3 scripts/audit-review-backlog.py . | head -n 40
+          python3 scripts/audit-review-backlog.py . > /tmp/review-backlog.txt
+          head -n 40 /tmp/review-backlog.txt
           node scripts/update-readme.mjs --check
       - name: Commit verified changes
         shell: bash
