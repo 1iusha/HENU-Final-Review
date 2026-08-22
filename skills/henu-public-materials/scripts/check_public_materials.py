@@ -3,9 +3,9 @@
 
 The authoritative validation contract lives in scripts/validate-materials.mjs.
 This helper intentionally checks only things that are useful as an extra audit:
-legacy folder usage, material files missing from manifest, private source-path
-fields, exact-hash duplicates recorded in manifest, temporary names, and ZIP
-integrity.
+legacy folder usage, review backlog, material files missing from manifest,
+private source-path fields, exact-hash duplicates recorded in manifest,
+temporary names, and ZIP integrity.
 """
 
 import json
@@ -43,6 +43,10 @@ def add_issue(issues, level, path, message):
     issues.append({"level": level, "path": str(path), "message": message})
 
 
+def canonical_type(role):
+    return LEGACY_TYPE_ALIASES.get(role, role)
+
+
 def load_manifest(root, issues):
     manifest_path = root / "manifest.json"
     if not manifest_path.exists():
@@ -60,8 +64,10 @@ def audit_manifest(root, manifest, issues):
     manifest_paths = set()
     hashes = defaultdict(list)
     legacy_role_counts = defaultdict(int)
+    review_counts = defaultdict(int)
 
     for subject in manifest.get("subjects", []):
+        subject_name = subject.get("name", "<unknown subject>")
         for asset in subject.get("assets", []):
             public_path = asset.get("publicPath")
             if public_path:
@@ -82,6 +88,8 @@ def audit_manifest(root, manifest, issues):
             role = asset.get("role")
             if role in LEGACY_TYPE_ALIASES:
                 legacy_role_counts[role] += 1
+            if canonical_type(role) == "待复核资料":
+                review_counts[subject_name] += 1
 
     if legacy_role_counts:
         summary = ", ".join(
@@ -93,6 +101,19 @@ def audit_manifest(root, manifest, issues):
             "WARNING",
             root / "manifest.json",
             f"legacy manifest roles remain for migration: {summary}",
+        )
+
+    if review_counts:
+        total = sum(review_counts.values())
+        summary = ", ".join(
+            f"{subject}: {count}"
+            for subject, count in sorted(review_counts.items(), key=lambda item: (-item[1], item[0]))
+        )
+        add_issue(
+            issues,
+            "WARNING",
+            root / "manifest.json",
+            f"pending-review backlog: total {total}; {summary}",
         )
 
     for digest, paths in hashes.items():
