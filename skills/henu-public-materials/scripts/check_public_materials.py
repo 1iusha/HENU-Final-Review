@@ -6,6 +6,8 @@ This helper intentionally checks only things that are useful as an extra audit:
 legacy folder usage, review backlog, material files missing from manifest,
 private source-path fields, exact-hash duplicates recorded in manifest,
 temporary names, and ZIP integrity.
+
+For targeted near-duplicate analysis, run scripts/audit-material-duplicates.py.
 """
 
 import json
@@ -201,7 +203,6 @@ def main():
     if len(sys.argv) != 2:
         print("usage: check_public_materials.py <repo-root>", file=sys.stderr)
         return 2
-
     root = Path(sys.argv[1]).resolve()
     issues = check_repo(root)
 
