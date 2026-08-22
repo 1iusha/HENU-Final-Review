@@ -117,10 +117,10 @@ PR 和 `main` 分支 push 会通过 GitHub Actions 自动检查资料结构与 R
 
 ### 计算机网络
 
-包含考前复习讲义和样卷资料。
+包含考前复习讲义和样卷练习资料。
 
 - 复习讲义: [计算机网络_考前复习知识点讲义.pdf](%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/%E5%A4%8D%E4%B9%A0%E8%AE%B2%E4%B9%89/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C_%E8%80%83%E5%89%8D%E5%A4%8D%E4%B9%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E8%AE%B2%E4%B9%89.pdf)
-- 往年真题: [计算机网络_样卷_sample.pdf](%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/%E5%BE%80%E5%B9%B4%E7%9C%9F%E9%A2%98/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C_%E6%A0%B7%E5%8D%B7_sample.pdf)
+- 题库练习: [计算机网络_题库练习_样卷.pdf](%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/%E9%A2%98%E5%BA%93%E7%BB%83%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C_%E9%A2%98%E5%BA%93%E7%BB%83%E4%B9%A0_%E6%A0%B7%E5%8D%B7.pdf)
 
 ### 计算机组成原理
 

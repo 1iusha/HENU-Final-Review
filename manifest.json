@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-22T13:55:31.581Z",
+  "generatedAt": "2026-08-22T14:00:38.411Z",
   "subjects": [
     {
       "name": "高等数学A（二）",
@@ -2357,7 +2357,7 @@
     },
     {
       "name": "计算机网络",
-      "note": "包含考前复习讲义和样卷资料。",
+      "note": "包含考前复习讲义和样卷练习资料。",
       "assets": [
         {
           "subject": "计算机网络",
@@ -2369,9 +2369,9 @@
         },
         {
           "subject": "计算机网络",
-          "role": "往年真题",
-          "title": "计算机网络_样卷_sample.pdf",
-          "publicPath": "计算机网络/往年真题/计算机网络_样卷_sample.pdf",
+          "role": "题库练习",
+          "title": "计算机网络_题库练习_样卷.pdf",
+          "publicPath": "计算机网络/题库练习/计算机网络_题库练习_样卷.pdf",
           "bytes": 1172451,
           "sha256": "5e02d28871990d7ad05dba66c1c6ff0b71d47cd090771d4baab5b92f30362e91"
         }
