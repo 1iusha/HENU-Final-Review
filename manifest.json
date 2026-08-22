@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-22T14:12:21.098Z",
+  "generatedAt": "2026-08-22T14:27:57.836Z",
   "subjects": [
     {
       "name": "高等数学A（二）",
@@ -3834,22 +3834,22 @@
         },
         {
           "subject": "工程经济学",
-          "role": "待复核资料",
-          "title": "工程经济学_待复核_期末考试试卷附标准答案.docx",
-          "publicPath": "工程经济学/待复核资料/工程经济学_待复核_期末考试试卷附标准答案.docx",
+          "role": "往年真题",
+          "title": "工程经济学_真题_2020-2021学年第1学期A卷_含标准答案.docx",
+          "publicPath": "工程经济学/往年真题/工程经济学_真题_2020-2021学年第1学期A卷_含标准答案.docx",
           "bytes": 122536,
           "sha256": "8a1a540b0e384c45311023ce07ac5294aa87e170f0da39e03cb9497bd5684a32",
           "sourceType": "student-recall",
-          "sourceNote": "同学提供的往年真题或试卷，年份与完整度待复核。",
-          "reviewStatus": "needs_review",
-          "uncertainty": "year_uncertain",
+          "sourceNote": "同学提供的期末试卷；卷面明确为河南大学 2020-2021 学年第1学期《工程经济学》A卷，并附标准答案。",
+          "reviewStatus": "verified",
           "containsPersonalInfo": false,
           "licenseStatus": "public-review-only",
           "attribution": {
             "collectors": [
               "李浩宇"
             ]
-          }
+          },
+          "year": "2020-2021"
         },
         {
           "subject": "工程经济学",
@@ -4068,41 +4068,43 @@
         },
         {
           "subject": "机器学习",
-          "role": "待复核资料",
-          "title": "机器学习_待复核_2023-2024学年第二学期A卷.docx",
-          "publicPath": "机器学习/待复核资料/机器学习_待复核_2023-2024学年第二学期A卷.docx",
+          "role": "往年真题",
+          "title": "机器学习_真题_2023-2024学年第二学期A卷_文字整理版.docx",
+          "publicPath": "机器学习/往年真题/机器学习_真题_2023-2024学年第二学期A卷_文字整理版.docx",
           "bytes": 24710,
           "sha256": "1b3085a808fe964d35a1ca9db6fa176a45f3c20abfd39df850621e994bc98f84",
           "sourceType": "student-recall",
-          "sourceNote": "同学提供的往年真题或试卷，年份与完整度待复核。",
-          "reviewStatus": "needs_review",
-          "uncertainty": "year_uncertain",
+          "sourceNote": "文件正文明确为河南大学软件学院 2023-2024 学年第二学期期末考试《机器学习与智能数据处理》A卷；当前文件为文字整理版。",
+          "reviewStatus": "verified",
           "containsPersonalInfo": false,
           "licenseStatus": "public-review-only",
           "attribution": {
             "collectors": [
               "李浩宇"
             ]
-          }
+          },
+          "year": "2023-2024",
+          "college": "软件学院"
         },
         {
           "subject": "机器学习",
-          "role": "待复核资料",
-          "title": "机器学习_待复核_2024卷子实拍.docx",
-          "publicPath": "机器学习/待复核资料/机器学习_待复核_2024卷子实拍.docx",
+          "role": "往年真题",
+          "title": "机器学习_真题_2023-2024学年第二学期A卷_原卷实拍.docx",
+          "publicPath": "机器学习/往年真题/机器学习_真题_2023-2024学年第二学期A卷_原卷实拍.docx",
           "bytes": 8623959,
           "sha256": "e5a86dbbb4e140e80f48a717bc048c640e619c005ba7f3c2e5f8d36c7774990c",
           "sourceType": "student-recall",
-          "sourceNote": "同学提供的往年真题或试卷，年份与完整度待复核。",
-          "reviewStatus": "needs_review",
-          "uncertainty": "year_uncertain",
+          "sourceNote": "内嵌原卷照片明确显示河南大学软件学院 2023-2024 学年第二学期期末考试《机器学习与智能数据处理》A卷。",
+          "reviewStatus": "verified",
           "containsPersonalInfo": false,
           "licenseStatus": "public-review-only",
           "attribution": {
             "collectors": [
               "李浩宇"
             ]
-          }
+          },
+          "year": "2023-2024",
+          "college": "软件学院"
         },
         {
           "subject": "机器学习",
@@ -4916,22 +4918,23 @@
         },
         {
           "subject": "编译原理",
-          "role": "待复核资料",
-          "title": "编译原理_待复核_惠普测试151与惠普开发151试卷A.docx",
-          "publicPath": "编译原理/待复核资料/编译原理_待复核_惠普测试151与惠普开发151试卷A.docx",
+          "role": "往年真题",
+          "title": "编译原理_真题_2017-2018学年第1学期A卷_惠普测试151与惠普开发151.docx",
+          "publicPath": "编译原理/往年真题/编译原理_真题_2017-2018学年第1学期A卷_惠普测试151与惠普开发151.docx",
           "bytes": 35594,
           "sha256": "d381c64aa661b834b28c2efb3aee40110d76d3a6741668a52bd4e1be0b46f3aa",
           "sourceType": "student-recall",
-          "sourceNote": "同学提供的往年真题或试卷，年份与完整度待复核。",
-          "reviewStatus": "needs_review",
-          "uncertainty": "year_uncertain",
+          "sourceNote": "卷面明确标注 17/18 学年第1学期《编译原理》A卷，适用惠普测试151、惠普开发151。",
+          "reviewStatus": "verified",
           "containsPersonalInfo": false,
           "licenseStatus": "public-review-only",
           "attribution": {
             "collectors": [
               "李浩宇"
             ]
-          }
+          },
+          "year": "2017-2018",
+          "college": "信息科学技术学院"
         },
         {
           "subject": "编译原理",
@@ -5011,41 +5014,43 @@
         },
         {
           "subject": "编译原理",
-          "role": "待复核资料",
-          "title": "编译原理_待复核_计算161-2试卷A答案解析.docx",
-          "publicPath": "编译原理/待复核资料/编译原理_待复核_计算161-2试卷A答案解析.docx",
+          "role": "答案解析",
+          "title": "编译原理_答案解析_2018-2019学年第2学期A卷_计算161-2.docx",
+          "publicPath": "编译原理/答案解析/编译原理_答案解析_2018-2019学年第2学期A卷_计算161-2.docx",
           "bytes": 1327584,
           "sha256": "2fb674b2f0640eeb397415ca13374e287d8734929bf1a0f183d7b51ffa20729a",
           "sourceType": "student-recall",
-          "sourceNote": "同学提供的往年真题或试卷，年份与完整度待复核。",
-          "reviewStatus": "needs_review",
-          "uncertainty": "year_uncertain",
+          "sourceNote": "卷面明确标注 18/19 学年第2学期《编译原理》A卷试题标准答案，适用计算161-2。",
+          "reviewStatus": "verified",
           "containsPersonalInfo": false,
           "licenseStatus": "public-review-only",
           "attribution": {
             "collectors": [
               "李浩宇"
             ]
-          }
+          },
+          "year": "2018-2019",
+          "college": "信息科学技术学院"
         },
         {
           "subject": "编译原理",
-          "role": "待复核资料",
-          "title": "编译原理_待复核_计算161-2试卷B答案解析.docx",
-          "publicPath": "编译原理/待复核资料/编译原理_待复核_计算161-2试卷B答案解析.docx",
+          "role": "答案解析",
+          "title": "编译原理_答案解析_2018-2019学年第2学期B卷_计算161-2.docx",
+          "publicPath": "编译原理/答案解析/编译原理_答案解析_2018-2019学年第2学期B卷_计算161-2.docx",
           "bytes": 2136458,
           "sha256": "45f6740825617e0f5190afba83bbd942fc0bab383f77376cb2eac488b2b80655",
           "sourceType": "student-recall",
-          "sourceNote": "同学提供的往年真题或试卷，年份与完整度待复核。",
-          "reviewStatus": "needs_review",
-          "uncertainty": "year_uncertain",
+          "sourceNote": "卷面明确标注 18/19 学年第2学期《编译原理》B卷试题标准答案，适用计算161-2。",
+          "reviewStatus": "verified",
           "containsPersonalInfo": false,
           "licenseStatus": "public-review-only",
           "attribution": {
             "collectors": [
               "李浩宇"
             ]
-          }
+          },
+          "year": "2018-2019",
+          "college": "信息科学技术学院"
         },
         {
           "subject": "编译原理",
