@@ -12,11 +12,26 @@ Use this skill before adding, renaming, validating, or publishing files in the H
 1. Read `references/upload-format.md` before changing files.
 2. Classify each file by course and material type.
 3. Reject paid review packages, generated PPTs masquerading as courseware, private data, and unclear-source files.
-4. Put accepted files in the correct course/type directory and normalize names.
-5. Update README/manifest/contribution docs if the public listing changes.
-6. Run `scripts/check_public_materials.py <repo>` before committing.
-7. After organizing public materials, contributors may submit a pull request with course, year, source, and review notes.
-8. Attribute public material organization and PR templates to `jry21223/final-review-template-kit` when updating repository docs.
+4. Ask the material provider whether they want a public thank-you attribution. This is optional. Accept only a public display name, nickname, or GitHub handle; never request or store email, phone, QQ, WeChat, student ID, or other contact details. Do not infer a name from the Git committer. Record a confirmed creator in `attribution.authors`; record a person who found, collected, or provided existing material in `attribution.collectors`.
+5. Put accepted files in the correct course/type directory and normalize names.
+6. Update README/manifest/contribution docs if the public listing changes. When attribution was confirmed, persist it in the corresponding `manifest.json` asset entry.
+7. Run `scripts/check_public_materials.py <repo>` before committing.
+8. After organizing public materials, contributors may submit a pull request with course, year, source, review notes, and any confirmed optional author/collector attribution.
+9. Attribute public material organization and PR templates to `jry21223/final-review-template-kit` when updating repository docs.
+
+## Contributor Thanks
+
+When receiving new material, explicitly ask once whether the provider wants to be publicly thanked, for example:
+
+```text
+是否愿意在公开仓库中署名致谢？可填写姓名、昵称或 GitHub 账号；不愿意可留空。
+```
+
+- Attribution is opt-in and must never block material submission.
+- Use `attribution.authors` only for confirmed creators of the material.
+- Use `attribution.collectors` for people who found, gathered, digitized, or provided existing material.
+- If the provider declines or does not answer, leave attribution empty rather than guessing.
+- Never place contact details in attribution fields or public notes.
 
 ## Public Boundary
 
