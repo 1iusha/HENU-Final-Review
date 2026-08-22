@@ -62,6 +62,32 @@ Web编程基础_课件_第1次.pdf
 - Avoid ASCII commas, slashes, colons, question marks, asterisks, quotes, angle brackets, and backslashes in filenames.
 - Avoid temporary names such as `副本`, `未命名`, `新建文件`, and `final_final`.
 
+## Contributor Attribution and Thanks
+
+Before finalizing a new material contribution, ask the material provider once whether they want to be publicly thanked:
+
+```text
+是否愿意在公开仓库中署名致谢？可填写姓名、昵称或 GitHub 账号；不愿意可留空。
+```
+
+- Attribution is optional and must not block submission.
+- Only store a confirmed public display name, nickname, or GitHub handle.
+- Never request or store email, phone, QQ, WeChat, student ID, or other contact details for attribution.
+- Do not infer attribution from the Git committer, uploader, file metadata, or account email.
+- If the person created the material, record the confirmed name under `attribution.authors`.
+- If the person found, collected, digitized, or provided existing material, record the confirmed name under `attribution.collectors`.
+- If the provider declines or does not answer, omit attribution rather than guessing.
+
+Example manifest fragment:
+
+```json
+{
+  "attribution": {
+    "collectors": ["资料提供者公开昵称"]
+  }
+}
+```
+
 ## Public/Private Boundary
 
 Allowed:
@@ -86,9 +112,9 @@ When changing public contents:
 
 - Update `README.md` course listings.
 - Update `manifest.json` with `subject`, `role`, `title`, `publicPath`, `bytes`, and `sha256`.
-- Prefer adding provenance metadata in `manifest.json`: `year`, `college`, `major`, `sourceType`, `sourceNote`, `reviewStatus`, `containsPersonalInfo`, and `licenseStatus`.
+- Prefer adding provenance metadata in `manifest.json`: `year`, `college`, `major`, `sourceType`, `sourceNote`, `reviewStatus`, `containsPersonalInfo`, `licenseStatus`, and confirmed `attribution`.
 - Keep `docs/naming.md` and `docs/commit-format.md` consistent with this format.
 - Follow `PUBLICATION_POLICY.md` for public/private boundaries and takedown handling.
 - Run `node scripts/validate-materials.mjs` before opening a PR.
 - Mark material organization and PR templates as coming from [jry21223/final-review-template-kit](https://github.com/jry21223/final-review-template-kit).
-- After organizing materials, open a pull request and describe course, year, source, and any review notes.
+- After organizing materials, open a pull request and describe course, year, source, any review notes, and any confirmed optional author/collector attribution.
