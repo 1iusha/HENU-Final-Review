@@ -59,6 +59,44 @@ function runValidator(assetOverrides = {}) {
   return result;
 }
 
+test('accepts canonical courseware role', () => {
+  const result = runValidator({
+    role: '课件',
+    title: '测试课程_课件_第1章.pptx',
+  });
+
+  assert.equal(result.status, 0, result.stderr);
+});
+
+test('accepts canonical courseware role with a legacy physical folder during migration', () => {
+  const result = runValidator({
+    role: '课件',
+    title: '测试课程_课件_第1章.pptx',
+    publicPath: '测试课程/课件PPT/测试课程_课件_第1章.pptx',
+  });
+
+  assert.equal(result.status, 0, result.stderr);
+});
+
+test('accepts a legacy role temporarily and reports a migration warning', () => {
+  const result = runValidator({
+    role: '课件PPT',
+    title: '测试课程_课件_第1章.pptx',
+  });
+
+  assert.equal(result.status, 0, result.stderr);
+  assert.match(result.stderr, /Legacy material roles remain for migration compatibility/);
+});
+
+test('accepts electronic textbook role', () => {
+  const result = runValidator({
+    role: '电子版教材',
+    title: '测试课程_教材_示例.pdf',
+  });
+
+  assert.equal(result.status, 0, result.stderr);
+});
+
 test('accepts verified author and collector attribution', () => {
   const result = runValidator({
     attribution: {
@@ -123,7 +161,7 @@ test('does not accept replacement content at an approved historical path', () =>
   assert.match(result.stderr, /teacher_shared_exception is restricted to the approved historical files/);
 });
 
-test('requires year-uncertain material to stay in a review folder', () => {
+test('requires year-uncertain material to stay in the canonical review role', () => {
   const result = runValidator({
     sourceType: 'student-recall',
     sourceNote: '同学回忆版，年份待复核。',
@@ -132,5 +170,19 @@ test('requires year-uncertain material to stay in a review folder', () => {
   });
 
   assert.equal(result.status, 1);
-  assert.match(result.stderr, /uncertainty 'year_uncertain' requires a review role/);
+  assert.match(result.stderr, /uncertainty 'year_uncertain' requires role '待复核资料'/);
+});
+
+test('accepts year-uncertain material in the legacy review folder during migration', () => {
+  const result = runValidator({
+    role: '待复核资料',
+    title: '测试课程_待复核_样例.txt',
+    publicPath: '测试课程/待复核课件PPT/测试课程_待复核_样例.txt',
+    sourceType: 'student-recall',
+    sourceNote: '同学回忆版，年份待复核。',
+    reviewStatus: 'needs_review',
+    uncertainty: 'year_uncertain',
+  });
+
+  assert.equal(result.status, 0, result.stderr);
 });

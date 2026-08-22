@@ -1,5 +1,5 @@
 name: 资料补充请求
-description: 请求补充某门课程的真题、课件、讲义或练习资料
+description: 请求补充某门课程的真题、课件、讲义、教材或练习资料
 title: "request(<课程名>): <资料说明>"
 labels:
   - material-request
@@ -16,16 +16,15 @@ body:
     id: material_type
     attributes:
       label: 资料类型
+      description: 按内容类型选择，不按 PPT/PDF/DOCX 等文件格式分类。
       options:
-        - 往年真题
         - 复习讲义
-        - 课件PPT
-        - 课件资料
-        - 课件资料包
+        - 往年真题
+        - 课件
         - 题库练习
         - 答案解析
         - 笔记总结
-        - 待复核课件PPT
+        - 电子版教材
         - 待复核资料
     validations:
       required: true
@@ -41,8 +40,14 @@ body:
       description: 说明资料可能来自哪里，例如老师公开课件、课程群、同学回忆版、个人整理等。
     validations:
       required: true
+  - type: input
+    id: public_attribution
+    attributes:
+      label: 公开署名致谢（可选）
+      description: 如愿意公开署名，可填写姓名、昵称或 GitHub 账号；不要填写邮箱、手机号、QQ、微信、学号等联系方式。
+      placeholder: 不愿署名可留空
   - type: textarea
     id: notes
     attributes:
       label: 备注
-      description: 写明是否存在 OCR 不清晰、年份不确定、内容待校对等问题。
+      description: 写明是否存在 OCR 不清晰、年份不确定、内容待校对、公开边界待确认等问题。

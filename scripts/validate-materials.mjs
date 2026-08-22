@@ -17,18 +17,27 @@ const SYSTEM_DIRS = new Set([
   '.public-materials-export'
 ]);
 
-const ALLOWED_TYPE_DIRS = new Set([
+const CANONICAL_TYPE_DIRS = new Set([
   '复习讲义',
   '往年真题',
-  '课件PPT',
-  '课件资料',
-  '课件资料包',
+  '课件',
   '题库练习',
   '答案解析',
   '笔记总结',
   '电子版教材',
-  '待复核课件PPT',
   '待复核资料'
+]);
+
+const LEGACY_TYPE_ALIASES = new Map([
+  ['课件PPT', '课件'],
+  ['课件资料', '课件'],
+  ['课件资料包', '课件'],
+  ['待复核课件PPT', '待复核资料']
+]);
+
+const ALLOWED_TYPE_DIRS = new Set([
+  ...CANONICAL_TYPE_DIRS,
+  ...LEGACY_TYPE_ALIASES.keys()
 ]);
 
 const ALLOWED_EXTENSIONS = new Set([
@@ -88,6 +97,7 @@ const APPROVED_CONTACT_EXCEPTIONS = new Map([
 const errors = [];
 const warnings = [];
 const metadataGaps = new Map();
+const legacyRoleCounts = new Map();
 
 function fail(message) {
   errors.push(message);
@@ -95,6 +105,14 @@ function fail(message) {
 
 function warn(message) {
   warnings.push(message);
+}
+
+function canonicalType(value) {
+  return LEGACY_TYPE_ALIASES.get(value) || value;
+}
+
+function recordLegacyRole(role) {
+  legacyRoleCounts.set(role, (legacyRoleCounts.get(role) || 0) + 1);
 }
 
 function recordMetadataGap(field) {
@@ -196,7 +214,7 @@ function validateCourseFolders() {
   }
 }
 
-function validateAsset(subject, asset, seenPaths) {
+function validateAsset(subject, asset, seenPaths, seenHashes) {
   const label = `${subject.name || '<unknown subject>'} / ${asset.title || '<untitled>'}`;
 
   for (const field of ['subject', 'role', 'title', 'publicPath', 'bytes', 'sha256']) {
@@ -209,7 +227,11 @@ function validateAsset(subject, asset, seenPaths) {
 
   if (!ALLOWED_TYPE_DIRS.has(asset.role)) {
     fail(`${label}: unsupported role '${asset.role}'.`);
+  } else if (LEGACY_TYPE_ALIASES.has(asset.role)) {
+    recordLegacyRole(asset.role);
   }
+
+  const logicalRole = canonicalType(asset.role);
 
   if (!isSafeRelativePath(asset.publicPath)) {
     fail(`${label}: unsafe publicPath '${asset.publicPath}'.`);
@@ -224,8 +246,10 @@ function validateAsset(subject, asset, seenPaths) {
     if (courseName !== subject.name) {
       fail(`${label}: publicPath course '${courseName}' does not match subject '${subject.name}'.`);
     }
-    if (roleDir !== asset.role) {
-      fail(`${label}: publicPath role folder '${roleDir}' does not match asset.role '${asset.role}'.`);
+    if (!ALLOWED_TYPE_DIRS.has(roleDir)) {
+      fail(`${label}: publicPath uses unsupported material type folder '${roleDir}'.`);
+    } else if (canonicalType(roleDir) !== logicalRole) {
+      fail(`${label}: publicPath role folder '${roleDir}' does not match logical role '${logicalRole}'.`);
     }
   }
 
@@ -277,6 +301,13 @@ function validateAsset(subject, asset, seenPaths) {
     fail(`${label}: sha256 mismatch, manifest=${asset.sha256}, actual=${actualHash}.`);
   }
 
+  const duplicatePath = seenHashes.get(actualHash);
+  if (duplicatePath && duplicatePath !== asset.publicPath) {
+    warn(`${label}: exact duplicate content also exists at '${duplicatePath}'.`);
+  } else if (!duplicatePath) {
+    seenHashes.set(actualHash, asset.publicPath);
+  }
+
   for (const field of OPTIONAL_METADATA_FIELDS) {
     if (!(field in asset)) recordMetadataGap(field);
   }
@@ -299,8 +330,8 @@ function validateAsset(subject, asset, seenPaths) {
     fail(`${label}: sourceNote indicates personal or contact information; remove or redact the file before publishing.`);
   }
 
-  if (REVIEW_ONLY_UNCERTAINTIES.has(asset.uncertainty) && !asset.role.startsWith('待复核')) {
-    fail(`${label}: uncertainty '${asset.uncertainty}' requires a review role.`);
+  if (REVIEW_ONLY_UNCERTAINTIES.has(asset.uncertainty) && logicalRole !== '待复核资料') {
+    fail(`${label}: uncertainty '${asset.uncertainty}' requires role '待复核资料'.`);
   }
 
   if (asset.containsPersonalInfo === true) {
@@ -326,6 +357,7 @@ function main() {
 
   const seenSubjects = new Set();
   const seenPaths = new Set();
+  const seenHashes = new Map();
 
   for (const subject of manifest.subjects) {
     if (!subject.name) {
@@ -343,8 +375,15 @@ function main() {
     }
 
     for (const asset of subject.assets) {
-      validateAsset(subject, asset, seenPaths);
+      validateAsset(subject, asset, seenPaths, seenHashes);
     }
+  }
+
+  if (legacyRoleCounts.size > 0) {
+    const summary = [...legacyRoleCounts.entries()]
+      .map(([role, count]) => `${role}→${canonicalType(role)}: ${count}`)
+      .join(', ');
+    warn(`Legacy material roles remain for migration compatibility. New entries should use canonical roles. Counts: ${summary}.`);
   }
 
   if (metadataGaps.size > 0 && !strictMetadata) {
