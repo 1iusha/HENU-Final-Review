@@ -1,9 +1,9 @@
 name: Package year-uncertain review files
 
 on:
-  push:
+  pull_request:
     branches:
-      - chore/review-year-uncertain
+      - main
 
 permissions:
   contents: read
