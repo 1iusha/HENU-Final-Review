@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-22T14:00:38.411Z",
+  "generatedAt": "2026-08-22T14:12:21.098Z",
   "subjects": [
     {
       "name": "高等数学A（二）",
@@ -2174,14 +2174,6 @@
           "role": "课件",
           "title": "数据库系统_课件_07-1数据库设计.pptx",
           "publicPath": "数据库系统/课件/数据库系统_课件_07-1数据库设计.pptx",
-          "bytes": 2168465,
-          "sha256": "2966d11bd7ca14822fa2c859b30339dc72870e94ed6a79d3f0f43708e43ae1e4"
-        },
-        {
-          "subject": "数据库系统",
-          "role": "课件",
-          "title": "数据库系统_课件_07-1数据库设计_最新版.pptx",
-          "publicPath": "数据库系统/课件/数据库系统_课件_07-1数据库设计_最新版.pptx",
           "bytes": 2149125,
           "sha256": "3ccab5df7f3b516eebf41ee3543b0a1c5a2ea4850d6671014bd5f79fe1b42a90"
         },
@@ -3704,8 +3696,8 @@
         {
           "subject": "大数据",
           "role": "题库练习",
-          "title": "大数据_题库练习_mpre课后题.md",
-          "publicPath": "大数据/题库练习/大数据_题库练习_mpre课后题.md",
+          "title": "大数据_题库练习_MapReduce课后题.md",
+          "publicPath": "大数据/题库练习/大数据_题库练习_MapReduce课后题.md",
           "bytes": 11751,
           "sha256": "fa98f1b50a94a4492be8613cb1e4d940717b9e7e5cf9c56c4ba52b3f8b64044a",
           "sourceType": "community-note",
