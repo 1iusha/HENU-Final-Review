@@ -59,6 +59,7 @@ def load_manifest(root, issues):
 def audit_manifest(root, manifest, issues):
     manifest_paths = set()
     hashes = defaultdict(list)
+    legacy_role_counts = defaultdict(int)
 
     for subject in manifest.get("subjects", []):
         for asset in subject.get("assets", []):
@@ -80,12 +81,19 @@ def audit_manifest(root, manifest, issues):
 
             role = asset.get("role")
             if role in LEGACY_TYPE_ALIASES:
-                add_issue(
-                    issues,
-                    "WARNING",
-                    public_path or root / "manifest.json",
-                    f"legacy role '{role}' should migrate to '{LEGACY_TYPE_ALIASES[role]}'",
-                )
+                legacy_role_counts[role] += 1
+
+    if legacy_role_counts:
+        summary = ", ".join(
+            f"{role}→{LEGACY_TYPE_ALIASES[role]}: {count}"
+            for role, count in sorted(legacy_role_counts.items())
+        )
+        add_issue(
+            issues,
+            "WARNING",
+            root / "manifest.json",
+            f"legacy manifest roles remain for migration: {summary}",
+        )
 
     for digest, paths in hashes.items():
         unique_paths = sorted(set(paths))
@@ -101,6 +109,8 @@ def audit_manifest(root, manifest, issues):
 
 
 def audit_tree(root, manifest_paths, issues):
+    legacy_folder_counts = defaultdict(int)
+
     for course_dir in root.iterdir():
         if not course_dir.is_dir() or course_dir.name in MAINTENANCE_DIRS:
             continue
@@ -109,14 +119,8 @@ def audit_tree(root, manifest_paths, issues):
             if not type_dir.is_dir():
                 continue
 
-            rel_dir = type_dir.relative_to(root)
             if type_dir.name in LEGACY_TYPE_ALIASES:
-                add_issue(
-                    issues,
-                    "WARNING",
-                    rel_dir,
-                    f"legacy type folder; new material should use '{LEGACY_TYPE_ALIASES[type_dir.name]}'",
-                )
+                legacy_folder_counts[type_dir.name] += 1
 
             for path in type_dir.rglob("*"):
                 if not path.is_file():
@@ -147,6 +151,18 @@ def audit_tree(root, manifest_paths, issues):
                             add_issue(issues, "WARNING", rel, "zip contains macOS resource-fork metadata")
                 except zipfile.BadZipFile:
                     add_issue(issues, "ERROR", rel, "invalid zip file")
+
+    if legacy_folder_counts:
+        summary = ", ".join(
+            f"{role}→{LEGACY_TYPE_ALIASES[role]}: {count} folders"
+            for role, count in sorted(legacy_folder_counts.items())
+        )
+        add_issue(
+            issues,
+            "WARNING",
+            root,
+            f"legacy type folders remain for migration: {summary}",
+        )
 
 
 def check_repo(root):
