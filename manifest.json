@@ -488,6 +488,20 @@
               "陈梓俊（Coder-Taylor）"
             ]
           }
+        },
+        {
+          "subject": "高等数学A（二）",
+          "role": "电子版教材",
+          "title": "高等数学A（二）_教材_高等数学下册第八版.pdf",
+          "publicPath": "高等数学A（二）/电子版教材/高等数学A（二）_教材_高等数学下册第八版.pdf",
+          "year": 2026,
+          "sourceType": "other",
+          "sourceNote": "资料维护者已确认取得本文件的公开再分发授权。线性代数、计算机网络版本为适配 GitHub 单文件限制的重新编码压缩版。",
+          "reviewStatus": "verified",
+          "containsPersonalInfo": false,
+          "licenseStatus": "authorized-redistribution",
+          "bytes": 79729033,
+          "sha256": "d9c4dfc1336082eb073e946d78e3cdcf5e268de19265bd72ff35fa4961b50c84"
         }
       ]
     },
@@ -821,6 +835,34 @@
           "licenseStatus": "public_review_only",
           "bytes": 308662,
           "sha256": "971b3f0d8d91354f54455dc3da0174973182531ad4a8aba76c5ac22fd906f368"
+        },
+        {
+          "subject": "离散数学",
+          "role": "电子版教材",
+          "title": "离散数学_教材_离散数学第六版.pdf",
+          "publicPath": "离散数学/电子版教材/离散数学_教材_离散数学第六版.pdf",
+          "year": 2026,
+          "sourceType": "other",
+          "sourceNote": "资料维护者已确认取得本文件的公开再分发授权。线性代数、计算机网络版本为适配 GitHub 单文件限制的重新编码压缩版。",
+          "reviewStatus": "verified",
+          "containsPersonalInfo": false,
+          "licenseStatus": "authorized-redistribution",
+          "bytes": 103993926,
+          "sha256": "a8d3c257ba0ea1006d91525e9f8d78efb991e1d868e1ade5fb40c74c4136b9c3"
+        },
+        {
+          "subject": "离散数学",
+          "role": "电子版教材",
+          "title": "离散数学_教材_离散数学题解第六版.pdf",
+          "publicPath": "离散数学/电子版教材/离散数学_教材_离散数学题解第六版.pdf",
+          "year": 2026,
+          "sourceType": "other",
+          "sourceNote": "资料维护者已确认取得本文件的公开再分发授权。线性代数、计算机网络版本为适配 GitHub 单文件限制的重新编码压缩版。",
+          "reviewStatus": "verified",
+          "containsPersonalInfo": false,
+          "licenseStatus": "authorized-redistribution",
+          "bytes": 88665343,
+          "sha256": "c3b08872d1508d7d5afaa26394a9e82fab59fc5484b8e1f1112a622be69739c6"
         }
       ]
     },
@@ -1421,6 +1463,20 @@
           "licenseStatus": "public_review_only",
           "bytes": 2583144,
           "sha256": "a9c1a48e2672c5225950b83df6f15cf911d5a1a757ca1c9540dbc531e03d455a"
+        },
+        {
+          "subject": "大学物理",
+          "role": "电子版教材",
+          "title": "大学物理_教材_物理学教程第4版下册.pdf",
+          "publicPath": "大学物理/电子版教材/大学物理_教材_物理学教程第4版下册.pdf",
+          "year": 2026,
+          "sourceType": "other",
+          "sourceNote": "资料维护者已确认取得本文件的公开再分发授权。线性代数、计算机网络版本为适配 GitHub 单文件限制的重新编码压缩版。",
+          "reviewStatus": "verified",
+          "containsPersonalInfo": false,
+          "licenseStatus": "authorized-redistribution",
+          "bytes": 55766259,
+          "sha256": "c45859a89a4b921946f6d4ea03971997e916197a3e8d962f91f63c07b653c3e7"
         }
       ]
     },
@@ -2366,6 +2422,20 @@
           "publicPath": "计算机网络/题库练习/计算机网络_题库练习_样卷.pdf",
           "bytes": 1172451,
           "sha256": "5e02d28871990d7ad05dba66c1c6ff0b71d47cd090771d4baab5b92f30362e91"
+        },
+        {
+          "subject": "计算机网络",
+          "role": "电子版教材",
+          "title": "计算机网络_教材_计算机网络自顶向下第7版.pdf",
+          "publicPath": "计算机网络/电子版教材/计算机网络_教材_计算机网络自顶向下第7版.pdf",
+          "year": 2026,
+          "sourceType": "other",
+          "sourceNote": "资料维护者已确认取得本文件的公开再分发授权。线性代数、计算机网络版本为适配 GitHub 单文件限制的重新编码压缩版。",
+          "reviewStatus": "verified",
+          "containsPersonalInfo": false,
+          "licenseStatus": "authorized-redistribution",
+          "bytes": 85314464,
+          "sha256": "aba21c54b017e6f633dbd3e8cf8e6d9bd0b63880beebcfb59b41de59e7abfb27"
         }
       ]
     },
@@ -4890,6 +4960,34 @@
               "李浩宇"
             ]
           }
+        },
+        {
+          "subject": "算法",
+          "role": "电子版教材",
+          "title": "算法_教材_算法导论第三版.pdf",
+          "publicPath": "算法/电子版教材/算法_教材_算法导论第三版.pdf",
+          "year": 2026,
+          "sourceType": "other",
+          "sourceNote": "资料维护者已确认取得本文件的公开再分发授权。线性代数、计算机网络版本为适配 GitHub 单文件限制的重新编码压缩版。",
+          "reviewStatus": "verified",
+          "containsPersonalInfo": false,
+          "licenseStatus": "authorized-redistribution",
+          "bytes": 87211666,
+          "sha256": "51d63f231ab522c15e1f7b60f235fc891fd585c8419f113c13447d7241ce7eec"
+        },
+        {
+          "subject": "算法",
+          "role": "电子版教材",
+          "title": "算法_教材_算法竞赛上册.pdf",
+          "publicPath": "算法/电子版教材/算法_教材_算法竞赛上册.pdf",
+          "year": 2026,
+          "sourceType": "other",
+          "sourceNote": "资料维护者已确认取得本文件的公开再分发授权。线性代数、计算机网络版本为适配 GitHub 单文件限制的重新编码压缩版。",
+          "reviewStatus": "verified",
+          "containsPersonalInfo": false,
+          "licenseStatus": "authorized-redistribution",
+          "bytes": 28284155,
+          "sha256": "15c0100bd57470bc42c7b7fdad7a63252b2b9a464624c56a112b0e1b97e8ec11"
         }
       ]
     },
@@ -6357,6 +6455,66 @@
               "郭麟阁（Floatend）"
             ]
           }
+        }
+      ]
+    },
+    {
+      "name": "C++",
+      "note": "C++ 语言学习教材（C++ Primer Plus 等）。",
+      "assets": [
+        {
+          "subject": "C++",
+          "role": "电子版教材",
+          "title": "C++_教材_C++PrimerPlus第6版.pdf",
+          "publicPath": "C++/电子版教材/C++_教材_C++PrimerPlus第6版.pdf",
+          "year": 2026,
+          "sourceType": "other",
+          "sourceNote": "资料维护者已确认取得本文件的公开再分发授权。线性代数、计算机网络版本为适配 GitHub 单文件限制的重新编码压缩版。",
+          "reviewStatus": "verified",
+          "containsPersonalInfo": false,
+          "licenseStatus": "authorized-redistribution",
+          "bytes": 42137682,
+          "sha256": "1b35f057c438220ec73440aa3e7e509b13b92a66fd5ad0dec7044bfbae93500c"
+        }
+      ]
+    },
+    {
+      "name": "线性代数",
+      "note": "线性代数课程教材。",
+      "assets": [
+        {
+          "subject": "线性代数",
+          "role": "电子版教材",
+          "title": "线性代数_教材_线性代数及其应用.pdf",
+          "publicPath": "线性代数/电子版教材/线性代数_教材_线性代数及其应用.pdf",
+          "year": 2026,
+          "sourceType": "other",
+          "sourceNote": "资料维护者已确认取得本文件的公开再分发授权。线性代数、计算机网络版本为适配 GitHub 单文件限制的重新编码压缩版。",
+          "reviewStatus": "verified",
+          "containsPersonalInfo": false,
+          "licenseStatus": "authorized-redistribution",
+          "bytes": 89628080,
+          "sha256": "9bb8120780f14ce5dfbd341fe3ebc39f5034445c5a227c2007d3ca426090b7e3"
+        }
+      ]
+    },
+    {
+      "name": "计算机科学导论",
+      "note": "计算机科学导论课程教材。",
+      "assets": [
+        {
+          "subject": "计算机科学导论",
+          "role": "电子版教材",
+          "title": "计算机科学导论_教材_计算机科学导论第4版.pdf",
+          "publicPath": "计算机科学导论/电子版教材/计算机科学导论_教材_计算机科学导论第4版.pdf",
+          "year": 2026,
+          "sourceType": "other",
+          "sourceNote": "资料维护者已确认取得本文件的公开再分发授权。线性代数、计算机网络版本为适配 GitHub 单文件限制的重新编码压缩版。",
+          "reviewStatus": "verified",
+          "containsPersonalInfo": false,
+          "licenseStatus": "authorized-redistribution",
+          "bytes": 88247676,
+          "sha256": "95ff29d106c701f7b2f90edd57111b4848e8a571574c7cea0fdbb20b6ca0cf8a"
         }
       ]
     }

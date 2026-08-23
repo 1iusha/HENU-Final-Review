@@ -92,9 +92,24 @@ test('accepts electronic textbook role', () => {
   const result = runValidator({
     role: '电子版教材',
     title: '测试课程_教材_示例.pdf',
+    sourceNote: '资料维护者已确认取得本文件的公开再分发授权。',
+    reviewStatus: 'verified',
+    licenseStatus: 'authorized-redistribution',
   });
 
   assert.equal(result.status, 0, result.stderr);
+});
+
+test('rejects an electronic textbook without verified redistribution authorization', () => {
+  const result = runValidator({
+    role: '电子版教材',
+    title: '测试课程_教材_待复核示例.pdf',
+    reviewStatus: 'needs_review',
+    licenseStatus: 'public-review-only',
+  });
+
+  assert.equal(result.status, 1);
+  assert.match(result.stderr, /electronic textbooks require verified redistribution authorization/);
 });
 
 test('accepts verified author and collector attribution', () => {
