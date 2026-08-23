@@ -135,6 +135,7 @@ node scripts/refresh-manifest-metadata.mjs --write
 
 - `learning-reference`
 - `public-review-only`
+- `authorized-redistribution`：资料维护者已经核实该文件具有公开再分发授权。
 - `teacher_shared_exception`
 
 `teacher_shared_exception` 仅用于仓库中已经按 `publicPath` 与 SHA256 白名单锁定的历史教师公开分享材料，不是新资料可选的通用状态。

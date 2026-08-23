@@ -1,3 +1,6 @@
+# Normalize text files to LF to keep manifest bytes/hash stable across environments.
+* text=auto eol=lf
+
 # Course material files should not render as text diffs in reviews.
 *.pdf binary
 *.ppt binary

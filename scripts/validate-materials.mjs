@@ -326,6 +326,18 @@ function validateAsset(subject, asset, seenPaths, seenHashes) {
   if (asset.licenseStatus === 'teacher_shared_exception' && !hasApprovedContactException) {
     fail(`${label}: teacher_shared_exception is restricted to the approved historical files.`);
   }
+  if (
+    logicalRole === '电子版教材'
+    && (
+      asset.reviewStatus !== 'verified'
+      || asset.licenseStatus !== 'authorized-redistribution'
+      || typeof asset.sourceNote !== 'string'
+      || asset.sourceNote.trim() === ''
+      || asset.containsPersonalInfo !== false
+    )
+  ) {
+    fail(`${label}: electronic textbooks require verified redistribution authorization, a source note, and containsPersonalInfo=false.`);
+  }
   if (containsContactDetails(asset.sourceNote) && !hasApprovedContactException) {
     fail(`${label}: sourceNote indicates personal or contact information; remove or redact the file before publishing.`);
   }
