@@ -1,9 +1,12 @@
 #!/usr/bin/env node
 import { createHash } from 'node:crypto';
-import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs';
+import { existsSync, lstatSync, readdirSync, readFileSync, realpathSync, statSync } from 'node:fs';
 import path from 'node:path';
 
 const root = process.cwd();
+// Resolved once so the repository boundary check below compares real path to
+// real path (on macOS the temp dir used by tests is itself a symlink).
+const realRoot = realpathSync(root);
 const manifestPath = path.join(root, 'manifest.json');
 const strictMetadata = process.argv.includes('--strict-metadata');
 
@@ -128,6 +131,19 @@ function isSafeRelativePath(value) {
   if (value.startsWith('/') || value.startsWith('\\')) return false;
   const normalized = path.posix.normalize(value);
   return normalized === value && !normalized.startsWith('../') && normalized !== '..';
+}
+
+function escapesRepository(fullPath) {
+  let realPath;
+  try {
+    realPath = realpathSync(fullPath);
+  } catch {
+    // A path we cannot resolve (broken link, vanished target) is not provably inside.
+    return true;
+  }
+
+  const relative = path.relative(realRoot, realPath);
+  return relative === '' || relative.startsWith('..') || path.isAbsolute(relative);
 }
 
 function containsContactDetails(value) {
@@ -283,6 +299,19 @@ function validateAsset(subject, asset, seenPaths, seenHashes) {
   const fullPath = path.join(root, ...asset.publicPath.split('/'));
   if (!existsSync(fullPath)) {
     fail(`${label}: file does not exist at '${asset.publicPath}'.`);
+    return;
+  }
+
+  // isSafeRelativePath only inspects the manifest string. Every filesystem call
+  // below follows symlinks, so without these two checks a submitted symlink
+  // lets the manifest publish, hash, and vouch for a file outside the repo.
+  if (lstatSync(fullPath).isSymbolicLink()) {
+    fail(`${label}: publicPath is a symbolic link; material files must be regular files committed to the repository.`);
+    return;
+  }
+
+  if (escapesRepository(fullPath)) {
+    fail(`${label}: publicPath resolves outside the repository.`);
     return;
   }
 

@@ -11,6 +11,7 @@ For targeted near-duplicate analysis, run scripts/audit-material-duplicates.py.
 """
 
 import json
+import os
 import sys
 import zipfile
 from collections import defaultdict
@@ -188,6 +189,32 @@ def audit_tree(root, manifest_paths, issues):
         )
 
 
+def audit_symlinks(root, issues):
+    """Reject symlinks anywhere in the material tree.
+
+    validate-materials.mjs enforces this for files listed in manifest.json.
+    audit_tree only requires course/type/file entries to be listed, so a
+    symlink nested under an assets/ folder would otherwise go unchecked.
+    os.walk does not follow symlinked directories, so nothing here escapes.
+    """
+    for current, dirnames, filenames in os.walk(root):
+        current_path = Path(current)
+        relative_parts = current_path.relative_to(root).parts
+        if relative_parts and relative_parts[0] in MAINTENANCE_DIRS:
+            dirnames[:] = []
+            continue
+
+        for name in list(dirnames) + filenames:
+            entry = current_path / name
+            if entry.is_symlink():
+                add_issue(
+                    issues,
+                    "ERROR",
+                    entry.relative_to(root),
+                    "symbolic links are not allowed in the material tree",
+                )
+
+
 def check_repo(root):
     issues = []
     manifest = load_manifest(root, issues)
@@ -196,6 +223,7 @@ def check_repo(root):
 
     manifest_paths = audit_manifest(root, manifest, issues)
     audit_tree(root, manifest_paths, issues)
+    audit_symlinks(root, issues)
     return issues
 
 
