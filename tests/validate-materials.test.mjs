@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
-import { mkdirSync, mkdtempSync, rmSync, writeFileSync } from 'node:fs';
+import { mkdirSync, mkdtempSync, rmSync, symlinkSync, writeFileSync } from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import { spawnSync } from 'node:child_process';
@@ -58,6 +58,118 @@ function runValidator(assetOverrides = {}) {
   rmSync(fixtureRoot, { recursive: true, force: true });
   return result;
 }
+
+// runValidator always writes a regular file. Symlink cases need to lay out the
+// fixture themselves, including a target outside the fixture root.
+function runValidatorOnFixture(build) {
+  const sandbox = mkdtempSync(path.join(os.tmpdir(), 'henu-material-validator-symlink-'));
+  const fixtureRoot = path.join(sandbox, 'repo');
+  mkdirSync(fixtureRoot, { recursive: true });
+
+  try {
+    const asset = build(sandbox, fixtureRoot);
+    writeFileSync(
+      path.join(fixtureRoot, 'manifest.json'),
+      `${JSON.stringify({
+        version: 1,
+        subjects: [{ name: asset.subject, assets: [asset] }],
+      }, null, 2)}\n`,
+    );
+
+    return spawnSync(process.execPath, [validatorPath], {
+      cwd: fixtureRoot,
+      encoding: 'utf8',
+    });
+  } finally {
+    rmSync(sandbox, { recursive: true, force: true });
+  }
+}
+
+function materialAsset(publicPath, contents) {
+  const subject = publicPath.split('/')[0];
+  return {
+    subject,
+    role: '课件',
+    title: path.posix.basename(publicPath),
+    publicPath,
+    bytes: Buffer.byteLength(contents),
+    sha256: sha256(contents),
+    sourceType: 'community-note',
+    sourceNote: '同学整理的复习资料。',
+    reviewStatus: 'basic-reviewed',
+    containsPersonalInfo: false,
+    licenseStatus: 'learning-reference',
+  };
+}
+
+test('rejects a material file that is a symlink to a file outside the repository', () => {
+  const contents = 'outside the repository\n';
+  const publicPath = '测试课程/课件/测试课程_课件_伪装.txt';
+
+  const result = runValidatorOnFixture((sandbox, fixtureRoot) => {
+    const outside = path.join(sandbox, 'outside-secret.env');
+    writeFileSync(outside, contents);
+
+    const fullPath = path.join(fixtureRoot, ...publicPath.split('/'));
+    mkdirSync(path.dirname(fullPath), { recursive: true });
+    symlinkSync(outside, fullPath);
+
+    // bytes and sha256 match the link target, so every other check passes.
+    return materialAsset(publicPath, contents);
+  });
+
+  assert.equal(result.status, 1);
+  assert.match(result.stderr, /publicPath is a symbolic link/);
+});
+
+test('rejects a material file that is a symlink to another file inside the repository', () => {
+  const contents = 'fixture material\n';
+  const publicPath = '测试课程/课件/测试课程_课件_副本链接.txt';
+
+  const result = runValidatorOnFixture((sandbox, fixtureRoot) => {
+    const realPath = path.join(fixtureRoot, '测试课程', '课件', '测试课程_课件_正本.txt');
+    mkdirSync(path.dirname(realPath), { recursive: true });
+    writeFileSync(realPath, contents);
+    symlinkSync(realPath, path.join(fixtureRoot, ...publicPath.split('/')));
+
+    return materialAsset(publicPath, contents);
+  });
+
+  assert.equal(result.status, 1);
+  assert.match(result.stderr, /publicPath is a symbolic link/);
+});
+
+test('rejects a material reached through a symlinked course folder', () => {
+  const contents = 'outside the repository\n';
+  const publicPath = '测试课程/课件/测试课程_课件_样例.txt';
+
+  const result = runValidatorOnFixture((sandbox, fixtureRoot) => {
+    // The file itself is a regular file; the course directory is the symlink.
+    const outsideCourse = path.join(sandbox, 'outside-course');
+    mkdirSync(path.join(outsideCourse, '课件'), { recursive: true });
+    writeFileSync(path.join(outsideCourse, '课件', '测试课程_课件_样例.txt'), contents);
+    symlinkSync(outsideCourse, path.join(fixtureRoot, '测试课程'));
+
+    return materialAsset(publicPath, contents);
+  });
+
+  assert.equal(result.status, 1);
+  assert.match(result.stderr, /publicPath resolves outside the repository/);
+});
+
+test('accepts a regular material file (the boundary check does not fire)', () => {
+  const contents = 'fixture material\n';
+  const publicPath = '测试课程/课件/测试课程_课件_第1章.txt';
+
+  const result = runValidatorOnFixture((sandbox, fixtureRoot) => {
+    const fullPath = path.join(fixtureRoot, ...publicPath.split('/'));
+    mkdirSync(path.dirname(fullPath), { recursive: true });
+    writeFileSync(fullPath, contents);
+    return materialAsset(publicPath, contents);
+  });
+
+  assert.equal(result.status, 0, result.stderr);
+});
 
 test('accepts canonical courseware role', () => {
   const result = runValidator({
