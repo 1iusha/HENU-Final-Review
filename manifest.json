@@ -2536,6 +2536,34 @@
               "李浩宇"
             ]
           }
+        },
+        {
+          "bytes": 17060774,
+          "sha256": "0075f2b7f8ef4ee1fc79355298e7a26c657d5d9de76acedb30ebcdd3ab47cc0d",
+          "subject": "计算机组成原理",
+          "role": "电子版教材",
+          "title": "计算机组成原理_教材_学习指导与习题解答第2版.pdf",
+          "publicPath": "计算机组成原理/电子版教材/计算机组成原理_教材_学习指导与习题解答第2版.pdf",
+          "year": 2026,
+          "sourceType": "other",
+          "sourceNote": "资料维护者已确认取得本文件的公开再分发授权。",
+          "reviewStatus": "verified",
+          "containsPersonalInfo": false,
+          "licenseStatus": "authorized-redistribution"
+        },
+        {
+          "bytes": 48562632,
+          "sha256": "290ed409514d4b076a15dcb0e233f0ed7fdc4c2e121ff190100f316bfbee75f6",
+          "subject": "计算机组成原理",
+          "role": "电子版教材",
+          "title": "计算机组成原理_教材_学习指导与习题解析第4版.pdf",
+          "publicPath": "计算机组成原理/电子版教材/计算机组成原理_教材_学习指导与习题解析第4版.pdf",
+          "year": 2026,
+          "sourceType": "other",
+          "sourceNote": "资料维护者已确认取得本文件的公开再分发授权。",
+          "reviewStatus": "verified",
+          "containsPersonalInfo": false,
+          "licenseStatus": "authorized-redistribution"
         }
       ]
     },
@@ -6583,6 +6611,40 @@
           "uncertainty": "public_boundary_uncertain",
           "containsPersonalInfo": false,
           "licenseStatus": "public-review-only"
+        }
+      ]
+    },
+    {
+      "name": "数字逻辑",
+      "note": "收录数字逻辑学习辅导类教材(学习与解题指南、学习辅导)。",
+      "assets": [
+        {
+          "bytes": 6497936,
+          "sha256": "ecc06c31c192615d8c22d68ed6adb0441754cc633207f953348278fe84b4e556",
+          "subject": "数字逻辑",
+          "role": "电子版教材",
+          "title": "数字逻辑_教材_学习与解题指南第2版.pdf",
+          "publicPath": "数字逻辑/电子版教材/数字逻辑_教材_学习与解题指南第2版.pdf",
+          "year": 2026,
+          "sourceType": "other",
+          "sourceNote": "资料维护者已确认取得本文件的公开再分发授权。",
+          "reviewStatus": "verified",
+          "containsPersonalInfo": false,
+          "licenseStatus": "authorized-redistribution"
+        },
+        {
+          "bytes": 7358561,
+          "sha256": "0064a6a586b51deb97010630e8f90ef053449ba8f0095252ae834cb6f7b7f1a8",
+          "subject": "数字逻辑",
+          "role": "电子版教材",
+          "title": "数字逻辑_教材_学习辅导.pdf",
+          "publicPath": "数字逻辑/电子版教材/数字逻辑_教材_学习辅导.pdf",
+          "year": 2026,
+          "sourceType": "other",
+          "sourceNote": "资料维护者已确认取得本文件的公开再分发授权。",
+          "reviewStatus": "verified",
+          "containsPersonalInfo": false,
+          "licenseStatus": "authorized-redistribution"
         }
       ]
     }
